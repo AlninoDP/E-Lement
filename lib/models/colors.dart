@@ -14,5 +14,6 @@ class ChemistryColorApp {
   static const Color containerMenu7 = Color(0xffE4EDFC);
   static const Color containerMenu8 = Color(0xffDEF1FA);
   static const Color containerMenu9 = Color(0xffE8E7E4);
+  static const Color containerMenu10 = Color(0xffFAE7D4);
   static const Color containerMenuOthers = Color(0xffE8E7E4);
 }

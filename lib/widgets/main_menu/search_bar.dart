@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/colors.dart';
+import '../../models/colors.dart';
 
 class SearchBarElemen extends StatelessWidget {
   const SearchBarElemen({super.key});

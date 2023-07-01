@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:kimiaapp/widgets/background.dart';
-import 'package:kimiaapp/widgets/chemistry_fact.dart';
-import 'package:kimiaapp/widgets/header1_menu.dart';
-import 'package:kimiaapp/widgets/header2_menu.dart';
-import 'package:kimiaapp/widgets/header3_menu.dart';
-import 'package:kimiaapp/widgets/header4_menu.dart';
-import 'package:kimiaapp/widgets/menu_button.dart';
-import 'package:kimiaapp/widgets/scientist_quote.dart';
+import 'package:kimiaapp/widgets/main_menu/chemistry_fact.dart';
+import 'package:kimiaapp/widgets/main_menu/header1_menu.dart';
+import 'package:kimiaapp/widgets/main_menu/header2_menu.dart';
+import 'package:kimiaapp/widgets/main_menu/header3_menu.dart';
+import 'package:kimiaapp/widgets/main_menu/header4_menu.dart';
+import 'package:kimiaapp/widgets/main_menu/menu_button.dart';
+import 'package:kimiaapp/widgets/main_menu/scientist_quote.dart';
 
 import '../models/colors.dart';
-import '../widgets/search_bar.dart';
+import '../widgets/main_menu/search_bar.dart';
 
 class MainMenuScreen extends StatefulWidget {
   final String enteredName;

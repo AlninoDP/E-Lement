@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/colors.dart';
+import '../../models/colors.dart';
 
 class ScientistQuote extends StatefulWidget {
   const ScientistQuote({super.key});

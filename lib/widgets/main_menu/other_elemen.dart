@@ -19,6 +19,14 @@ class OtherElemen extends StatelessWidget {
           SizedBox(
             height: 80,
             child: MenuButton(
+              text: 'Aktinium',
+              color: ChemistryColorApp.containerMenu10,
+              imagePath: 'elemenicon10.png',
+            ),
+          ),
+          SizedBox(
+            height: 80,
+            child: MenuButton(
               text: 'Lantanum',
               color: ChemistryColorApp.containerMenu8,
               imagePath: 'elemenicon8.png',

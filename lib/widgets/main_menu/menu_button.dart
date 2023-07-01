@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/widgets/other_elemen.dart';
+import 'package:kimiaapp/screens/logam_alkali_screen.dart';
+import 'package:kimiaapp/widgets/main_menu/other_elemen.dart';
+import 'package:get/get.dart';
 
 class MenuButton extends StatelessWidget {
   final String text;
@@ -28,7 +30,9 @@ class MenuButton extends StatelessWidget {
             Radius.circular(30),
           ),
           onTap: () {
-            showPopup(context);
+            //! Belom buat custom ontap
+            // showPopup(context);
+            Get.to(() => const LogamAlkaliScreen());
           },
           child: Ink(
             decoration: BoxDecoration(
