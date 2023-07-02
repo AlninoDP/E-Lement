@@ -17,7 +17,7 @@ class _SignInScreenState extends State<SignInScreen> {
   TextEditingController controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    final RxString enteredName = ' '.obs;
+    final RxString enteredName = 'Guest'.obs;
     return SafeArea(
         top: true,
         child: Scaffold(

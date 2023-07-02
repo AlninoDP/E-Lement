@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kimiaapp/models/colors.dart';
 import 'package:kimiaapp/widgets/background.dart';
 import 'package:kimiaapp/widgets/bubble_box.dart';
+import 'package:kimiaapp/widgets/grid_elemen_builder.dart';
 
 import '../models/tabel_periodik.dart';
 
@@ -10,78 +11,26 @@ class LogamAlkaliScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
         top: true,
         child: Scaffold(
           body: Background(
             child: Padding(
-              padding: const EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(10.0),
               child: Column(
                 children: [
-                  const BubbleBox(
+                  BubbleBox(
                       text:
-                          'This is Alkali metals, let’s try to by click and learn more about them...'),
-                  const SizedBox(
+                          'This is Alkali metals, lets try to by click and learn more about them...'),
+                  SizedBox(
                     height: 20,
                   ),
                   Expanded(
-                    child: GridView.builder(
-                        gridDelegate:
-                            const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          mainAxisSpacing: 30.0,
-                          crossAxisSpacing: 40.0,
-                        ),
-                        itemCount:
-                            TabelPeriodik.listElemen['Logam Alkali']!.length,
-                        itemBuilder: (BuildContext context, int index) {
-                          final namaElement =
-                              TabelPeriodik.listElemen['Logam Alkali']![index];
-                          final lambangElement = TabelPeriodik
-                              .lambangElemen['Logam Alkali']![index];
-                          return Material(
-                            shadowColor: Colors.black,
-                            elevation: 50,
-                            color: Colors.transparent,
-                            child: InkWell(
-                              borderRadius: const BorderRadius.all(
-                                Radius.circular(20),
-                              ),
-                              onTap: () {},
-                              child: Ink(
-                                decoration: const BoxDecoration(
-                                  color: ChemistryColorApp.logamAlkaliContainer,
-                                  borderRadius: BorderRadius.all(
-                                    Radius.circular(20),
-                                  ),
-                                ),
-                                padding: const EdgeInsets.all(8),
-                                child: Center(
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(lambangElement,
-                                          style: const TextStyle(
-                                              color: ChemistryColorApp
-                                                  .logamAlkaliText,
-                                              fontSize: 26,
-                                              fontWeight: FontWeight.bold)),
-                                      Text(
-                                        namaElement,
-                                        style: const TextStyle(
-                                          color:
-                                              ChemistryColorApp.logamAlkaliText,
-                                          fontSize: 26,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          );
-                        }),
-                  ),
+                      child: GridElemenBuilder(
+                    containerColor: ChemistryColorApp.logamAlkaliContainer,
+                    jenisElemen: 'Logam Alkali',
+                    textColor: ChemistryColorApp.logamAlkaliText,
+                  )),
                 ],
               ),
             ),
