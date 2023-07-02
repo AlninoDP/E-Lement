@@ -13,12 +13,13 @@ class OtherElemen extends StatelessWidget {
         'Others',
         textAlign: TextAlign.center,
       ),
-      content: const Row(
+      content: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           SizedBox(
             height: 80,
             child: MenuButton(
+              ontap: () {},
               text: 'Aktinium',
               color: ChemistryColorApp.containerMenu10,
               imagePath: 'elemenicon10.png',
@@ -27,6 +28,7 @@ class OtherElemen extends StatelessWidget {
           SizedBox(
             height: 80,
             child: MenuButton(
+              ontap: () {},
               text: 'Lantanum',
               color: ChemistryColorApp.containerMenu8,
               imagePath: 'elemenicon8.png',
@@ -36,6 +38,7 @@ class OtherElemen extends StatelessWidget {
             height: 83,
             width: 80,
             child: MenuButton(
+              ontap: () {},
               text: 'Tidak Diketahui',
               color: ChemistryColorApp.containerMenu9,
               imagePath: 'elemenicon9.png',

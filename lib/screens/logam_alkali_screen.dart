@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kimiaapp/models/colors.dart';
 import 'package:kimiaapp/widgets/background.dart';
+import 'package:kimiaapp/widgets/bubble_box.dart';
 
 import '../models/tabel_periodik.dart';
 
@@ -15,59 +16,74 @@ class LogamAlkaliScreen extends StatelessWidget {
           body: Background(
             child: Padding(
               padding: const EdgeInsets.all(10.0),
-              child: GridView.builder(
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 30.0,
-                    crossAxisSpacing: 40.0,
+              child: Column(
+                children: [
+                  const BubbleBox(
+                      text:
+                          'This is Alkali metals, let’s try to by click and learn more about them...'),
+                  const SizedBox(
+                    height: 20,
                   ),
-                  itemCount: TabelPeriodik.listElemen['Logam Alkali']!.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    final namaElement =
-                        TabelPeriodik.listElemen['Logam Alkali']![index];
-                    final lambangElement =
-                        TabelPeriodik.lambangElemen['Logam Alkali']![index];
-                    return Material(
-                      shadowColor: Colors.black,
-                      elevation: 50,
-                      color: Colors.transparent,
-                      child: InkWell(
-                        borderRadius: const BorderRadius.all(
-                          Radius.circular(20),
+                  Expanded(
+                    child: GridView.builder(
+                        gridDelegate:
+                            const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          mainAxisSpacing: 30.0,
+                          crossAxisSpacing: 40.0,
                         ),
-                        onTap: () {},
-                        child: Ink(
-                          decoration: const BoxDecoration(
-                            color: ChemistryColorApp.logamAlkaliContainer,
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                          ),
-                          padding: const EdgeInsets.all(8),
-                          child: Center(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(lambangElement,
-                                    style: const TextStyle(
-                                        color:
-                                            ChemistryColorApp.logamAlkaliText,
-                                        fontSize: 26,
-                                        fontWeight: FontWeight.bold)),
-                                Text(
-                                  namaElement,
-                                  style: const TextStyle(
-                                      color: ChemistryColorApp.logamAlkaliText,
-                                      fontSize: 26,
-                                      fontWeight: FontWeight.bold),
+                        itemCount:
+                            TabelPeriodik.listElemen['Logam Alkali']!.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          final namaElement =
+                              TabelPeriodik.listElemen['Logam Alkali']![index];
+                          final lambangElement = TabelPeriodik
+                              .lambangElemen['Logam Alkali']![index];
+                          return Material(
+                            shadowColor: Colors.black,
+                            elevation: 50,
+                            color: Colors.transparent,
+                            child: InkWell(
+                              borderRadius: const BorderRadius.all(
+                                Radius.circular(20),
+                              ),
+                              onTap: () {},
+                              child: Ink(
+                                decoration: const BoxDecoration(
+                                  color: ChemistryColorApp.logamAlkaliContainer,
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(20),
+                                  ),
                                 ),
-                              ],
+                                padding: const EdgeInsets.all(8),
+                                child: Center(
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(lambangElement,
+                                          style: const TextStyle(
+                                              color: ChemistryColorApp
+                                                  .logamAlkaliText,
+                                              fontSize: 26,
+                                              fontWeight: FontWeight.bold)),
+                                      Text(
+                                        namaElement,
+                                        style: const TextStyle(
+                                          color:
+                                              ChemistryColorApp.logamAlkaliText,
+                                          fontSize: 26,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
                             ),
-                          ),
-                        ),
-                      ),
-                    );
-                  }),
+                          );
+                        }),
+                  ),
+                ],
+              ),
             ),
           ),
         ));

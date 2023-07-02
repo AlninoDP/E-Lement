@@ -37,7 +37,7 @@ class _SignInScreenState extends State<SignInScreen> {
               Center(
                 child: BubbleButton(
                     text: "Confirm",
-                    onPressed: () => Get.to(
+                    onPressed: () => Get.offAll(
                         () => MainMenuScreen(enteredName: enteredName.value))),
               )
             ],

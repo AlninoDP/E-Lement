@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:kimiaapp/screens/logam_alkali_screen.dart';
 import 'package:kimiaapp/widgets/background.dart';
 import 'package:kimiaapp/widgets/main_menu/chemistry_fact.dart';
 import 'package:kimiaapp/widgets/main_menu/header1_menu.dart';
@@ -6,6 +8,7 @@ import 'package:kimiaapp/widgets/main_menu/header2_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/header3_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/header4_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/menu_button.dart';
+import 'package:kimiaapp/widgets/main_menu/other_elemen.dart';
 import 'package:kimiaapp/widgets/main_menu/scientist_quote.dart';
 
 import '../models/colors.dart';
@@ -45,36 +48,63 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                     mainAxisSpacing: 10,
                     crossAxisCount: 4,
                     primary: false,
-                    children: const <Widget>[
+                    children: <Widget>[
                       MenuButton(
+                          ontap: () => Get.to(const LogamAlkaliScreen()),
                           text: "Logam Alkali",
                           color: ChemistryColorApp.containerMenu1,
                           imagePath: "elemenicon1.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Logam Alkali Tanah",
                           color: ChemistryColorApp.containerMenu2,
                           imagePath: "elemenicon2.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Logam Pasca Transisi",
                           color: ChemistryColorApp.containerMenu3,
                           imagePath: "elemenicon3.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Logam Transisi",
                           color: ChemistryColorApp.containerMenu4,
                           imagePath: "elemenicon4.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Gas Mulia",
                           color: ChemistryColorApp.containerMenu5,
                           imagePath: "elemenicon5.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Metaloid",
                           color: ChemistryColorApp.containerMenu6,
                           imagePath: "elemenicon6.png"),
                       MenuButton(
+                          ontap: () {
+                            // do navigate here
+                          },
                           text: "Non Logam Reaktif",
                           color: ChemistryColorApp.containerMenu7,
                           imagePath: "elemenicon7.png"),
                       MenuButton(
+                          ontap: () {
+                            showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return const OtherElemen();
+                              },
+                            );
+                          },
                           text: 'Others',
                           color: ChemistryColorApp.containerMenuOthers,
                           imagePath: "othericon.png"),
