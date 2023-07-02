@@ -5,13 +5,13 @@ class GridElemenBuilder extends StatelessWidget {
   final String jenisElemen;
   final Color containerColor;
   final Color textColor;
-  final Function()? ontap;
+  final List<Function()> onTapList;
   const GridElemenBuilder(
       {super.key,
       required this.jenisElemen,
       required this.containerColor,
       required this.textColor,
-      this.ontap});
+      required this.onTapList});
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +26,7 @@ class GridElemenBuilder extends StatelessWidget {
           final namaElement = TabelPeriodik.listElemen[jenisElemen]![index];
           final lambangElement =
               TabelPeriodik.lambangElemen[jenisElemen]![index];
+          final onTap = onTapList[index]; // Get the corresponding onTap method
           return Material(
             shadowColor: Colors.black,
             elevation: 50,
@@ -34,7 +35,7 @@ class GridElemenBuilder extends StatelessWidget {
               borderRadius: const BorderRadius.all(
                 Radius.circular(20),
               ),
-              onTap: ontap,
+              onTap: onTap,
               child: Ink(
                 decoration: BoxDecoration(
                   color: containerColor,
