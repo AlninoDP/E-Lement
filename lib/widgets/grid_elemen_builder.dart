@@ -5,11 +5,13 @@ class GridElemenBuilder extends StatelessWidget {
   final String jenisElemen;
   final Color containerColor;
   final Color textColor;
+  final Function()? ontap;
   const GridElemenBuilder(
       {super.key,
       required this.jenisElemen,
       required this.containerColor,
-      required this.textColor});
+      required this.textColor,
+      this.ontap});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +34,7 @@ class GridElemenBuilder extends StatelessWidget {
               borderRadius: const BorderRadius.all(
                 Radius.circular(20),
               ),
-              onTap: () {},
+              onTap: ontap,
               child: Ink(
                 decoration: BoxDecoration(
                   color: containerColor,
