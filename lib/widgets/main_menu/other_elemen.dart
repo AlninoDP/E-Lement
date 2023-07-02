@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/screens/aktinium_screen.dart';
+import 'package:kimiaapp/screens/lantanum_screen.dart';
+import 'package:kimiaapp/screens/unknown_properties_screen.dart';
 
 import 'menu_button.dart';
 
@@ -19,7 +23,7 @@ class OtherElemen extends StatelessWidget {
           SizedBox(
             height: 80,
             child: MenuButton(
-              ontap: () {},
+              ontap: () => Get.to(() => const AktiniumScreen()),
               text: 'Aktinium',
               color: ChemistryColorApp.containerMenu10,
               imagePath: 'elemenicon10.png',
@@ -28,7 +32,7 @@ class OtherElemen extends StatelessWidget {
           SizedBox(
             height: 80,
             child: MenuButton(
-              ontap: () {},
+              ontap: () => Get.to(() => const LantanumScreen()),
               text: 'Lantanum',
               color: ChemistryColorApp.containerMenu8,
               imagePath: 'elemenicon8.png',
@@ -38,7 +42,7 @@ class OtherElemen extends StatelessWidget {
             height: 83,
             width: 80,
             child: MenuButton(
-              ontap: () {},
+              ontap: () => Get.to(() => const UnknownPropertiesScreen()),
               text: 'Tidak Diketahui',
               color: ChemistryColorApp.containerMenu9,
               imagePath: 'elemenicon9.png',
@@ -48,7 +52,7 @@ class OtherElemen extends StatelessWidget {
       ),
       actions: <Widget>[
         TextButton(
-          child: Text('Close'),
+          child: const Text('Close'),
           onPressed: () {
             Navigator.of(context).pop(); // Close the dialog
           },

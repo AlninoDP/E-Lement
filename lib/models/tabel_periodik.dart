@@ -184,7 +184,7 @@ class TabelPeriodik {
     ],
     'Gas Mulia': ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn'],
     'Metalloids': ['B', 'As', 'Si', 'Ge', 'Sb', 'Te'],
-    'Non Logam Reaktif': ['C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Se', 'Br', 'i'],
+    'Non Logam Reaktif': ['C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Se', 'Br', 'I'],
     'Aktinium': [
       'Ac',
       'Th',

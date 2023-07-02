@@ -17,6 +17,9 @@ class ChemistryColorApp {
   static const Color containerMenu10 = Color(0xffFAE7D4);
   static const Color containerMenuOthers = Color(0xffE8E7E4);
 
+  //warna unknown properties
+  static const Color containerMenu9text = Color(0xff868189);
+
   // warna logam alkaline
   static const Color logamAlkaliContainer = Color(0xffCBE7FE);
   static const Color logamAlkaliText = Color(0xff0377FF);
