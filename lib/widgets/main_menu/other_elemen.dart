@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/screens/aktinium_screen.dart';
-import 'package:kimiaapp/screens/lantanum_screen.dart';
-import 'package:kimiaapp/screens/unknown_properties_screen.dart';
+import 'package:kimiaapp/screens/grid_menu_elemen/aktinium_screen.dart';
+import 'package:kimiaapp/screens/grid_menu_elemen/lantanum_screen.dart';
+import 'package:kimiaapp/screens/grid_menu_elemen/unknown_properties_screen.dart';
 
 import 'menu_button.dart';
 

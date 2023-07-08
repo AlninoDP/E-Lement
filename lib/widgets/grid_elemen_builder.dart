@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/models/tabel_periodik.dart';
+import 'package:kimiaapp/models/data/tabel_periodik.dart';
 
 class GridElemenBuilder extends StatelessWidget {
   final String jenisElemen;
