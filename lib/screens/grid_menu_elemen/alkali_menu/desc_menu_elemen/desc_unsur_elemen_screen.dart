@@ -29,7 +29,7 @@ class DescUnsurElemenScreen extends StatelessWidget {
                                   width: 100,
                                   child: Column(
                                     children: [
-                                      Text(listAlkaliData[index].ingredient),
+                                      Text(''),
                                     ],
                                   ),
                                 ),

@@ -1,7 +1,7 @@
 class AlkaliData {
   final String id;
   final String title;
-  final String ingredient;
+  final List<String> ingredient;
   final String description;
   final String category;
 
