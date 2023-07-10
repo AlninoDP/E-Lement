@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/gas_mulia_screen.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/logam_alkali_tanah_screen.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/logam_pasca_transisi_screen.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/logam_transisi_screen.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/non_logam_reaktif_screen.dart';
-import 'package:kimiaapp/screens/grid_menu_elemen/alkali_menu/logam_alkali_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/gas_mulia_menu/gas_mulia_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/logam_alkali_tanah_menu/logam_alkali_tanah_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/logam_pasca_transisi_menu/logam_pasca_transisi_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/logam_transisi_menu/logam_transisi_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/non_logam_reaktif_menu/non_logam_reaktif_screen.dart';
+import 'package:kimiaapp/screens/grid_elemen_menu/logam_alkali_menu/logam_alkali_screen.dart';
 import 'package:kimiaapp/widgets/background.dart';
 import 'package:kimiaapp/widgets/main_menu/chemistry_fact.dart';
 import 'package:kimiaapp/widgets/main_menu/header1_menu.dart';
@@ -18,7 +18,7 @@ import 'package:kimiaapp/widgets/main_menu/scientist_quote.dart';
 
 import '../models/colors.dart';
 import '../widgets/main_menu/search_bar.dart';
-import 'grid_menu_elemen/metaloid_screen.dart';
+import 'grid_elemen_menu/metaloid_menu/metaloid_screen.dart';
 
 class MainMenuScreen extends StatefulWidget {
   final String enteredName;

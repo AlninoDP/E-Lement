@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/models/data/category_item_grid.dart';
+import 'package:kimiaapp/models/data/elemen_item_grid.dart';
 
 class UnsurElemenGridItem extends StatelessWidget {
-  final CategoryItemGrid categoryItemGrid;
+  final ElemenItemGrid categoryItemGrid;
   final void Function() onTap;
   const UnsurElemenGridItem(
       {super.key, required this.categoryItemGrid, required this.onTap});
