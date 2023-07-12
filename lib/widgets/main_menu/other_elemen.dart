@@ -14,8 +14,9 @@ class OtherElemen extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
     return AlertDialog(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular((12))),
       title: const Text(
-        'Others',
+        'Other Elements',
         textAlign: TextAlign.center,
       ),
       content: Row(
@@ -61,11 +62,16 @@ class OtherElemen extends StatelessWidget {
         ],
       ),
       actions: <Widget>[
-        TextButton(
-          child: const Text('Close'),
-          onPressed: () {
-            Navigator.of(context).pop(); // Close the dialog
-          },
+        Center(
+          child: TextButton(
+            child: const Text(
+              'Close',
+              style: TextStyle(color: Colors.black),
+            ),
+            onPressed: () {
+              Get.back(); // Close the dialog
+            },
+          ),
         ),
       ],
     );
