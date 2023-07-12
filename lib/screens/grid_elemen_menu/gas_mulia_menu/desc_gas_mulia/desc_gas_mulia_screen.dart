@@ -4,7 +4,7 @@ import 'package:kimiaapp/models/data/desc_menu_data.dart';
 import 'package:kimiaapp/widgets/background.dart';
 import 'package:kimiaapp/widgets/desc_menu_widgets/desc_content1.dart';
 import 'package:kimiaapp/widgets/desc_menu_widgets/desc_content2.dart';
-import 'package:kimiaapp/widgets/desc_menu_widgets/desc_description.dart';
+import 'package:kimiaapp/widgets/desc_menu_widgets/box_header.dart';
 import 'package:kimiaapp/widgets/desc_menu_widgets/desc_title.dart';
 
 class DescGasMuliaScreen extends StatelessWidget {
@@ -68,13 +68,18 @@ class DescGasMuliaScreen extends StatelessWidget {
                                     const SizedBox(
                                       height: 10,
                                     ),
+                                    const BoxHeader(
+                                        text: 'Element Information'),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
                                     DescContent1(
                                         text: listElemenData[index]
                                             .ingredient[index]),
                                     const SizedBox(
                                       height: 20,
                                     ),
-                                    const DescDescription(),
+                                    const BoxHeader(text: 'Description'),
                                     const SizedBox(
                                       height: 8,
                                     ),

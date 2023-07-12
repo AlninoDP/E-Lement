@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+
 import 'package:kimiaapp/models/colors.dart';
 
-class DescDescription extends StatelessWidget {
-  const DescDescription({super.key});
+class BoxHeader extends StatelessWidget {
+  const BoxHeader({
+    Key? key,
+    required this.text,
+  }) : super(key: key);
+
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -15,10 +21,10 @@ class DescDescription extends StatelessWidget {
           color: ChemistryColorApp.containerTextColor,
           borderRadius: BorderRadius.all(Radius.circular(20))),
       padding: const EdgeInsets.all(10),
-      child: const Text(
-        "Description",
+      child: Text(
+        text,
         textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 22),
+        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
       ),
     );
   }

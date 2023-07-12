@@ -12,6 +12,7 @@ class OtherElemen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenHeight = MediaQuery.of(context).size.height;
     return AlertDialog(
       title: const Text(
         'Others',
@@ -20,8 +21,11 @@ class OtherElemen extends StatelessWidget {
       content: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
+          const SizedBox(
+            width: 10,
+          ),
           SizedBox(
-            height: 80,
+            height: screenHeight / 10,
             child: MenuButton(
               ontap: () => Get.to(() => const AktiniumScreen()),
               text: 'Aktinium',
@@ -29,14 +33,20 @@ class OtherElemen extends StatelessWidget {
               imagePath: 'elemenicon10.png',
             ),
           ),
+          const SizedBox(
+            width: 10,
+          ),
           SizedBox(
-            height: 80,
+            height: screenHeight / 10,
             child: MenuButton(
               ontap: () => Get.to(() => const LantanumScreen()),
               text: 'Lantanum',
               color: ChemistryColorApp.containerMenu8,
               imagePath: 'elemenicon8.png',
             ),
+          ),
+          const SizedBox(
+            width: 10,
           ),
           SizedBox(
             height: 83,
