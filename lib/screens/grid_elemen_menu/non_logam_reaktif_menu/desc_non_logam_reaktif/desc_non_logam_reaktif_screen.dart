@@ -18,6 +18,7 @@ class DescNonLogamReaktifScreen extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
     return SafeArea(
         top: true,
+        bottom: true,
         child: Scaffold(
           body: Background(
             child: Scrollbar(

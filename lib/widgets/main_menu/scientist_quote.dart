@@ -39,7 +39,6 @@ class _ScientistQuoteState extends State<ScientistQuote> {
             borderRadius: BorderRadius.circular(30)),
         child: CarouselSlider(
           options: CarouselOptions(
-            height: 150,
             aspectRatio: 2.0,
             viewportFraction: 1,
             enableInfiniteScroll: true,

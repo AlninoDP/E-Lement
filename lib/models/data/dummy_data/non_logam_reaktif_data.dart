@@ -4,8 +4,8 @@ import 'package:kimiaapp/models/data/desc_menu_data.dart';
 
 const unsurNonLogamReaktifDesc = [
   DescMenuData(
-    id: 'zrn1',
-    category: 'arn1',
+    id: 'zrnxc1',
+    category: 'arnxc1',
     title: 'Hidrogen (H)',
     ingredient: [
       '''
@@ -293,7 +293,7 @@ Iodin adalah unsur nonlogam yang memiliki warna biru-kehitaman. Unsur ini berada
 
 const unsurNonLogamReaktif = [
   ElemenItemGrid(
-      id: 'arn1',
+      id: 'arnxc1',
       symbol: 'H',
       title: 'Hydrogen',
       containerColor: ChemistryColorApp.containerMenu7,
