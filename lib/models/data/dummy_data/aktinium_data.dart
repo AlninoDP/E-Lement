@@ -471,7 +471,7 @@ const unsurAktinium = [
   ElemenItemGrid(
       id: 'aa13',
       symbol: 'Md',
-      title: 'Mendelevium',
+      title: 'Men\ndelevium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(

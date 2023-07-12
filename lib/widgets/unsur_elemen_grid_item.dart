@@ -36,6 +36,7 @@ class UnsurElemenGridItem extends StatelessWidget {
                         fontSize: 26,
                         fontWeight: FontWeight.bold)),
                 Text(
+                  textAlign: TextAlign.center,
                   categoryItemGrid.title,
                   style: TextStyle(
                     color: categoryItemGrid.textColor,
