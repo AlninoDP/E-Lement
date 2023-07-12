@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 import '../../models/colors.dart';
 
 class SearchBarElemen extends StatelessWidget {
-  const SearchBarElemen({super.key});
+  final TextEditingController controller;
+  final ValueChanged<String>? onChanged;
+  const SearchBarElemen(
+      {super.key, required this.controller, required this.onChanged});
 
   @override
   Widget build(BuildContext context) {
@@ -25,9 +28,11 @@ class SearchBarElemen extends StatelessWidget {
           border: Border.all(color: Colors.black),
           color: ChemistryColorApp.searchBarColor,
           borderRadius: BorderRadius.circular(50)),
-      child: const TextField(
-        style: TextStyle(fontSize: 25),
-        decoration: InputDecoration(
+      child: TextField(
+        onChanged: onChanged,
+        controller: controller,
+        style: const TextStyle(fontSize: 25),
+        decoration: const InputDecoration(
             label: Center(
               child: Text("Search Something. . .",
                   style: TextStyle(
