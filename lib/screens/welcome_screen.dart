@@ -25,7 +25,8 @@ class WelcomeScreen extends StatelessWidget {
             Center(
                 child: BubbleButton(
               text: "Let's Get Started ",
-              onPressed: () => Get.to(() => const IntroductionScreen()),
+              onPressed: () => Get.to(() => const IntroductionScreen(),
+                  transition: Transition.zoom),
             )),
           ],
         )),

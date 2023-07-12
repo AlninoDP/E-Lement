@@ -25,8 +25,12 @@ class IntroductionScreen extends StatelessWidget {
               const Spacer(),
               Center(
                 child: BubbleButton(
-                    text: "Next",
-                    onPressed: () => Get.to(() => const SignInScreen())),
+                  text: "Next",
+                  onPressed: () => Get.to(
+                    () => const SignInScreen(),
+                    transition: Transition.zoom,
+                  ),
+                ),
               )
             ],
           )),

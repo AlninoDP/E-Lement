@@ -1,3 +1,4 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:kimiaapp/models/colors.dart';
 
@@ -23,35 +24,53 @@ class _ChemistryFactState extends State<ChemistryFact> {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
     return Container(
-      width: screenWidth / 1.1,
-      height: screenHeight / 4.5,
-      decoration: BoxDecoration(
-          boxShadow: [
-            BoxShadow(
-              color: Colors.grey.withOpacity(0.8),
-              spreadRadius: 3,
-              blurRadius: 6,
-              offset: const Offset(0, 2), // shadow direction: bottom right
-            )
-          ],
-          color: ChemistryColorApp.containerTextColor,
-          borderRadius: BorderRadius.circular(30)),
-      child: PageView.builder(
-          controller: pageController,
-          itemCount: listChemistryFact.length,
-          itemBuilder: (context, index) {
-            return Padding(
-              padding: const EdgeInsets.all(20),
-              child: Text(
-                listChemistryFact[index],
-                textAlign: TextAlign.justify,
-                style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    fontStyle: FontStyle.italic),
-              ),
+        width: screenWidth / 1.1,
+        height: screenHeight / 6,
+        decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.8),
+                spreadRadius: 3,
+                blurRadius: 6,
+                offset: const Offset(0, 2), // shadow direction: bottom right
+              )
+            ],
+            color: ChemistryColorApp.containerTextColor,
+            borderRadius: BorderRadius.circular(30)),
+        child: CarouselSlider(
+          options: CarouselOptions(
+            height: 150,
+            aspectRatio: 2.0,
+            viewportFraction: 1,
+            enableInfiniteScroll: true,
+            reverse: false,
+            autoPlay: true,
+            autoPlayInterval: const Duration(seconds: 3),
+            autoPlayAnimationDuration: const Duration(milliseconds: 800),
+            autoPlayCurve: Curves.fastOutSlowIn,
+            enlargeCenterPage: true,
+            enlargeFactor: 0.3,
+            scrollDirection: Axis.horizontal,
+          ),
+          items: listChemistryFact.map((i) {
+            return Builder(
+              builder: (BuildContext context) {
+                return Container(
+                    padding: const EdgeInsets.all(16),
+                    width: screenWidth / 1.2,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(40),
+                        color: ChemistryColorApp.containerTextColor),
+                    child: Text(
+                      i,
+                      style: const TextStyle(
+                          fontSize: 16.0,
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic),
+                    ));
+              },
             );
-          }),
-    );
+          }).toList(),
+        ));
   }
 }

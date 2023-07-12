@@ -26,14 +26,7 @@ Isotop Paling Stabil: Be-9
 '''
     ],
     description: '''
-Beryllium adalah logam alkali tanah yang ringan 
-dan keras dengan warna perak kebiruan. Unsur 
-ini memiliki sifat konduktivitas termal dan 
-elektrik yang baik, serta tahan terhadap korosi. 
-Beryllium digunakan dalam berbagai aplikasi, 
-termasuk dalam industri aerospace, elektronik,
- nuklir, dan medis. Sifat-sifat khusus beryllium
-  juga membuatnya berguna dalam pengeboran minyak dan industri perhiasan.
+Beryllium adalah logam alkali tanah yang ringan dan keras dengan warna perak kebiruan. Unsur ini memiliki sifat konduktivitas termal dan elektrik yang baik, serta tahan terhadap korosi. Beryllium digunakan dalam berbagai aplikasi, termasuk dalam industri aerospace, elektronik,nuklir, dan medis. Sifat-sifat khusus beryllium juga membuatnya berguna dalam pengeboran minyak dan industri perhiasan.
 ''',
   ),
   DescMenuData(
@@ -59,14 +52,7 @@ Isotop Paling Stabil: Mg-24
 '''
     ],
     description: '''
-Magnesium adalah logam alkali tanah yang
- ringan dan kuat. Unsur ini ditemukan dalam 
- berbagai senyawa dan digunakan dalam berbagai 
- aplikasi, termasuk dalam industri logam, 
- industri kimia, dan dalam pembuatan logam paduan. 
-Magnesium juga merupakan nutrisi penting
- bagi tanaman dan hewan, dan sering digunakan 
- sebagai suplemen dalam bentuk magnesium
+Magnesium adalah logam alkali tanah yang ringan dan kuat. Unsur ini ditemukan dalam berbagai senyawa dan digunakan dalam berbagai aplikasi, termasuk dalam industri logam, industri kimia, dan dalam pembuatan logam paduan. Magnesium juga merupakan nutrisi penting bagi tanaman dan hewan, dan sering digunakan sebagai suplemen dalam bentuk magnesium
 ''',
   ),
   DescMenuData(
@@ -92,17 +78,7 @@ Isotop Paling Stabil: Ca-40
 '''
     ],
     description: '''
-Calcium adalah unsur 
-kimia dalam tabel periodik dengan simbol Ca 
-dan nomor atom 20. Terdapat 6 sotop yang diketahui un
-tuk unsur calcium, dengan Ca-40 sebaga
-i isotop paling stabil. 
-Calcium adalah logam yang penting dalam biologi, berp
-eran dalam pembentukan 
-tulang dan gigi, serta berfungsi dalam proses fi
-siologis seperti kontraksi otot dan p
-engaturan transmisi saraf. Calcium juga digunaka
-n dalam industri untuk pembuatan logam paduan dan bahan bangunan.
+Calcium adalah unsur kimia dalam tabel periodik dengan simbol Ca dan nomor atom 20. Terdapat 6 sotop yang diketahui untuk unsur calcium, dengan Ca-40 sebagai isotop paling stabil. Calcium adalah logam yang penting dalam biologi, berperan dalam pembentukan tulang dan gigi, serta berfungsi dalam proses fisiologis seperti kontraksi otot dan pengaturan transmisi saraf. Calcium juga digunakan dalam industri untuk pembuatan logam paduan dan bahan bangunan.
 ''',
   ),
   DescMenuData(
@@ -128,14 +104,7 @@ Isotop Paling Stabil: 84Sr, 86Sr, 87Sr, 88Sr.
 '''
     ],
     description: '''
-Strontium adalah unsur kimia yang memiliki 
-simbol Sr dan nomor atom 38 dalam tabel periodik. 
-Strontium juga digunakan dalam pembuatan kaca untuk 
-layar tabung televisi kuno, serta dalam produksi pigmen 
-keramik dan cat. Strontium memiliki isotop radioaktif, strontium-90, yang 
-dapat terbentuk sebagai produk samping 
-dalam reaktor nuklir. Isotop ini dapat memiliki
- efek berbahaya pada kesehatan manusia jika terakumulasi dalam tubuh.
+Strontium adalah unsur kimia yang memiliki simbol Sr dan nomor atom 38 dalam tabel periodik. Strontium juga digunakan dalam pembuatan kaca untuk layar tabung televisi kuno, serta dalam produksi pigmen keramik dan cat. Strontium memiliki isotop radioaktif, strontium-90, yang dapat terbentuk sebagai produk samping dalam reaktor nuklir. Isotop ini dapat memiliki efek berbahaya pada kesehatan manusia jika terakumulasi dalam tubuh.
 ''',
   ),
   DescMenuData(
@@ -161,15 +130,7 @@ Isotop Paling Stabil: Ba-138
 '''
     ],
     description: '''
-Barium adalah unsur logam alkaline bumi
- yang memiliki warna abu-abu perak. Unsur 
- ini berada dalam golongan alkaline earth 
- metals dan memiliki sifat-sifat yang reaktif 
- secara terbatas. Barium digunakan dalam berbagai 
- aplikasi, termasuk dalam industri, kedokteran, dan 
-teknologi nuklir. Barium juga memiliki beberapa 
-isotop radioaktif yang digunakan dalam 
-penelitian dan aplikasi medis
+Barium adalah unsur logam alkaline bumi yang memiliki warna abu-abu perak. Unsur ini berada dalam golongan alkaline earth metals dan memiliki sifat-sifat yang reaktif secara terbatas. Barium digunakan dalam berbagai aplikasi, termasuk dalam industri, kedokteran, dan teknologi nuklir. Barium juga memiliki beberapa isotop radioaktif yang digunakan dalam penelitian dan aplikasi medis
 ''',
   ),
   DescMenuData(
@@ -195,17 +156,7 @@ Isotop Paling Stabil: Ra-226
 '''
     ],
     description: '''
-Radium adalah unsur radioaktif 
-yang sangat jarang ditemukan di 
-alam dan memiliki masa paruh yang 
-relatif singkat. Karena sifat radioaktifnya, 
-radium memiliki potensi bahaya bagi kesehatan 
-manusia dan harus ditangani dengan hati-hati dalam 
-konteks keamanan radiologi. Radium 
-telah digunakan dalam aplikasi 
-medis dan industri, terutama dalam 
-pengobatan penyakit tertentu dan sebagai 
-sumber radiasi dalam beberapa perangkat
+Radium adalah unsur radioaktif yang sangat jarang ditemukan di alam dan memiliki masa paruh yang relatif singkat. Karena sifat radioaktifnya, radium memiliki potensi bahaya bagi kesehatan manusia dan harus ditangani dengan hati-hati dalam konteks keamanan radiologi. Radium telah digunakan dalam aplikasi medis dan industri, terutama dalam pengobatan penyakit tertentu dan sebagai sumber radiasi dalam beberapa perangkat
 ''',
   ),
 ];

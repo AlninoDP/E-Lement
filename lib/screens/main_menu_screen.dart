@@ -10,9 +10,8 @@ import 'package:kimiaapp/screens/grid_elemen_menu/non_logam_reaktif_menu/non_log
 import 'package:kimiaapp/screens/grid_elemen_menu/logam_alkali_menu/logam_alkali_screen.dart';
 import 'package:kimiaapp/screens/search_result_screen.dart';
 import 'package:kimiaapp/widgets/background.dart';
+import 'package:kimiaapp/widgets/bubble_box.dart';
 import 'package:kimiaapp/widgets/main_menu/chemistry_fact.dart';
-import 'package:kimiaapp/widgets/main_menu/header1_menu.dart';
-import 'package:kimiaapp/widgets/main_menu/header2_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/header3_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/header4_menu.dart';
 import 'package:kimiaapp/widgets/main_menu/menu_button.dart';
@@ -35,7 +34,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
   final TextEditingController _searchController = TextEditingController();
   final RxList<DescMenuData> _searchResult = <DescMenuData>[].obs;
   final RxList<DescMenuData> _selectedResult = <DescMenuData>[].obs;
-  RxBool _isSearchVisible = false.obs;
+  final RxBool _isSearchVisible = false.obs;
 
 //* function cari
   void _searchElements(String query) {
@@ -86,8 +85,15 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Header1Menu(enteredName: widget.enteredName),
-                  const Header2Menu(),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  BubbleBox(
+                      text:
+                          'Hai,${widget.enteredName} Nice to see you again...'),
+                  const SizedBox(
+                    height: 20,
+                  ),
                   Center(
                     child: SearchBarElemen(
                       controller: _searchController,

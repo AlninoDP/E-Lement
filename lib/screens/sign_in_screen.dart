@@ -38,7 +38,8 @@ class _SignInScreenState extends State<SignInScreen> {
                 child: BubbleButton(
                     text: "Confirm",
                     onPressed: () => Get.offAll(
-                        () => MainMenuScreen(enteredName: enteredName.value))),
+                        () => MainMenuScreen(enteredName: enteredName.value),
+                        transition: Transition.fadeIn)),
               )
             ],
           )),
