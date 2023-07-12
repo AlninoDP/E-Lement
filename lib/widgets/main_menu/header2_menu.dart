@@ -14,7 +14,7 @@ class Header2Menu extends StatelessWidget {
         left: 10,
       ),
       child: const Text(
-        "What Material Do You Want To Learn",
+        "Which material do you want to learn",
         style: TextStyle(fontSize: 28, color: Colors.black),
       ),
     );

@@ -13,6 +13,8 @@ class DescAktiniumScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -42,15 +44,25 @@ class DescAktiniumScreen extends StatelessWidget {
                                       height: 10,
                                     ),
                                     Container(
-                                      width: 100,
-                                      height: 100,
-                                      color: Colors.blue,
+                                      width: screenWidth / 3,
+                                      height: screenHeight / 6,
+                                      decoration: const BoxDecoration(
+                                        borderRadius: BorderRadius.all(
+                                          Radius.circular(10),
+                                        ),
+                                        color: ChemistryColorApp
+                                            .actinidesContainer,
+                                      ),
                                       child: Column(
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         children: [
                                           Text(
                                             listElemenData[index].title,
+                                            style: const TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: ChemistryColorApp
+                                                    .actinidesText),
                                           )
                                         ],
                                       ),
