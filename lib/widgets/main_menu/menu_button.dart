@@ -42,9 +42,6 @@ class MenuButton extends StatelessWidget {
                   'assets/icons/$imagePath',
                 ),
               ),
-              SizedBox(
-                height: 4.h,
-              ),
               Expanded(
                 child: Text(
                   text,

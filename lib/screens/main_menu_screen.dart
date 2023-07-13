@@ -81,7 +81,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
           body: Background(
               child: Scrollbar(
             thickness: 8.r,
-            radius: const Radius.circular(30),
+            radius: const Radius.circular(30).w,
             child: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -107,10 +107,10 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                       visible: _isSearchVisible.value,
                       child: AnimatedContainer(
                         duration: const Duration(milliseconds: 200),
-                        margin: const EdgeInsets.all(10),
+                        margin: const EdgeInsets.all(10).w,
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(10).w,
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey.withOpacity(0.5),
@@ -139,11 +139,11 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10).w,
                     child: GridView.count(
                       shrinkWrap: true,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 4, vertical: 8),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 4.r, vertical: 8.r),
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 10,
                       crossAxisCount: 4,

@@ -68,25 +68,25 @@ class DescNonLogamReaktifScreen extends StatelessWidget {
                                         ],
                                       ),
                                     ),
-                                    const SizedBox(
-                                      height: 10,
+                                    SizedBox(
+                                      height: 10.sp,
                                     ),
                                     const BoxHeader(
                                         text: 'Element Information'),
-                                    const SizedBox(
-                                      height: 10,
+                                    SizedBox(
+                                      height: 10.sp,
                                     ),
                                     DescContent1(
                                         text: listElemenData[index]
                                             .ingredient[index]),
-                                    const SizedBox(
-                                      height: 20,
+                                    SizedBox(
+                                      height: 20.h,
                                     ),
                                     const BoxHeader(
                                       text: 'Description',
                                     ),
-                                    const SizedBox(
-                                      height: 8,
+                                    SizedBox(
+                                      height: 8.h,
                                     ),
                                     DescContent2(
                                         text:
