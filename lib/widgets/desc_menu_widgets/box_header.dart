@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/data/colors.dart';
 
 class BoxHeader extends StatelessWidget {
   const BoxHeader({
@@ -17,14 +18,14 @@ class BoxHeader extends StatelessWidget {
     return Container(
       width: screenWidth * 0.7,
       height: screenHeight * 0.055,
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
           color: ChemistryColorApp.containerTextColor,
-          borderRadius: BorderRadius.all(Radius.circular(20))),
-      padding: const EdgeInsets.all(10),
+          borderRadius: BorderRadius.all(const Radius.circular(20).w)),
+      padding: const EdgeInsets.all(10).w,
       child: Text(
         text,
         textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+        style: TextStyle(fontSize: 22.sp, fontWeight: FontWeight.bold),
       ),
     );
   }

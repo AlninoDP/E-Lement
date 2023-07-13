@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/models/colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/models/data/colors.dart';
 import 'package:kimiaapp/models/data/desc_menu_data.dart';
 import 'package:kimiaapp/widgets/background.dart';
 import 'package:kimiaapp/widgets/desc_menu_widgets/desc_content1.dart';
@@ -21,8 +22,8 @@ class DescMetaloidScreen extends StatelessWidget {
         child: Scaffold(
           body: Background(
             child: Scrollbar(
-              radius: const Radius.circular(30),
-              thickness: 10,
+              radius: const Radius.circular(30).w,
+              thickness: 10.w,
               child: Center(
                 child: Column(
                   children: [
@@ -31,7 +32,7 @@ class DescMetaloidScreen extends StatelessWidget {
                             itemCount: listElemenData.length,
                             itemBuilder: (ctx, index) {
                               return Padding(
-                                padding: const EdgeInsets.all(10.0),
+                                padding: const EdgeInsets.all(10.0).w,
                                 child: Column(
                                   children: [
                                     DescTitle(
@@ -41,15 +42,15 @@ class DescMetaloidScreen extends StatelessWidget {
                                       textColor:
                                           ChemistryColorApp.metalLoidsText,
                                     ),
-                                    const SizedBox(
-                                      height: 10,
+                                    SizedBox(
+                                      height: 10.h,
                                     ),
                                     Container(
                                       width: screenWidth / 3,
                                       height: screenHeight / 6,
-                                      decoration: const BoxDecoration(
+                                      decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(
-                                          Radius.circular(10),
+                                          const Radius.circular(10).w,
                                         ),
                                         color: ChemistryColorApp
                                             .metalLoidsContainer,
@@ -66,23 +67,23 @@ class DescMetaloidScreen extends StatelessWidget {
                                         ],
                                       ),
                                     ),
-                                    const SizedBox(
-                                      height: 10,
+                                    SizedBox(
+                                      height: 10.h,
                                     ),
                                     const BoxHeader(
                                         text: 'Element Information'),
-                                    const SizedBox(
-                                      height: 10,
+                                    SizedBox(
+                                      height: 10.h,
                                     ),
                                     DescContent1(
                                         text: listElemenData[index]
                                             .ingredient[index]),
-                                    const SizedBox(
-                                      height: 20,
+                                    SizedBox(
+                                      height: 20.h,
                                     ),
                                     const BoxHeader(text: 'Description'),
-                                    const SizedBox(
-                                      height: 8,
+                                    SizedBox(
+                                      height: 8.h,
                                     ),
                                     DescContent2(
                                         text:

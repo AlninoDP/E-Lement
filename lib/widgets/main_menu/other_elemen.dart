@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/data/colors.dart';
 import 'package:kimiaapp/screens/grid_elemen_menu/aktinium_menu/aktinium_screen.dart';
 import 'package:kimiaapp/screens/grid_elemen_menu/lantanum_menu/lantanum_screen.dart';
 import 'package:kimiaapp/screens/grid_elemen_menu/unknown_properties_menu/unknown_properties_screen.dart';
@@ -22,8 +23,8 @@ class OtherElemen extends StatelessWidget {
       content: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          const SizedBox(
-            width: 10,
+          SizedBox(
+            width: 10.w,
           ),
           SizedBox(
             height: screenHeight / 10,
@@ -34,8 +35,8 @@ class OtherElemen extends StatelessWidget {
               imagePath: 'elemenicon10.png',
             ),
           ),
-          const SizedBox(
-            width: 10,
+          SizedBox(
+            width: 10.w,
           ),
           SizedBox(
             height: screenHeight / 10,
@@ -46,12 +47,12 @@ class OtherElemen extends StatelessWidget {
               imagePath: 'elemenicon8.png',
             ),
           ),
-          const SizedBox(
-            width: 10,
+          SizedBox(
+            width: 10.w,
           ),
           SizedBox(
-            height: 83,
-            width: 80,
+            height: 83.h,
+            width: 80.w,
             child: MenuButton(
               ontap: () => Get.to(() => const UnknownPropertiesScreen()),
               text: 'Tidak Diketahui',

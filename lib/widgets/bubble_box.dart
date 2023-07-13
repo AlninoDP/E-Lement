@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../models/colors.dart';
+import '../models/data/colors.dart';
 
 class BubbleBox extends StatelessWidget {
   final String text;
@@ -11,18 +12,18 @@ class BubbleBox extends StatelessWidget {
     final screenWidth = MediaQuery.of(context).size.width;
     return Container(
       width: screenWidth / 1.5,
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
           color: ChemistryColorApp.containerTextColor,
           borderRadius: BorderRadius.only(
-            topRight: Radius.circular(45),
-            bottomLeft: Radius.circular(30),
+            topRight: const Radius.circular(45).w,
+            bottomLeft: const Radius.circular(30).w,
           )),
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.all(20).w,
       child: Text(
         text,
         textAlign: TextAlign.center,
-        style: const TextStyle(
-            fontSize: 24,
+        style: TextStyle(
+            fontSize: 24.sp,
             fontWeight: FontWeight.bold,
             color: ChemistryColorApp.primaryTextColor),
       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DescTitle extends StatelessWidget {
   final String title;
@@ -19,13 +20,13 @@ class DescTitle extends StatelessWidget {
       height: screenHeight * 0.055,
       decoration: BoxDecoration(
           color: containerColor,
-          borderRadius: const BorderRadius.all(Radius.circular(20))),
-      padding: const EdgeInsets.all(10),
+          borderRadius: BorderRadius.all(Radius.circular(20).w)),
+      padding: const EdgeInsets.all(10).w,
       child: Text(
         title,
         textAlign: TextAlign.center,
         style: TextStyle(
-            fontSize: 22, fontWeight: FontWeight.bold, color: textColor),
+            fontSize: 22.sp, fontWeight: FontWeight.bold, color: textColor),
       ),
     );
   }

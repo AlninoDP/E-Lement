@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import '../models/colors.dart';
+import '../models/data/colors.dart';
 
 class TextFieldUsername extends StatelessWidget {
   final TextEditingController controller;
@@ -16,23 +17,23 @@ class TextFieldUsername extends StatelessWidget {
     return Container(
       height: screenHeight / 15,
       width: screenWidth / 1.5,
-      margin: const EdgeInsets.only(bottom: 50),
+      margin: EdgeInsets.only(bottom: 50.r),
       decoration: BoxDecoration(
           border: Border.all(color: Colors.black),
           color: ChemistryColorApp.searchBarColor,
-          borderRadius: BorderRadius.circular(50)),
-      padding: const EdgeInsets.all(10),
+          borderRadius: BorderRadius.circular(50).w),
+      padding: const EdgeInsets.all(10).w,
       child: TextField(
         controller: controller,
         onChanged: (value) => onTextChanged.value = value,
-        style: const TextStyle(fontSize: 21),
-        decoration: const InputDecoration(
+        style: TextStyle(fontSize: 21.sp),
+        decoration: InputDecoration(
             labelText: "Your Name",
             floatingLabelBehavior: FloatingLabelBehavior.never,
             border: InputBorder.none,
             prefixIcon: Icon(
               Icons.person,
-              size: 35,
+              size: 35.h,
               color: Colors.green,
             )),
       ),

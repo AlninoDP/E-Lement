@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MenuButton extends StatelessWidget {
   final String text;
@@ -20,36 +21,36 @@ class MenuButton extends StatelessWidget {
       elevation: 15,
       color: Colors.transparent,
       child: InkWell(
-        borderRadius: const BorderRadius.all(
-          Radius.circular(30),
+        borderRadius: BorderRadius.all(
+          const Radius.circular(30).w,
         ),
         onTap: ontap,
         child: Ink(
           decoration: BoxDecoration(
             color: color,
-            borderRadius: const BorderRadius.all(
-              Radius.circular(30),
+            borderRadius: BorderRadius.all(
+              const Radius.circular(30).w,
             ),
           ),
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(8).w,
           child: Column(
             children: [
               SizedBox(
-                height: 40,
-                width: 60,
+                height: 40.h,
+                width: 60.w,
                 child: Image.asset(
                   'assets/icons/$imagePath',
                 ),
               ),
-              const SizedBox(
-                height: 4,
+              SizedBox(
+                height: 4.h,
               ),
               Expanded(
                 child: Text(
                   text,
                   textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontSize: 11,
+                  style: TextStyle(
+                    fontSize: 11.sp,
                     fontWeight: FontWeight.bold,
                   ),
                 ),

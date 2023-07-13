@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kimiaapp/models/data/elemen_item_grid.dart';
 
 class UnsurElemenGridItem extends StatelessWidget {
@@ -14,18 +15,18 @@ class UnsurElemenGridItem extends StatelessWidget {
       elevation: 50,
       color: Colors.transparent,
       child: InkWell(
-        borderRadius: const BorderRadius.all(
-          Radius.circular(20),
+        borderRadius: BorderRadius.all(
+          const Radius.circular(20).w,
         ),
         onTap: onTap,
         child: Ink(
           decoration: BoxDecoration(
             color: categoryItemGrid.containerColor,
-            borderRadius: const BorderRadius.all(
-              Radius.circular(20),
+            borderRadius: BorderRadius.all(
+              const Radius.circular(20).w,
             ),
           ),
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(8).w,
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -33,14 +34,14 @@ class UnsurElemenGridItem extends StatelessWidget {
                 Text(categoryItemGrid.symbol,
                     style: TextStyle(
                         color: categoryItemGrid.textColor,
-                        fontSize: 26,
+                        fontSize: 26.sp,
                         fontWeight: FontWeight.bold)),
                 Text(
                   textAlign: TextAlign.center,
                   categoryItemGrid.title,
                   style: TextStyle(
                     color: categoryItemGrid.textColor,
-                    fontSize: 26,
+                    fontSize: 26.sp,
                   ),
                 ),
               ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/models/data/desc_menu_data.dart';
 import 'package:kimiaapp/models/data/search_data.dart';
@@ -18,7 +19,7 @@ import 'package:kimiaapp/widgets/main_menu/menu_button.dart';
 import 'package:kimiaapp/widgets/main_menu/other_elemen.dart';
 import 'package:kimiaapp/widgets/main_menu/scientist_quote.dart';
 
-import '../models/colors.dart';
+import '../models/data/colors.dart';
 import '../widgets/main_menu/search_bar.dart';
 import 'grid_elemen_menu/metaloid_menu/metaloid_screen.dart';
 
@@ -79,20 +80,20 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
           resizeToAvoidBottomInset: false,
           body: Background(
               child: Scrollbar(
-            thickness: 8,
+            thickness: 8.r,
             radius: const Radius.circular(30),
             child: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(
-                    height: 20,
+                  SizedBox(
+                    height: 20.h,
                   ),
                   BubbleBox(
                       text:
                           'Hai,${widget.enteredName} Nice to see you again...'),
-                  const SizedBox(
-                    height: 20,
+                  SizedBox(
+                    height: 20.h,
                   ),
                   Center(
                     child: SearchBarElemen(

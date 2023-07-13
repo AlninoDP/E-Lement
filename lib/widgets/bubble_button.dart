@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../models/data/colors.dart';
 
 class BubbleButton extends StatelessWidget {
   final String text;
@@ -16,18 +17,18 @@ class BubbleButton extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 30),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            padding:
-                const EdgeInsets.only(left: 39, right: 39, top: 13, bottom: 13),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+            padding: EdgeInsets.only(
+                left: 39.r, right: 39.r, top: 13.r, bottom: 13.r),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(30).w),
             backgroundColor: ChemistryColorApp.containerTextColor),
         onPressed: onPressed,
         child: Text(
           text,
           textAlign: TextAlign.center,
-          style: const TextStyle(
+          style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 22,
+              fontSize: 22.sp,
               color: ChemistryColorApp.primaryTextColor),
         ),
       ),

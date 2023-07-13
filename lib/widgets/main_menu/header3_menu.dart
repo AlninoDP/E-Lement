@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Header3Menu extends StatelessWidget {
   const Header3Menu({super.key});
@@ -10,11 +11,11 @@ class Header3Menu extends StatelessWidget {
     return Container(
         width: screenWidth / 1,
         height: screenHeight / 16,
-        padding: const EdgeInsets.all(10),
-        child: const Text(
+        padding: const EdgeInsets.all(10).w,
+        child: Text(
           "Fakta Menarik Tentang Kimia",
           style: TextStyle(
-            fontSize: 23,
+            fontSize: 23.sp,
             fontWeight: FontWeight.bold,
           ),
         ));

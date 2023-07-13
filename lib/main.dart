@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/screens/splash_screen.dart';
 
@@ -11,10 +12,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      // home: TestSearchScreen(),
-      home: SplashScreen(),
+    return ScreenUtilInit(
+      minTextAdapt: true,
+      designSize: const Size(393, 830),
+      builder: (context, child) {
+        return const GetMaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: SplashScreen(),
+        );
+      },
     );
   }
 }

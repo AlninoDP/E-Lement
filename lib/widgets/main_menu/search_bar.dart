@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../models/colors.dart';
+import '../../models/data/colors.dart';
 
 class SearchBarElemen extends StatelessWidget {
   final TextEditingController controller;
@@ -27,24 +28,24 @@ class SearchBarElemen extends StatelessWidget {
           ],
           border: Border.all(color: Colors.black),
           color: ChemistryColorApp.searchBarColor,
-          borderRadius: BorderRadius.circular(50)),
+          borderRadius: BorderRadius.circular(50).w),
       child: TextField(
         onChanged: onChanged,
         controller: controller,
-        style: const TextStyle(fontSize: 25),
-        decoration: const InputDecoration(
+        style: TextStyle(fontSize: 25.sp),
+        decoration: InputDecoration(
             label: Center(
               child: Text("Search Something. . .",
                   style: TextStyle(
-                    fontSize: 23,
-                    height: 1,
+                    fontSize: 23.sp,
+                    height: 1.h,
                   )),
             ),
             floatingLabelBehavior: FloatingLabelBehavior.never,
             border: InputBorder.none,
             prefixIcon: Icon(
               Icons.search,
-              size: 29,
+              size: 29.h,
               color: Colors.green,
             )),
       ),

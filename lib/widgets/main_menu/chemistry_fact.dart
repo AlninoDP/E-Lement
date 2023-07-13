@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/models/colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/models/data/colors.dart';
 
 class ChemistryFact extends StatefulWidget {
   const ChemistryFact({super.key});
@@ -36,7 +37,7 @@ class _ChemistryFactState extends State<ChemistryFact> {
               )
             ],
             color: ChemistryColorApp.containerTextColor,
-            borderRadius: BorderRadius.circular(30)),
+            borderRadius: BorderRadius.circular(30).w),
         child: CarouselSlider(
           options: CarouselOptions(
             aspectRatio: 2.0,
@@ -55,15 +56,15 @@ class _ChemistryFactState extends State<ChemistryFact> {
             return Builder(
               builder: (BuildContext context) {
                 return Container(
-                    padding: const EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16).w,
                     width: screenWidth / 1.2,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(40),
+                        borderRadius: BorderRadius.circular(40).w,
                         color: ChemistryColorApp.containerTextColor),
                     child: Text(
                       i,
-                      style: const TextStyle(
-                          fontSize: 16.0,
+                      style: TextStyle(
+                          fontSize: 16.0.sp,
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic),
                     ));

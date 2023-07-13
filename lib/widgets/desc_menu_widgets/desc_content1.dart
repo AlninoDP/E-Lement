@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kimiaapp/models/colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/models/data/colors.dart';
 
 class DescContent1 extends StatelessWidget {
   final String text;
@@ -8,16 +9,16 @@ class DescContent1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
           color: ChemistryColorApp.containerTextColor,
           borderRadius: BorderRadius.only(
-            topRight: Radius.circular(45),
-            bottomLeft: Radius.circular(30),
+            topRight: const Radius.circular(45).w,
+            bottomLeft: const Radius.circular(30).w,
           )),
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.all(20).w,
       child: Text(
         text,
-        style: const TextStyle(fontSize: 20, height: 1.3),
+        style: TextStyle(fontSize: 20.sp, height: 1.3.h),
       ),
     );
   }

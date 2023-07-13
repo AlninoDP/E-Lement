@@ -1,7 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../models/colors.dart';
+import '../../models/data/colors.dart';
 
 class ScientistQuote extends StatefulWidget {
   const ScientistQuote({super.key});
@@ -55,15 +56,15 @@ class _ScientistQuoteState extends State<ScientistQuote> {
             return Builder(
               builder: (BuildContext context) {
                 return Container(
-                    padding: const EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16).w,
                     width: screenWidth / 1.2,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(100),
+                        borderRadius: BorderRadius.circular(100).w,
                         color: ChemistryColorApp.containerTextColor),
                     child: Text(
                       i,
-                      style: const TextStyle(
-                          fontSize: 16.0,
+                      style: TextStyle(
+                          fontSize: 16.0.sp,
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic),
                     ));

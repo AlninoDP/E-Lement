@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/screens/sign_in_screen.dart';
 import 'package:kimiaapp/widgets/background.dart';
@@ -17,8 +18,8 @@ class IntroductionScreen extends StatelessWidget {
               child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(
-                height: 20,
+              SizedBox(
+                height: 20.h,
               ),
               const BubbleBox(
                   text: "Hello There, Welcome to our chemistry application"),
