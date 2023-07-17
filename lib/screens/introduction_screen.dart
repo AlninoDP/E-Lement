@@ -29,7 +29,7 @@ class IntroductionScreen extends StatelessWidget {
                   text: "Next",
                   onPressed: () => Get.to(
                     () => const SignInScreen(),
-                    transition: Transition.zoom,
+                    transition: Transition.rightToLeftWithFade,
                   ),
                 ),
               )

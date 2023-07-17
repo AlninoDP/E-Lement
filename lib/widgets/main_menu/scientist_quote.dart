@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -61,12 +62,13 @@ class _ScientistQuoteState extends State<ScientistQuote> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100).w,
                         color: ChemistryColorApp.containerTextColor),
-                    child: Text(
+                    child: AutoSizeText(
                       i,
-                      style: TextStyle(
-                          fontSize: 16.0.sp,
-                          fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic),
+                      maxLines: 5,
+                      style: const TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ));
               },
             );

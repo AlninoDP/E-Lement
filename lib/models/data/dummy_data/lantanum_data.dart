@@ -182,15 +182,7 @@ Isotop Paling Stabil: Eu-153
 '''
     ],
     description: '''
-Europium adalah unsur kimia dalam tabel periodik dengan
-simbol Eu dan nomor atom 63. Unsur ini terletak dalam
-kelompok lantanida dan berada pada periode 6. Europium
-memiliki massa atomik sekitar 151.96 u dan konfigurasi elektron
- [Xe] 4f7 6s2. Unsur ini berbentuk padat dengan warna perak.
- Titik lebur europium adalah sekitar 822 °C, sementara
-|titik didihnya mencapai 1529 °C. Kelektronegatifan europium
- adalah 1.2. Terdapat 34 isotop yang diketahui untuk unsur
- europium, dengan Eu-153 sebagai isotop paling stabil.
+Europium adalah unsur kimia dalam tabel periodik dengan simbol Eu dan nomor atom 63. Unsur ini terletak dalam kelompok lantanida dan berada pada periode 6. Europium memiliki massa atomik sekitar 151.96 u dan konfigurasi elektron [Xe] 4f7 6s2. Unsur ini berbentuk padat dengan warna perak. Titik lebur europium adalah sekitar 822 °C, sementara titik didihnya mencapai 1529 °C. Kelektronegatifan europium adalah 1.2. Terdapat 34 isotop yang diketahui untuk unsur europium, dengan Eu-153 sebagai isotop paling stabil.
  ''',
   ),
   DescMenuData(

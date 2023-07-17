@@ -16,9 +16,10 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       designSize: const Size(393, 830),
       builder: (context, child) {
-        return const GetMaterialApp(
+        return GetMaterialApp(
+          theme: ThemeData(fontFamily: 'RobotoRegular'),
           debugShowCheckedModeBanner: false,
-          home: SplashScreen(),
+          home: const SplashScreen(),
         );
       },
     );

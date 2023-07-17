@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Future.delayed(Duration(seconds: splashTime), () async {
       Get.offAll(
-        const WelcomeScreen(),
+        () => const WelcomeScreen(),
       );
     });
   }

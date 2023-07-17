@@ -115,14 +115,7 @@ Isotop Paling Stabil: K-39
 '''
     ],
     description: '''
-Kalium adalah unsur logam alkali yang sangat reaktif.
- Unsur ini memiliki sifat kimia yang mirip dengan
-  unsur lain dalam kelompok logam alkali. Kalium 
-  biasanya ditemukan dalam bentuk senyawa seperti 
-  garam kalium yang diperlukan oleh organisme hidup 
-  untuk fungsi biologis tertentu. Kalium juga 
-  digunakan dalam berbagai aplikasi industri 
-  dan pertanian.
+Kalium adalah unsur logam alkali yang sangat reaktif. Unsur ini memiliki sifat kimia yang mirip dengan unsur lain dalam kelompok logam alkali. Kalium  biasanya ditemukan dalam bentuk senyawa seperti  garam kalium yang diperlukan oleh organisme hidup  untuk fungsi biologis tertentu. Kalium juga  digunakan dalam berbagai aplikasi industri  dan pertanian.
 ''',
   ),
   DescMenuData(
@@ -148,13 +141,7 @@ Isotop Paling Stabil: Rb-85
 '''
     ],
     description: '''
-Rubidium adalah logam alkali berwarna 
-perak keabu-abuan yang lunak dan sangat reaktif.
- Unsur ini memiliki berbagai aplikasi 
- dalam penelitian ilmiah, pengolahan logam,
-  dan produksi baterai. Rubidium juga
-   digunakan dalam spektroskopi atom dan 
-   sebagai sumber cahaya dalam jam atom.
+Rubidium adalah logam alkali berwarna perak keabu-abuan yang lunak dan sangat reaktif. Unsur ini memiliki berbagai aplikasi  dalam penelitian ilmiah, pengolahan logam, dan produksi baterai. Rubidium juga digunakan dalam spektroskopi atom dan  sebagai sumber cahaya dalam jam atom.
 ''',
   ),
   DescMenuData(
@@ -180,16 +167,7 @@ Isotop Paling Stabil: Cs-133
 '''
     ],
     description: '''
-Caesium adalah unsur logam alkali yang 
-memiliki warna perak-keemasan. Unsur ini
- berada dalam golongan alkali 
- dan memiliki sifat-sifat reaktif yang kuat. 
- Caesium digunakan dalam berbagai aplikasi,
-  termasuk dalam penelitian ilmiah, industri, 
-  dan dalam sistem jam atomik. Caesium juga 
-  memiliki isotop radioaktif yang
-   digunakan dalam penelitian dan 
-   aplikasi medis.
+Caesium adalah unsur logam alkali yang memiliki warna perak-keemasan. Unsur ini berada dalam golongan alkali  dan memiliki sifat-sifat reaktif yang kuat.  Caesium digunakan dalam berbagai aplikasi, termasuk dalam penelitian ilmiah, industri,  dan dalam sistem jam atomik. Caesium juga  memiliki isotop radioaktif yang digunakan dalam penelitian dan  aplikasi medis.
 ''',
   ),
   DescMenuData(
@@ -215,22 +193,7 @@ Isotop Paling Stabil: Fr-223
 '''
     ],
     description: '''
-Francium adalah unsur logam alkali yang 
-memiliki simbol kimia Fr dan nomor atom 87. 
-Unsur ini memiliki massa atomik 223 u dan terletak 
-dalam golongan logam alkali. Francium memiliki 
-konfigurasi elektron [Rn] 7s1 dan berada pada 
-periode 7 dalam tabel periodik. Unsur ini berada 
-dalam keadaan padat pada suhu kamar, namun warna 
-dan sifat fisik lainnya tidak diketahui secara pasti. 
-Francium memiliki titik lebur sekitar 27 °C dan titik 
-didih sekitar 677 °C. Kelektronegatifan francium adalah sekitar 0.7.
- Terdapat 31 isotop yang diketahui untuk unsur ini, 
- dengan isotop paling stabil adalah Fr-223. Francium adalah 
- unsur radioaktif yang sangat jarang ditemukan di alam dan 
- memiliki masa paruh yang sangat singkat. Karena sifat radioaktifnya, 
- francium digunakan dalam penelitian ilmiah dan tidak 
- memiliki aplikasi praktis yang signifikan.
+Francium adalah unsur logam alkali yang  memiliki simbol kimia Fr dan nomor atom 87.  Unsur ini memiliki massa atomik 223 u dan terletak  dalam golongan logam alkali. Francium memiliki  konfigurasi elektron [Rn] 7s1 dan berada pada  periode 7 dalam tabel periodik. Unsur ini berada  dalam keadaan padat pada suhu kamar, namun warna  dan sifat fisik lainnya tidak diketahui secara pasti.  Francium memiliki titik lebur sekitar 27 °C dan titik  didih sekitar 677 °C. Kelektronegatifan francium adalah sekitar 0.7. Terdapat 31 isotop yang diketahui untuk unsur ini,  dengan isotop paling stabil adalah Fr-223. Francium adalah  unsur radioaktif yang sangat jarang ditemukan di alam dan  memiliki masa paruh yang sangat singkat. Karena sifat radioaktifnya,  francium digunakan dalam penelitian ilmiah dan tidak  memiliki aplikasi praktis yang signifikan.
 ''',
   ),
 ];

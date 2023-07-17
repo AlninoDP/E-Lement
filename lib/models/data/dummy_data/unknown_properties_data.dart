@@ -281,7 +281,7 @@ const unsurUnknownProperties = [
   ElemenItemGrid(
       id: 'aup3',
       symbol: 'Rg',
-      title: 'Roent genium',
+      title: 'Roentgenium',
       containerColor: ChemistryColorApp.containerMenu9,
       textColor: ChemistryColorApp.containerMenu9text),
   ElemenItemGrid(

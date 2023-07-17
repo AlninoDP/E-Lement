@@ -26,26 +26,7 @@ Isotop Paling Stabil: At-210
 '''
     ],
     description: '''
-Astatin adalah unsur halogen yang
- memiliki simbol kimia At dan nomor 
- atom 85. Unsur ini memiliki massa atomik 210 u dan 
- terletak dalam golongan nonlogam golongan utama. 
- Astatin memiliki konfigurasi elektron [Xe] 
- 4f14 5d10 6s2 6p5 dan berada pada periode 6 dalam 
- tabel periodik. Unsur ini berada dalam keadaan padat pada 
- suhu kamar, namun warna dan sifat fisik lainnya tidak diketahui
-  secara pasti. Astatin memiliki titik 
-  lebur sekitar 302 °C dan 
-  titik didih sekitar 337 °C. Kelektronegatifan a
-  statin adalah sekitar 2.2.
-   Terdapat 35 isotop yang diketahui untuk unsur 
-   ini, dengan isotop paling 
-   stabil adalah At-210. Astatin merupakan unsur 
-   radioaktif yang sangat jarang 
-   ditemukan di alam dan hanya diproduksi dalam 
-   jumlah yang sangat kecil. Karena sifat 
-radioaktifnya, astatin digunakan dalam penelitian 
-ilmiah dan tidak memiliki aplikasi praktis yang signifikan.
+Astatin adalah unsur halogen yang memiliki simbol kimia At dan nomor  atom 85. Unsur ini memiliki massa atomik 210 u dan  terletak dalam golongan nonlogam golongan utama. statin memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p5 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar, namun warna dan sifat fisik lainnya tidak diketahui secara pasti. Astatin memiliki titik lebur sekitar 302 °C dan titik didih sekitar 337 °C. Kelektronegatifan astatin adalah sekitar 2.2.Terdapat 35 isotop yang diketahui untuk unsur ini, dengan isotop paling stabil adalah At-210. Astatin merupakan unsur radioaktif yang sangat jarang ditemukan di alam dan hanya diproduksi dalam jumlah yang sangat kecil. Karena sifat radioaktifnya, astatin digunakan dalam penelitian ilmiah dan tidak memiliki aplikasi praktis yang signifikan.
 ''',
   ),
   DescMenuData(
@@ -71,8 +52,7 @@ Isotop Paling Stabil: Po-209
 '''
     ],
     description: '''
-Polonium adalah unsur logam golongan utama yang memiliki simbol kimia Po dan nomor atom 84. Unsur ini memiliki massa atomik 209 u dan terletak dalam golongan nonlogam golongan utama. Polonium memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p4 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna perak hitam yang khas. Titik lebur polonium adalah 254 °C dan titik didihnya adalah 962 °C. Polonium memiliki keelektronegatifan sebesar 2.0 dan terdapat 33 isotop yang diketahui, dengan isotop paling stabil adalah Po-209. Polonium merupakan unsur radioaktif yang sangat berbahaya bagi kesehatan manusia. Karena sifat radioaktifnya, polonium digunakan dalam berbagai aplikasi, termasuk dalam pengukuran radiasi dan sebagai sumber energi pada generator termoelektrik.atan manusia, sehingga 
-penggunaannya harus diatur dan dikendalikan dengan baik.
+Polonium adalah unsur logam golongan utama yang memiliki simbol kimia Po dan nomor atom 84. Unsur ini memiliki massa atomik 209 u dan terletak dalam golongan nonlogam golongan utama. Polonium memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p4 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna perak hitam yang khas. Titik lebur polonium adalah 254 °C dan titik didihnya adalah 962 °C. Polonium memiliki keelektronegatifan sebesar 2.0 dan terdapat 33 isotop yang diketahui, dengan isotop paling stabil adalah Po-209. Polonium merupakan unsur radioaktif yang sangat berbahaya bagi kesehatan manusia. Karena sifat radioaktifnya, polonium digunakan dalam berbagai aplikasi, termasuk dalam pengukuran radiasi dan sebagai sumber energi pada generator termoelektrik.atan manusia, sehingga penggunaannya harus diatur dan dikendalikan dengan baik.
 ''',
   ),
   DescMenuData(
@@ -98,12 +78,7 @@ Isotop Paling Stabil: Al-27
 '''
     ],
     description: '''
-Aluminium adalah logam ringan yang kuat, 
-tahan korosi, dan memiliki keuletan yang baik. 
-Unsur ini digunakan dalam berbagai aplikasi, 
-termasuk dalam industri otomotif, konstruksi, kemasan, dan 
-elektronik. Aluminium juga terkenal karena 
-kemampuannya untuk menghantarkan panas dan listrik dengan baik.
+Aluminium adalah logam ringan yang kuat, tahan korosi, dan memiliki keuletan yang baik. Unsur ini digunakan dalam berbagai aplikasi, termasuk dalam industri otomotif, konstruksi, kemasan, dan elektronik. Aluminium juga terkenal karena kemampuannya untuk menghantarkan panas dan listrik dengan baik.
 ''',
   ),
   DescMenuData(
@@ -129,15 +104,7 @@ Isotop Paling Stabil: Ga-69
 '''
     ],
     description: '''
-Gallium adalah unsur logam semi yang 
-memiliki titik lebur yang rendah dan 
-konduktivitas listrik yang baik. Unsur ini 
-memiliki berbagai aplikasi dalam industri dan teknologi. 
-Gallium digunakan dalam pembuatan bahan semikonduktor, 
-cairan pendingin dalam suhu rendah, dan dalam produksi 
-panel surya. Gallium juga digunakan 
-dalam industri elektronik dan sebagai 
-katalis dalam berbagai reaksi kimia..
+Gallium adalah unsur logam semi yang memiliki titik lebur yang rendah dan konduktivitas listrik yang baik. Unsur ini memiliki berbagai aplikasi dalam industri dan teknologi. Gallium digunakan dalam pembuatan bahan semikonduktor, cairan pendingin dalam suhu rendah, dan dalam produksi panel surya. Gallium juga digunakan dalam industri elektronik dan sebagai katalis dalam berbagai reaksi kimia..
 ''',
   ),
   DescMenuData(
@@ -163,14 +130,7 @@ Isotop Paling Stabil: In-115
 '''
     ],
     description: '''
-Indium adalah unsur logam post-transisi 
-dengan warna perak keputihan. Unsur ini 
-memiliki titik lebur yang relatif rendah dan 
-kelembutan yang baik. Indium digunakan dalam 
-produksi panel LCD, bahan 
-kaca khusus, solder, dan komponen 
-semikonduktor. Unsur ini juga digunakan 
-dalam produksi fotovoltaik dan baterai.
+Indium adalah unsur logam post-transisi dengan warna perak keputihan. Unsur ini memiliki titik lebur yang relatif rendah dan kelembutan yang baik. Indium digunakan dalam produksi panel LCD, bahan kaca khusus, solder, dan komponen semikonduktor. Unsur ini juga digunakan dalam produksi fotovoltaik dan baterai.
 ''',
   ),
   DescMenuData(
@@ -196,25 +156,7 @@ Isotop Paling Stabil: Tl-205
 '''
     ],
     description: '''
-Talium adalah unsur logam golongan utama yang 
-memiliki simbol kimia Tl dan nomor atom 81. Unsur 
-ini memiliki massa atomik 204.38 u dan terletak dalam 
-golongan logam golongan utama. Talium memiliki konfigurasi
- elektron [Xe] 4f14 5d10 6s2 6p1 dan berada pada periode 6 
- dalam tabel periodik. Unsur ini berada 
- dalam keadaan padat 
- pada suhu kamar dan memiliki warna abu-abu
-  kebiruan yang khas. 
- Titik lebur talium adalah 304 °C dan titik
-  didihnya adalah 1473 °C. 
- Talium memiliki keelektronegatifan
-  sebesar 1.62 dan terdapat 31 isotop
-  yang diketahui, dengan isotop paling stabil adalah Tl-205. Talium memiliki
-   beberapa aplikasi dalam industri dan ilmu pengetahuan, 
-   seperti dalam pembuatan lensa optik, baterai, dan dalam penelitian 
-kimia dan fisika. Talium juga 
-diketahui memiliki sifat beracun, 
-dan penggunaannya harus dilakukan dengan hati-hati.
+Talium adalah unsur logam golongan utama yang memiliki simbol kimia Tl dan nomor atom 81. Unsur ini memiliki massa atomik 204.38 u dan terletak dalam golongan logam golongan utama. Talium memiliki konfigurasielektron [Xe] 4f14 5d10 6s2 6p1 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna abu-abu kebiruan yang khas. Titik lebur talium adalah 304 °C dan titik didihnya adalah 1473 °C. Talium memiliki keelektronegatifan sebesar 1.62 dan terdapat 31 isotop yang diketahui, dengan isotop paling stabil adalah Tl-205. Talium memiliki beberapa aplikasi dalam industri dan ilmu pengetahuan, seperti dalam pembuatan lensa optik, baterai, dan dalam penelitian kimia dan fisika. Talium juga diketahui memiliki sifat beracun, dan penggunaannya harus dilakukan dengan hati-hati.
 ''',
   ),
   DescMenuData(
@@ -240,13 +182,7 @@ Isotop Paling Stabil: Sn-120
 '''
     ],
     description: '''
-Timah adalah unsur logam peralihan
- dengan warna perak keputihan. Unsur ini 
- memiliki titik lebur yang relatif tinggi dan 
- ketahanan terhadap korosi yang baik. Timah 
- digunakan dalam pembuatan logam paduan seperti timah hitam, serta dalam produksi solder, 
-peralatan elektronik, dan pelapisan logam. 
-Timah juga digunakan dalam produksi kaca dan dalam industri kimia.
+Timah adalah unsur logam peralihan dengan warna perak keputihan. Unsur ini memiliki titik lebur yang relatif tinggi dan ketahanan terhadap korosi yang baik. Timah digunakan dalam pembuatan logam paduan seperti timah hitam, serta dalam produksi solder, peralatan elektronik, dan pelapisan logam. Timah juga digunakan dalam produksi kaca dan dalam industri kimia.
 ''',
   ),
   DescMenuData(
