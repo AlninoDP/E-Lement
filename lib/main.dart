@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/screens/splash_screen.dart';
+import 'package:kimiaapp/view/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
