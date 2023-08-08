@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/view/main_menu/main_menu_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/components/bubble_box.dart';
@@ -15,10 +16,10 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInScreenState extends State<SignInScreen> {
-  TextEditingController controller = TextEditingController();
+  final MainController mainController = Get.put(MainController());
+
   @override
   Widget build(BuildContext context) {
-    final RxString enteredName = 'Guest'.obs;
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -33,13 +34,15 @@ class _SignInScreenState extends State<SignInScreen> {
               const Spacer(),
               Center(
                 child: TextFieldUsername(
-                    controller: controller, onTextChanged: enteredName),
+                    controller: mainController.txtFieldUsernamecontroller,
+                    onTextChanged: mainController.guestName),
               ),
               Center(
                 child: BubbleButton(
                     text: "Confirm",
                     onPressed: () => Get.offAll(
-                        () => MainMenuScreen(enteredName: enteredName.value),
+                        () => MainMenuScreen(
+                            guestName: mainController.guestName.value),
                         transition: Transition.fadeIn)),
               )
             ],

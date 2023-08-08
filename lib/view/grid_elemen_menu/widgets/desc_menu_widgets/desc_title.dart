@@ -20,7 +20,7 @@ class DescTitle extends StatelessWidget {
       height: screenHeight * 0.055,
       decoration: BoxDecoration(
           color: containerColor,
-          borderRadius: BorderRadius.all(Radius.circular(20).w)),
+          borderRadius: BorderRadius.all(const Radius.circular(20).w)),
       padding: const EdgeInsets.all(10).w,
       child: Text(
         title,
