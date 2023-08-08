@@ -5,7 +5,7 @@ import 'package:kimiaapp/models/elemen_desc.dart';
 const unsurAktiniumDesc = [
   ElemenDesc(
     id: 'zaa1',
-    category: 'aaOne',
+    category: 'Akt01',
     title: 'Aktinium (Ac)',
     ingredient: [
       '''
@@ -31,7 +31,7 @@ Aktinium adalah unsur logam aktinida yang memiliki simbol kimia Ac dan nomor ato
   ),
   ElemenDesc(
     id: 'zaa2',
-    category: 'aa2',
+    category: 'Akt02',
     title: 'Thorium (Th)',
     ingredient: [
       '''
@@ -57,7 +57,7 @@ Thorium adalah unsur kimia dalam tabel periodik dengan simbol Th dan nomor atom 
   ),
   ElemenDesc(
     id: 'zaa3',
-    category: 'aa3',
+    category: 'Akt03',
     title: 'Protaktinium (Pa)',
     ingredient: [
       '''
@@ -83,7 +83,7 @@ Protaktinium adalah unsur kimia dalam tabel periodik dengan simbol Pa dan nomor 
   ),
   ElemenDesc(
     id: 'zaa4',
-    category: 'aa4',
+    category: 'Akt04',
     title: 'Uranium (U)',
     ingredient: [
       '''
@@ -109,7 +109,7 @@ Uranium adalah unsur kimia dalam tabel periodik dengan simbol U dan nomor atom 9
   ),
   ElemenDesc(
     id: 'zaa5',
-    category: 'aa5',
+    category: 'Akt05',
     title: 'Neptunium (Np)',
     ingredient: [
       '''
@@ -135,7 +135,7 @@ Neptunium adalah unsur kimia dalam tabel periodik dengan simbol Np dan nomor ato
   ),
   ElemenDesc(
     id: 'zaa6',
-    category: 'aa6',
+    category: 'Akt06',
     title: 'Plutonium (Pu)',
     ingredient: [
       '''
@@ -161,7 +161,7 @@ Plutonium adalah unsur kimia dalam tabel periodik dengan simbol Pu dan nomor ato
   ),
   ElemenDesc(
     id: 'zaa7',
-    category: 'aa7',
+    category: 'Akt07',
     title: 'Americium (Am)',
     ingredient: [
       '''
@@ -187,7 +187,7 @@ Americium adalah unsur kimia dalam tabel periodik dengan simbol Am dan nomor ato
   ),
   ElemenDesc(
     id: 'zaa8',
-    category: 'aa8',
+    category: 'Akt08',
     title: 'Curium (Cm)',
     ingredient: [
       '''
@@ -213,7 +213,7 @@ Curium adalah unsur kimia dalam tabel periodik dengan simbol Cm dan nomor atom 9
   ),
   ElemenDesc(
     id: 'zaa9',
-    category: 'aa9',
+    category: 'Akt09',
     title: 'Berkelium (Bk)',
     ingredient: [
       '''
@@ -239,7 +239,7 @@ Berkelium adalah unsur kimia dalam tabel periodik dengan simbol Bk dan nomor ato
   ),
   ElemenDesc(
     id: 'zaa10',
-    category: 'aa10',
+    category: 'Akt10',
     title: 'Californium (Cf)',
     ingredient: [
       '''
@@ -265,7 +265,7 @@ Californium adalah unsur kimia dalam tabel periodik dengan simbol Cf dan nomor a
   ),
   ElemenDesc(
     id: 'zaa11',
-    category: 'aa11',
+    category: 'Akt11',
     title: 'Einsteinium (Es)',
     ingredient: [
       '''
@@ -291,7 +291,7 @@ Einsteinium adalah unsur kimia dalam tabel periodik dengan simbol Es dan nomor a
   ),
   ElemenDesc(
     id: 'zaa12',
-    category: 'aa12',
+    category: 'Akt12',
     title: 'Fermium (Fm)',
     ingredient: [
       '''
@@ -317,7 +317,7 @@ Fermium adalah unsur kimia dalam tabel periodik dengan simbol Fm dan nomor atom 
   ),
   ElemenDesc(
     id: 'zaa13',
-    category: 'aa13',
+    category: 'Akt13',
     title: 'Mendelevium (Md)',
     ingredient: [
       '''
@@ -343,7 +343,7 @@ Mendelevium adalah unsur kimia dalam tabel periodik dengan simbol Md dan nomor a
   ),
   ElemenDesc(
     id: 'zaa14',
-    category: 'aa14',
+    category: 'Akt14',
     title: 'Nobelium (No)',
     ingredient: [
       '''
@@ -369,7 +369,7 @@ Nobelium adalah unsur kimia dalam tabel periodik dengan simbol No dan nomor atom
   ),
   ElemenDesc(
     id: 'zaa15',
-    category: 'aa15',
+    category: 'Akt15',
     title: 'Lawrencium (Lr)',
     ingredient: [
       '''
@@ -397,91 +397,91 @@ Lawrencium adalah unsur kimia dalam tabel periodik dengan simbol Lr dan nomor at
 
 const unsurAktinium = [
   ElemenItemGrid(
-      id: 'aaOne',
+      id: 'Akt01',
       symbol: 'Ac',
       title: 'Actinium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa2',
+      id: 'Akt02',
       symbol: 'Th',
       title: 'Thorium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa3',
+      id: 'Akt03',
       symbol: 'Pa',
       title: 'Protactinium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa4',
+      id: 'Akt04',
       symbol: 'U',
       title: 'Uranium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa5',
+      id: 'Akt05',
       symbol: 'Np',
       title: 'Neptunium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa6',
+      id: 'Akt06',
       symbol: 'Pu',
       title: 'Plutonium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa7',
+      id: 'Akt07',
       symbol: 'Am',
       title: 'Americium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa8',
+      id: 'Akt08',
       symbol: 'Cm',
       title: 'Curium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa9',
+      id: 'Akt09',
       symbol: 'Bk',
       title: 'Berkelium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa10',
+      id: 'Akt10',
       symbol: 'Cf',
       title: 'Californium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa11',
+      id: 'Akt11',
       symbol: 'Es',
       title: 'Einsteinium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa12',
+      id: 'Akt12',
       symbol: 'Fm',
       title: 'Fermium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa13',
+      id: 'Akt13',
       symbol: 'Md',
       title: 'Men\ndelevium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa14',
+      id: 'Akt14',
       symbol: 'No',
       title: 'Nobelium',
       containerColor: ChemistryColorApp.actinidesContainer,
       textColor: ChemistryColorApp.actinidesText),
   ElemenItemGrid(
-      id: 'aa15',
+      id: 'Akt15',
       symbol: 'Lr',
       title: 'Lawrencium',
       containerColor: ChemistryColorApp.actinidesContainer,
