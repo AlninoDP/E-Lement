@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/models/data/elemen_data/non_logam_reaktif_data.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/non_logam_reaktif_menu/desc_non_logam_reaktif/desc_non_logam_reaktif_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
@@ -11,18 +11,9 @@ import 'package:get/get.dart';
 class NonLogamReaktifScreen extends StatelessWidget {
   const NonLogamReaktifScreen({super.key});
 
-  void _selectCategory(BuildContext context, ElemenItemGrid categoryItemGrid) {
-    final filteredList = unsurNonLogamReaktifDesc
-        .where((value) => value.category.contains(categoryItemGrid.id))
-        .toList();
-
-    Get.to(() => DescNonLogamReaktifScreen(
-          listElemenData: filteredList,
-        ));
-  }
-
   @override
   Widget build(BuildContext context) {
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -50,7 +41,12 @@ class NonLogamReaktifScreen extends StatelessWidget {
                         UnsurElemenGridItem(
                           categoryItemGrid: elemen,
                           onTap: () {
-                            _selectCategory(context, elemen);
+                            controller.onGridElemenTap(
+                                context, unsurNonLogamReaktifDesc, elemen,
+                                (filteredList) {
+                              Get.to(() => DescNonLogamReaktifScreen(
+                                  listElemenData: filteredList));
+                            });
                           },
                         )
                     ],

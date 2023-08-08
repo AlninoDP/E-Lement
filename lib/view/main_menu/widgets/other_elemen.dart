@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/models/colors.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/aktinium_menu/aktinium_screen.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/lantanum_menu/lantanum_screen.dart';
@@ -13,7 +14,7 @@ class OtherElemen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenHeight = MediaQuery.of(context).size.height;
+    final MainController controller = Get.find();
     return AlertDialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular((12))),
       title: const Text(
@@ -27,7 +28,7 @@ class OtherElemen extends StatelessWidget {
             width: 10.w,
           ),
           SizedBox(
-            height: screenHeight / 10,
+            height: controller.screenHeight / 10,
             child: MenuButton(
               ontap: () => Get.to(() => const AktiniumScreen()),
               text: 'Aktinium',
@@ -39,7 +40,7 @@ class OtherElemen extends StatelessWidget {
             width: 10.w,
           ),
           SizedBox(
-            height: screenHeight / 10,
+            height: controller.screenHeight / 10,
             child: MenuButton(
               ontap: () => Get.to(() => const LantanumScreen()),
               text: 'Lantanum',

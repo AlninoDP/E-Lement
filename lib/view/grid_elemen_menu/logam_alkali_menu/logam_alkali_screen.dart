@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/models/data/elemen_data/logam_alkali_data.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/logam_alkali_menu/desc_logam_alkali/desc_logam_alkali_screen.dart';
 import 'package:kimiaapp/components/background.dart';
@@ -11,18 +11,9 @@ import 'package:get/get.dart';
 class LogamAlkaliScreen extends StatelessWidget {
   const LogamAlkaliScreen({super.key});
 
-  void _selectCategory(BuildContext context, ElemenItemGrid categoryItemGrid) {
-    final filteredList = unsurLogamAlkaliDesc
-        .where((value) => value.category.contains(categoryItemGrid.id))
-        .toList();
-
-    Get.to(() => DescLogamAlkaliScreen(
-          listElemenData: filteredList,
-        ));
-  }
-
   @override
   Widget build(BuildContext context) {
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -50,7 +41,12 @@ class LogamAlkaliScreen extends StatelessWidget {
                         UnsurElemenGridItem(
                           categoryItemGrid: elemen,
                           onTap: () {
-                            _selectCategory(context, elemen);
+                            controller.onGridElemenTap(
+                                context, unsurLogamAlkaliDesc, elemen,
+                                (filteredList) {
+                              Get.to(() => DescLogamAlkaliScreen(
+                                  listElemenData: filteredList));
+                            });
                           },
                         )
                     ],

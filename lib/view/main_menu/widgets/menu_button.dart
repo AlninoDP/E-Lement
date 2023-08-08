@@ -18,7 +18,10 @@ class MenuButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      elevation: 15,
+      elevation: 20,
+      borderRadius: BorderRadius.all(
+        const Radius.circular(30).w,
+      ),
       color: Colors.transparent,
       child: InkWell(
         borderRadius: BorderRadius.all(

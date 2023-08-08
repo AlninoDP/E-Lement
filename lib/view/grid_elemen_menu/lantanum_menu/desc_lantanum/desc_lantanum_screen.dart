@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/models/colors.dart';
 import 'package:kimiaapp/models/elemen_desc.dart';
 import 'package:kimiaapp/components/background.dart';
@@ -14,8 +16,7 @@ class DescLantanumScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final screenHeight = MediaQuery.of(context).size.height;
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -45,8 +46,8 @@ class DescLantanumScreen extends StatelessWidget {
                                       height: 10.h,
                                     ),
                                     Container(
-                                      width: screenWidth / 3,
-                                      height: screenHeight / 6,
+                                      width: controller.screenWidth / 3,
+                                      height: controller.screenHeight / 6,
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(
                                           const Radius.circular(10).w,

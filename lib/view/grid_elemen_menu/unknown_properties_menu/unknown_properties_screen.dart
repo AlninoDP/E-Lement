@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/models/data/elemen_data/unknown_properties_data.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/unknown_properties_menu/desc_unknown_properties/desc_unknown_properties_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
@@ -11,18 +11,9 @@ import 'package:get/get.dart';
 class UnknownPropertiesScreen extends StatelessWidget {
   const UnknownPropertiesScreen({super.key});
 
-  void _selectCategory(BuildContext context, ElemenItemGrid categoryItemGrid) {
-    final filteredList = unsurUnknownPropertiesDesc
-        .where((value) => value.category.contains(categoryItemGrid.id))
-        .toList();
-
-    Get.to(() => DescUnknownPropertiesScreen(
-          listElemenData: filteredList,
-        ));
-  }
-
   @override
   Widget build(BuildContext context) {
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -50,7 +41,12 @@ class UnknownPropertiesScreen extends StatelessWidget {
                         UnsurElemenGridItem(
                           categoryItemGrid: elemen,
                           onTap: () {
-                            _selectCategory(context, elemen);
+                            controller.onGridElemenTap(
+                                context, unsurUnknownPropertiesDesc, elemen,
+                                (filteredList) {
+                              Get.to(() => DescUnknownPropertiesScreen(
+                                  listElemenData: filteredList));
+                            });
                           },
                         )
                     ],
