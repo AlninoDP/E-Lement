@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/colors.dart';
+import 'package:kimiaapp/models/colors.dart';
 
 class DescContent1 extends StatelessWidget {
   final String text;

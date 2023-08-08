@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../models/data/colors.dart';
+import '../../../models/colors.dart';
 
 class SearchBarElemen extends StatelessWidget {
   final TextEditingController controller;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
 
 class UnsurElemenGridItem extends StatelessWidget {
   final ElemenItemGrid categoryItemGrid;

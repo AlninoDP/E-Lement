@@ -1,6 +1,6 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurLogamAlkali = [
   ElemenItemGrid(
@@ -42,7 +42,7 @@ const unsurLogamAlkali = [
 ];
 
 const unsurLogamAlkaliDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'z1',
     category: 'a1',
     title: 'Lithium (Li)',
@@ -67,7 +67,7 @@ Isotop Paling Stabil: Li-7
     description:
         'Litium adalah logam alkali ringan yang lunak, berwarna perak kebiruan. Unsur ini memiliki konduktivitaslistrik dan panas yang baik, serta reaktivitas kimia yang tinggi.Litium digunakan dalam berbagai aplikasi, termasuk dalam baterai ion litium yang digunakan dalam perangkat elektronik,dalam paduan logam untuk pengecoran dan pembuatan logam,serta dalam obat-obatan psikiatri untuk pengobatan gangguan mental.',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'z2',
     category: 'a2',
     title: 'Sodium (Na)',
@@ -92,7 +92,7 @@ Isotop Paling Stabil: Na-23
     description:
         'Natrium adalah logam alkali yang lunak, berwarna perak, dan sangat reaktif. Unsur ini ditemukan dalam berbagai senyawa seperti garam dapur (natrium klorida) dan digunakan dalam berbagai aplikasi, termasuk dalam industri kimia, industri logam, dan dalam proses pemurnian logam. Natrium juga memiliki peran penting dalam menjaga keseimbangan air dan elektrolit dalam tubuh manusia.',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'z3',
     category: 'a3',
     title: 'Potassium (K)',
@@ -118,7 +118,7 @@ Isotop Paling Stabil: K-39
 Kalium adalah unsur logam alkali yang sangat reaktif. Unsur ini memiliki sifat kimia yang mirip dengan unsur lain dalam kelompok logam alkali. Kalium  biasanya ditemukan dalam bentuk senyawa seperti  garam kalium yang diperlukan oleh organisme hidup  untuk fungsi biologis tertentu. Kalium juga  digunakan dalam berbagai aplikasi industri  dan pertanian.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'z4',
     category: 'a4',
     title: 'Rubidium (Rb)',
@@ -144,7 +144,7 @@ Isotop Paling Stabil: Rb-85
 Rubidium adalah logam alkali berwarna perak keabu-abuan yang lunak dan sangat reaktif. Unsur ini memiliki berbagai aplikasi  dalam penelitian ilmiah, pengolahan logam, dan produksi baterai. Rubidium juga digunakan dalam spektroskopi atom dan  sebagai sumber cahaya dalam jam atom.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'z5',
     category: 'a5',
     title: 'Caesium (Cs)',
@@ -170,7 +170,7 @@ Isotop Paling Stabil: Cs-133
 Caesium adalah unsur logam alkali yang memiliki warna perak-keemasan. Unsur ini berada dalam golongan alkali  dan memiliki sifat-sifat reaktif yang kuat.  Caesium digunakan dalam berbagai aplikasi, termasuk dalam penelitian ilmiah, industri,  dan dalam sistem jam atomik. Caesium juga  memiliki isotop radioaktif yang digunakan dalam penelitian dan  aplikasi medis.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'z6',
     category: 'a6',
     title: 'Francium (Fr)',

@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurGasMuliaDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zang1',
     category: 'ang1',
     title: 'Helium (He)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: He-4
 Helium adalah unsur kimia yang ringan dan tidak beracun. Dalam kondisi standar, helium adalah gas tak berwarna, tak berbau, dan tak berasa. Helium memiliki kepadatan yang sangat rendah dan titik didih yang sangat rendah, sehingga sering digunakan dalam industri dan laboratorium sebagai pendingin. Karena sifatnya yang inert, helium digunakan dalam pengisian balon, penyelidikan medis, dan dalam industri kriogenik.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zang2',
     category: 'ang2',
     title: 'Neon (Ne)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: Ne-20
 Neon adalah unsur gas mulia yang tidak berwarna dan tidak berbau. Unsur ini sangat inert dan stabil, dan tidak bereaksi secara mudah dengan unsur-unsur lainnya. Neon sering digunakan dalam lampu neon, lampu pijar, dan indikator gas. Karakteristik uniknya yang menghasilkan cahaya terang dan warna-warni membuatnya populer dalam aplikasi penerangan dan display.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zang3',
     category: 'ang3',
     title: 'Argon (Ar)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: Ar-40
 Argon adalah unsur gas nobile yang tidak berwarna, tidak berbau, dan tidak beracun. Argon memiliki kestabilan yang tinggi dan cenderung tidak bereaksi dengan unsur atau senyawa lain. Hal ini membuat argon sangat berguna dalam berbagai aplikasi, termasuk dalam pengisian lampu neon, industri pengelasan, penelitian ilmiah, dan penggunaan sebagai atmosfer dalam proses yang memerlukan lingkungan yang inert.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zang4',
     category: 'ang4',
     title: 'Kripton (Kr)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: Kr-84
 Kripton adalah unsur gas mulia yang tidak berbau, tidak berwarna, dan tidak beracun. Unsur ini digunakan dalam lampu neon dan dalam penelitian ilmiah. Kripton juga digunakan dalam industri untuk isolasi termal dan dalam pemrosesan semikonduktor. Karena sifatnya yang tidak reaktif, kripton digunakan dalam lingkungan yang inert.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zang5',
     category: 'ang5',
     title: 'Xenon (Xe)',
@@ -133,7 +133,7 @@ Isotop Paling Stabil: Xe-131
 Xenon adalah unsur gas mulia yang tidak berwarna. Unsur ini berada dalam golongan gas mulia dan memiliki sifat-sifatnya yang sangat tidak reaktif. Xenon digunakan dalam berbagai aplikasi, termasuk pencahayaan, elektronik, dan anestesi. Xenon juga memiliki beberapa isotop radioaktif yang digunakan dalam penelitian dan aplikasi medis.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zang6',
     category: 'ang6',
     title: 'Radon (Rn)',

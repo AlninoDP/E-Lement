@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/dummy_data/gas_mulia_data.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
+import 'package:kimiaapp/models/data/elemen_data/gas_mulia_data.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/gas_mulia_menu/desc_gas_mulia/desc_gas_mulia_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
@@ -11,18 +11,9 @@ import 'package:get/get.dart';
 class GasMuliaScreen extends StatelessWidget {
   const GasMuliaScreen({super.key});
 
-  void _selectCategory(BuildContext context, ElemenItemGrid categoryItemGrid) {
-    final filteredList = unsurGasMuliaDesc
-        .where((value) => value.category.contains(categoryItemGrid.id))
-        .toList();
-
-    Get.to(() => DescGasMuliaScreen(
-          listElemenData: filteredList,
-        ));
-  }
-
   @override
   Widget build(BuildContext context) {
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -50,7 +41,12 @@ class GasMuliaScreen extends StatelessWidget {
                         UnsurElemenGridItem(
                           categoryItemGrid: elemen,
                           onTap: () {
-                            _selectCategory(context, elemen);
+                            controller.onGridElemenTap(
+                                context, unsurGasMuliaDesc, elemen,
+                                (filteredList) {
+                              Get.to(() => DescGasMuliaScreen(
+                                  listElemenData: filteredList));
+                            });
                           },
                         )
                     ],

@@ -1,28 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/dummy_data/aktinium_data.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/components/bubble_box.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
+import 'package:kimiaapp/models/data/elemen_data/aktinium_data.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/aktinium_menu/desc_aktinium/desc_aktinium_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
-import '../../../components/bubble_box.dart';
 import 'package:get/get.dart';
 
 class AktiniumScreen extends StatelessWidget {
   const AktiniumScreen({super.key});
 
-  void _selectCategory(BuildContext context, ElemenItemGrid categoryItemGrid) {
-    final filteredList = unsurAktiniumDesc
-        .where((value) => value.category.contains(categoryItemGrid.id))
-        .toList();
-
-    Get.to(() => DescAktiniumScreen(
-          listElemenData: filteredList,
-        ));
-  }
-
   @override
   Widget build(BuildContext context) {
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -50,7 +41,12 @@ class AktiniumScreen extends StatelessWidget {
                         UnsurElemenGridItem(
                           categoryItemGrid: elemen,
                           onTap: () {
-                            _selectCategory(context, elemen);
+                            controller.onGridElemenTap(
+                                context, unsurAktiniumDesc, elemen,
+                                (filteredList) {
+                              Get.to(() => DescAktiniumScreen(
+                                  listElemenData: filteredList));
+                            });
                           },
                         )
                     ],

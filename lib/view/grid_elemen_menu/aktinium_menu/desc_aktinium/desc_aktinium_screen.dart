@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:get/get.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content1.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content2.dart';
@@ -10,12 +12,11 @@ import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_ti
 
 class DescAktiniumScreen extends StatelessWidget {
   const DescAktiniumScreen({super.key, required this.listElemenData});
-  final List<DescMenuData> listElemenData;
+  final List<ElemenDesc> listElemenData;
 
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final screenHeight = MediaQuery.of(context).size.height;
+    final MainController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -45,8 +46,8 @@ class DescAktiniumScreen extends StatelessWidget {
                                       height: 10.h,
                                     ),
                                     Container(
-                                      width: screenWidth / 3,
-                                      height: screenHeight / 6,
+                                      width: controller.screenWidth / 3,
+                                      height: controller.screenHeight / 6,
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.all(
                                           const Radius.circular(10).w,

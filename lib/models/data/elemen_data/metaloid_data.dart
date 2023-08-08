@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurMetaloidDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zml1',
     category: 'aml1',
     title: 'Boron (B)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: B-11
 Boron adalah metaloid padat yang memiliki sifat-sifat termal dan listrik yang unik. Unsur ini digunakan dalam berbagai aplikasi, termasuk dalam industri pengolahan logam, bahan pendingin reaktor nuklir, dan manufaktur kaca dan serat optik. Boron juga digunakan dalam industri pertanian sebagai nutrisi tanaman dan sebagai aditif dalam bahan kimia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zml2',
     category: 'aml2',
     title: 'Arsenik (As)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: As-75
 Arsenik adalah unsur semimetal yang memiliki berbagai kegunaan dalam industri dan obat-obatan. Unsur ini ditemukan dalam bentuk padat dan merupakan racun yang sangat berbahaya bagi manusia. Arsenik digunakan dalam pembuatan pestisida, baterai, obat-obatan, dan dalam industri kaca. Selain itu, arsenik juga digunakan dalam produksi bahan peledak dan sebagai katalis dalam berbagai reaksi kimia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zml3',
     category: 'aml3',
     title: 'Silicon (Si)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: Si-28
 Silikon adalah unsur semikonduktor yang memiliki berbagai aplikasi penting dalam industri elektronik. Silikon juga ditemukan dalam berbagai senyawa seperti silikon dioksida (pasir) dan silikon karbida (karborundum). Unsur ini juga memiliki sifat tahan terhadap panas dan oksidasi, serta merupakan salah satu komponen utama dalam pembuatan panel surya dan mikrochip.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zml4',
     category: 'aml4',
     title: 'Germanium (Ge)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: Ge-74
 Germanium adalah unsur semikonduktor yang digunakan dalam industri elektronik dan optik. Unsur ini memiliki kemampuan untuk menghantarkan listrik dengan baik pada suhu rendah dan dapat digunakan dalam pembuatan transistor dan sensor. Germanium juga digunakan dalam peralatan optik seperti lensa dan detektor inframerah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zml5',
     category: 'aml5',
     title: 'Antimon (Sb)',
@@ -133,7 +133,7 @@ Isotop Paling Stabil: Sb-121
 Antimon adalah unsur semimetal yang memiliki warna abu-abu keperakan. Unsur ini memiliki titik lebur yang relatif tinggi dan digunakan dalam berbagai aplikasi, termasuk pembuatan baterai, kaca tahan panas, dan logam paduan. Antimon |juga digunakan dalam produksi pelapisan, bahan kimia, dan dalam bidang elektronik.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zml6',
     category: 'aml6',
     title: 'Tellurium (Te)',

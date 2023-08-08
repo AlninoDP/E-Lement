@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/models/data/colors.dart';
+import 'package:kimiaapp/models/colors.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/gas_mulia_menu/gas_mulia_screen.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/logam_alkali_menu/logam_alkali_screen.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/logam_alkali_tanah_menu/logam_alkali_tanah_screen.dart';

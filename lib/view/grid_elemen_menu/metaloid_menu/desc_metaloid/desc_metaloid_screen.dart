@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content1.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content2.dart';
@@ -11,7 +11,7 @@ import '../../widgets/desc_menu_widgets/box_header.dart';
 
 class DescMetaloidScreen extends StatelessWidget {
   const DescMetaloidScreen({super.key, required this.listElemenData});
-  final List<DescMenuData> listElemenData;
+  final List<ElemenDesc> listElemenData;
 
   @override
   Widget build(BuildContext context) {

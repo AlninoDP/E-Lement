@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurAktiniumDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa1',
     category: 'aaOne',
     title: 'Aktinium (Ac)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: Ac-227
 Aktinium adalah unsur logam aktinida yang memiliki simbol kimia Ac dan nomor atom 89. Unsur ini memiliki massa atomik 227 u dan terletak dalam golongan logam aktinida. Aktinium memiliki konfigurasi elektron [Rn] 6d1 7s2 dan berada pada periode 7 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna putih perak. Aktinium memiliki titik lebur sekitar 1050 °C dan titik didih sekitar 3200 °C. Kelektronegatifan aktinium adalah sekitar 1.1. Terdapat 31 isotop yang diketahui untuk unsur ini, dengan isotop paling stabil adalah Ac-227. Aktinium adalah unsur radioaktif yang sangat jarang ditemukan di alam dan memiliki masa paruh yang relatif singkat. Aktinium digunakan dalam penelitian ilmiah dan tidak memiliki aplikasi praktis yang signifikan di luar konteks ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa2',
     category: 'aa2',
     title: 'Thorium (Th)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: Th-232
 Thorium adalah unsur kimia dalam tabel periodik dengan simbol Th dan nomor atom 90. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Thorium memiliki massa atomik sekitar 232.04 u dan konfigurasi elektron [Rn] 6d2 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur thorium adalah sekitar 1750 °C, sementara titik didihnya mencapai 4790 °C. Kelektronegatifan thorium adalah 1.3. Terdapat 33 isotop yang diketahui untuk unsur thorium, dengan Th-232 sebagai isotop paling stabil. Thorium memiliki berbagai aplikasi, termasuk dalam industri nuklir, pengobatan radioterapi, dan penggunaan dalam lampu gas mantel.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa3',
     category: 'aa3',
     title: 'Protaktinium (Pa)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: Pa-231
 Protaktinium adalah unsur kimia dalam tabel periodik dengan simbol Pa dan nomor atom 91. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Protaktinium memiliki massa atomik sekitar 231.04 u dan konfigurasi elektron [Rn] 5f2 6d1 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur protaktinium adalah sekitar 1572 °C, sementara titik didihnya mencapai 4000 °C. Kelektronegatifan protaktinium adalah 1.5. Terdapat 28 isotop yang diketahui untuk unsur protaktinium, dengan Pa-231 sebagai isotop paling stabil. Protaktinium memiliki aplikasi dalam penelitian nuklir, penghasil neutron, dan dalam pengembangan bahan bakar nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa4',
     category: 'aa4',
     title: 'Uranium (U)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: U-238
 Uranium adalah unsur kimia dalam tabel periodik dengan simbol U dan nomor atom 92. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Uranium memiliki massa atomik sekitar 238.03 u dan konfigurasi elektron [Rn] 5f3 6d1 7s2. Unsur ini berwujud padat dengan warna abu-abu gelap. Titik lebur uranium adalah sekitar 1132.2 °C, sementara titik didihnya mencapai 4131 °C. Uranium memiliki kelektronegatifan sekitar 1.38. Terdapat 27 isotop yang diketahui untuk unsur uranium, dengan U-238 sebagai isotop paling stabil. Uranium adalah unsur yang penting dalam industri nuklir, digunakan sebagai bahan bakar reaktor nuklir dan dalam produksi senjata nuklir. Selain itu, uranium juga memiliki berbagai aplikasi dalam bidang medis dan dalam produksi pigmen warna.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa5',
     category: 'aa5',
     title: 'Neptunium (Np)',
@@ -133,7 +133,7 @@ Isotop Paling Stabil: Np-237
 Neptunium adalah unsur kimia dalam tabel periodik dengan simbol Np dan nomor atom 93. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Neptunium memiliki massa atomik sekitar 237.0 u dan konfigurasi elektron [Rn] 5f4 6d1 7s2. Neptunium berwujud padat dengan warna perak. Titik lebur neptunium adalah sekitar 640 °C dan titik didihnya adalah sekitar 3902 °C. Neptunium memiliki kelektronegatifan sekitar 1.36. Terdapat 23 isotop yang diketahui untuk unsur neptunium, dengan Np-237 sebagai isotop paling stabil. Neptunium adalah unsur transuranium radioaktif yang digunakan dalam penelitian ilmiah dan aplikasi dalam industri nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa6',
     category: 'aa6',
     title: 'Plutonium (Pu)',
@@ -159,7 +159,7 @@ Isotop Paling Stabil: Pu-244
 Plutonium adalah unsur kimia dalam tabel periodik dengan simbol Pu dan nomor atom 94. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Plutonium memiliki massa atomik sekitar 244 u dan konfigurasi elektron [Rn] 5f6 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur plutonium adalah sekitar 641 °C, sementara titik didihnya mencapai 3232 °C. Plutonium memiliki kelektronegatifan sekitar 1.28. Terdapat 24 isotop yang diketahui untuk unsur plutonium, dengan Pu-244 sebagai isotop paling stabil. Plutonium adalah unsur transuranium radioaktif yang digunakan dalam industri nuklir, khususnya dalam pembuatan bahan bakar dan senjata nuklir. Selain itu, plutonium juga memiliki berbagai aplikasi dalam penelitian dan dalam penghasilan energi dalam reaktor nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa7',
     category: 'aa7',
     title: 'Americium (Am)',
@@ -185,7 +185,7 @@ Isotop Paling Stabil: Am-243
 Americium adalah unsur kimia dalam tabel periodik dengan simbol Am dan nomor atom 95. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Americium memiliki massa atomik sekitar 243.0 u dan konfigurasi elektron [Rn] 5f7 7s2. Americium berwujud padat dengan warna perak. Titik lebur americium adalah sekitar 1176 °C dan titik didihnya adalah sekitar 2011 °C. Americium memiliki kelektronegatifan sekitar 1.13. Terdapat 19 isotop yang diketahui untuk unsur americium, dengan Am-243 sebagai isotop paling stabil. Americium adalah unsur transuranium radioaktif yang digunakan dalam penelitian ilmiah dan aplikasi dalam industri nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa8',
     category: 'aa8',
     title: 'Curium (Cm)',
@@ -211,7 +211,7 @@ Isotop Paling Stabil: Cm-247
 Curium adalah unsur kimia dalam tabel periodik dengan simbol Cm dan nomor atom 96. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Curium memiliki massa atomik sekitar 247 u dan konfigurasi elektron [Rn] 5f7 6d1 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur curium adalah sekitar 1340 °C, sementara titik didihnya mencapai 3100 °C. Curium memiliki kelektronegatifan sekitar 1.3. Terdapat 24 isotop yang diketahui untuk unsur curium, dengan Cm-247 sebagai isotop paling stabil. Curium adalah unsur transuranium radioaktif yang diproduksi melalui reaksi nuklir. Unsur ini memiliki berbagai aplikasi dalam penelitian nuklir, dalam pembuatan bahan bakar nuklir, dan dalam sumber energi nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa9',
     category: 'aa9',
     title: 'Berkelium (Bk)',
@@ -237,7 +237,7 @@ Isotop Paling Stabil: Bk-247
 Berkelium adalah unsur kimia dalam tabel periodik dengan simbol Bk dan nomor atom 97. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Berkelium memiliki massa atomik sekitar 247 u dan konfigurasi elektron [Rn] 5f9 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur berkelium adalah sekitar 986 °C, sementara titik didihnya mencapai 2627 °C. Berkelium memiliki kelektronegatifan sekitar 1.3. Terdapat 14 isotop yang diketahui untuk unsur berkelium, dengan Bk-247 sebagai isotop paling stabil. Berkelium adalah unsur transuranium radioaktif yang diproduksi melalui reaksi nuklir. Unsur ini memiliki berbagai aplikasi dalam penelitian nuklir dan dalam produksi isotop radioaktif untuk keperluan medis dan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa10',
     category: 'aa10',
     title: 'Californium (Cf)',
@@ -263,7 +263,7 @@ Isotop Paling Stabil: Cf-251
 Californium adalah unsur kimia dalam tabel periodik dengan simbol Cf dan nomor atom 98. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Californium memiliki massa atomik sekitar 251 u dan konfigurasi elektron [Rn] 5f10 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur californium adalah sekitar 900 °C, sementara titik didihnya mencapai 1470 °C. Californium memiliki kelektronegatifan sekitar 1.3. Terdapat 20 isotop yang diketahui untuk unsur californium, dengan Cf-251 sebagai isotop paling stabil. Californium adalah unsur transuranium radioaktif yang digunakan dalam penelitian dan dalam industri nuklir. Unsur ini memiliki berbagai aplikasi, termasuk dalam produksi neutron dan sumber energi nuklir.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa11',
     category: 'aa11',
     title: 'Einsteinium (Es)',
@@ -289,7 +289,7 @@ Isotop Paling Stabil: Es-252
 Einsteinium adalah unsur kimia dalam tabel periodik dengan simbol Es dan nomor atom 99. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Einsteinium memiliki massa atomik sekitar 252 u dan konfigurasi elektron [Rn] 5f11 7s2. Unsur ini berwujud padat dengan warna perak. Titik lebur einsteinium adalah sekitar 860 °C, sementara titik didihnya tidak diketahui. Einsteinium memiliki kelektronegatifan sekitar 1.3. Terdapat 19 isotop yang diketahui untuk unsur einsteinium, dengan Es-252 sebagai isotop paling stabil. Einsteinium adalah unsur transuranium radioaktif yang diproduksi secara sintetis dan memiliki aplikasi dalam penelitian nuklir dan fisika. Unsur ini memiliki masa yang sangat singkat dan tidak ditemukan secara alami di Bumi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa12',
     category: 'aa12',
     title: 'Fermium (Fm)',
@@ -315,7 +315,7 @@ Isotop Paling Stabil: Fm-257
 Fermium adalah unsur kimia dalam tabel periodik dengan simbol Fm dan nomor atom 100. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Fermium memiliki massa atomik sekitar 257 u dan konfigurasi elektron [Rn] 5f12 7s2. Fermium berwujud padat dengan warna perak. Titik lebur fermium adalah sekitar 1527 °C, sementara titik didihnya tidak diketahui. Fermium memiliki kelektronegatifan sekitar 1.3. Terdapat 19 isotop yang diketahui untuk unsur fermium, dengan Fm-257 sebagai isotop paling stabil. Fermium adalah unsur transuranium radioaktif yang diproduksi secara sintetis dan memiliki aplikasi dalam penelitian nuklir dan fisika. Unsur ini memiliki masa yang sangat singkat dan tidak ditemukan secara alami di Bumi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa13',
     category: 'aa13',
     title: 'Mendelevium (Md)',
@@ -341,7 +341,7 @@ Isotop Paling Stabil: Md-258
 Mendelevium adalah unsur kimia dalam tabel periodik dengan simbol Md dan nomor atom 101. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Mendelevium memiliki massa atomik sekitar 258 u dan konfigurasi elektron [Rn] 5f13 7s2. Mendelevium berwujud padat dengan warna perak. Titik lebur mendelevium adalah sekitar 827 °C, sementara titik didihnya tidak diketahui. Mendelevium memiliki kelektronegatifan sekitar 1.3. Terdapat 19 isotop yang diketahui untuk unsur mendelevium, dengan Md-258 sebagai isotop paling stabil. Mendelevium adalah unsur transuranium radioaktif yang diproduksi secara sintetis dan memiliki aplikasi dalam penelitian nuklir dan fisika. Unsur ini memiliki masa yang sangat singkat dan tidak ditemukan secara alami di Bumi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa14',
     category: 'aa14',
     title: 'Nobelium (No)',
@@ -367,7 +367,7 @@ Isotop Paling Stabil: No-259
 Nobelium adalah unsur kimia dalam tabel periodik dengan simbol No dan nomor atom 102. Unsur ini termasuk dalam kelompok aktinida dan berada pada periode 7. Nobelium memiliki massa atomik sekitar 259 u dan konfigurasi elektron [Rn] 5f14 7s2. Nobelium berwujud padat dengan warna perak. Titik lebur nobelium adalah sekitar 827 °C, sementara titik didihnya tidak diketahui. Nobelium memiliki kelektronegatifan sekitar 1.3. Terdapat 19 isotop yang diketahui untuk unsur nobelium, dengan No-259 sebagai isotop paling stabil. Nobelium adalah unsur transuranium radioaktif yang diproduksi secara sintetis dan memiliki aplikasi dalam penelitian nuklir dan fisika. Unsur ini memiliki masa yang sangat singkat dan tidak ditemukan secara alami di Bumi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaa15',
     category: 'aa15',
     title: 'Lawrencium (Lr)',

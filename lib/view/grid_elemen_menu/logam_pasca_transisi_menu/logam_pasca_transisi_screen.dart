@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/dummy_data/logam_pasca_transisi_data.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/models/data/elemen_data/logam_pasca_transisi_data.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/logam_pasca_transisi_menu/desc_logam_pasca_transisi/desc_logam_pasca_transisi_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';

@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurNonLogamReaktifDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zrnxc1',
     category: 'arnxc1',
     title: 'Hidrogen (H)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: H-1
 Hidrogen adalah unsur kimia yang paling sederhana dan merupakan unsur pertama dalam tabel periodik. Sebagai unsur nonlogam, hidrogen umumnya berbentuk gas di kondisi standar dan tidak berwarna. Hidrogen adalah unsur yang sangat melimpah di alam, terutama dalam bentuk senyawa seperti air (H2O) dan hidrokarbon. Hidrogen juga merupakan komponen penting dalam proses kimia dan industri seperti produksi amonia dan bahan bakar sel hidrogen.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn2',
     category: 'arn2',
     title: 'Carbon (C)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: C-12
 Karbon adalah unsur kimia penting yang membentuk dasar bagi kehidupan di Bumi. Unsur ini memiliki sifat unik, termasuk kemampuan untuk membentuk ikatan kovalen yang kompleks dan membentuk struktur berbagai macam senyawa. Karbon ditemukan dalam berbagai bentuk, seperti intan, grafit, dan karbon amorf. Unsur ini memiliki aplikasi luas dalam industri, termasuk dalam pembuatan bahan bakar fosil, bahan kimia, logam paduan, dan banyak lagi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn3',
     category: 'arn3',
     title: 'Nitrogen (N)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: N-14
 Nitrogen adalah gas tak berwarna yang merupakan salah satu komponen utama atmosfer Bumi. Unsur ini memiliki sifat inert dan tidak bereaksi secara spontan dengan banyak unsur lain. Nitrogen penting dalam kehidupan karena merupakan komponen kunci dalam protein dan asam nukleat. Unsur ini juga digunakan dalam berbagai aplikasi, termasuk dalam industri pupuk, industri kimia, dan sebagai gas inert dalam proses perlindungan dan pemadam kebakaran.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn4',
     category: 'arn4',
     title: 'Oksigen(O)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: O-16
 Oksigen adalah unsur nonlogam yang sangat penting dalam kehidupan dan dalam proses pembakaran. Unsur ini merupakan komponen utama air dan juga merupakan komponen utama dalam berbagai senyawa organik dan anorganik. Oksigen digunakan dalam berbagai aplikasi, termasuk dalam industri medis, industri metalurgi, dan sebagai oksidator dalam proses kimia. Oksigen juga berperan penting dalam fotosintesis, proses yang menghasilkan oksigen atmosferik oleh tumbuhan
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn5',
     category: 'arn5',
     title: 'Flourin (F)',
@@ -133,7 +133,7 @@ Isotop Paling Stabil: F-19
 Fluorin adalah unsur nonlogam yang sangat reaktif dan merupakan salah satu anggota dari golongan halogen. Unsur ini ditemukan dalam berbagai senyawa dan digunakan dalam berbagai industri, termasuk industri kimia, metalurgi, dan pengolahan minyak. Fluorin juga digunakan dalam produksi bahan kimia seperti bahan pengelap gigi dan bahan pendingin dalam kulkas.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn6',
     category: 'arn6',
     title: 'Fosfor (P)',
@@ -159,7 +159,7 @@ Isotop Paling Stabil: P-31
 Fosfor adalah unsur nonlogam yang terdapat dalam berbagai senyawa dan berperan penting dalam biokimia dan ekologi. Unsur ini dapat ditemukan dalam bentuk fosfat dalam mineral dan juga merupakan komponen penting dalam asam nukleat, fosfolipid, dan adenosin trifosfat (ATP) dalam tubuh makhluk hidup. Fosfor juga memiliki berbagai kegunaan dalam industri, termasuk dalam pembuatan pupuk dan deterjen.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn7',
     category: 'arn7',
     title: 'Sulfur (S)',
@@ -185,7 +185,7 @@ Isotop Paling Stabil: S-32
 Sulfur adalah unsur nonlogam yang memiliki berbagai sifat khas. Unsur ini sering ditemukan dalam bentuk mineral seperti batu belerang dan pirit. Sulfur juga merupakan komponen penting dalam berbagai senyawa kimia, termasuk dalam pembuatan asam sulfat, garam sulfat, dan bahan peledak. Selain itu, sulfur juga memiliki peran biologis penting dalam bentuk asam amino seperti metionin dan cysteine.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn8',
     category: 'arn8',
     title: 'Klorin (Cl)',
@@ -211,7 +211,7 @@ Isotop Paling Stabil: Cl-35
 Klorin adalah unsur halogen yang biasanya ditemukan dalam bentuk gas di alam. Unsur ini memiliki sifat yang sangat reaktif dan beracun. Klorin digunakan dalam berbagai aplikasi, termasuk dalam pembuatan bahan kimia seperti PVC (polyvinyl chloride), bahan pemutih, dan disinfectant. Klorin juga merupakan komponen penting dalam proses desinfeksi air untuk menghilangkan kuman dan patogen.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn9',
     category: 'arn9',
     title: 'Selenium (Se)',
@@ -237,7 +237,7 @@ Isotop Paling Stabil: Se-82
 Selenium adalah unsur nonlogam yang memiliki berbagai peran biologis dan aplikasi teknis. Unsur ini penting dalam nutrisi manusia dan digunakan dalam produksi kaca, baterai, dan fotovoltaik. Selenium juga digunakan dalam industri fotografi dan sebagai katalis dalam berbagai reaksi kimia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn10',
     category: 'arn10',
     title: 'Bromin (Br)',
@@ -263,7 +263,7 @@ Isotop Paling Stabil: Br-79
 Bromin adalah unsur halogen cair yang memiliki sifat beracun dan berbau tajam. Unsur ini digunakan dalam berbagai aplikasi industri, termasuk sebagai bahan pemutih, bahan kimia organik, dan dalam produksi obat-obatan. Bromin juga digunakan dalam produksi bahan kimia seperti pestisida dan sebagai desinfektan dalam air minum.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zrn11',
     category: 'arn11',
     title: 'Iodin (I)',

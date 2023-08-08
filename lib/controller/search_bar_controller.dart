@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 import 'package:kimiaapp/models/data/search_data.dart';
 import 'package:kimiaapp/view/search_result_screen.dart';
 
 class SearchBarController extends MainController {
   final TextEditingController textSearchController = TextEditingController();
-  final RxList<DescMenuData> searchResult = <DescMenuData>[].obs;
-  final RxList<DescMenuData> selectedResult = <DescMenuData>[].obs;
+  final RxList<ElemenDesc> searchResult = <ElemenDesc>[].obs;
+  final RxList<ElemenDesc> selectedResult = <ElemenDesc>[].obs;
   final RxBool isSearchVisible = false.obs;
 
 //* function cari
@@ -29,7 +29,7 @@ class SearchBarController extends MainController {
   }
 
 //* fungsi utk ontap di listBuilder
-  void addToSelectedResult(DescMenuData obj) {
+  void addToSelectedResult(ElemenDesc obj) {
     selectedResult.add(obj);
     // print(_selectedResult.map((element) => element.title));
   }

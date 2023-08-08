@@ -1,17 +1,17 @@
-import 'package:kimiaapp/models/data/dummy_data/aktinium_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/gas_mulia_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/lantanum_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/logam_alkali_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/logam_alkali_tanah_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/logam_pasca_transisi_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/logam_transisi_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/metaloid_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/non_logam_reaktif_data.dart';
-import 'package:kimiaapp/models/data/dummy_data/unknown_properties_data.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/aktinium_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/gas_mulia_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/lantanum_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/logam_alkali_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/logam_alkali_tanah_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/logam_pasca_transisi_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/logam_transisi_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/metaloid_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/non_logam_reaktif_data.dart';
+import 'package:kimiaapp/models/data/elemen_data/unknown_properties_data.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 //* list berisi semua dummy data
-List<DescMenuData> listDataUnsur = <DescMenuData>[
+List<ElemenDesc> listDataUnsur = <ElemenDesc>[
   ...unsurAktiniumDesc,
   ...unsurGasMuliaDesc,
   ...unsurLantanumDesc,

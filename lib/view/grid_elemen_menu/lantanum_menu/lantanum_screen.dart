@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/data/dummy_data/lantanum_data.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/models/data/elemen_data/lantanum_data.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/lantanum_menu/desc_lantanum/desc_lantanum_screen.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';

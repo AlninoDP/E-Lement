@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
 
 const unsurLogamTransisiDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm1',
     category: 'atmOne',
     title: 'Titanium (Ti)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: Ti-48
 Titanium adalah unsur logam transisi yang memiliki kekuatan dan ketahanan yang tinggi serta ringan. Unsur ini digunakan dalam berbagai aplikasi, seperti pembuatan pesawat terbang, kapal selam, mobil, peralatan medis, dan perlengkapan olahraga. Titanium juga digunakan dalam industri energi, industri kimia, dan dalam produksi logam paduan.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm2',
     category: 'atmTwo',
     title: 'Zirkonium (Zr)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: Zr-90
 Zirkonium adalah logam transisi abu-abu keperakan yang memiliki kekuatan dan ketahanan yang tinggi. Unsur ini banyak digunakan dalam industri, termasuk dalam pembuatan reaktor nuklir, pipa kimia, dan peralatan kimia tahan korosi. Zirkonium juga memiliki aplikasi dalam bidang kedokteran, terutama dalam implan gigi dan dalam produksi artikulasi pada prostesis sendi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm3',
     category: 'atmThree',
     title: 'Hafnium (Hf)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: Hf-180
 Hafnium adalah unsur logam transisi yang memiliki warna abu-abu terang. Unsur ini tergolong dalam golongan logam transisi dan memiliki sifat-sifat yang mirip dengan zirkonium. Hafnium memiliki titik lebur dan titik didih yang sangat tinggi, membuatnya cocok untuk aplikasi dalam industri nuklir dan teknologi pesawat terbang. Hafnium juga memiliki beberapa isotop yang stabil dan digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm4',
     category: 'atm4',
     title: 'Rutherfordium (Rf)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: Rf-267
 Rutherfordium adalah unsur kimia dalam tabel periodik dengan simbol Rf dan nomor atom 104. Unsur ini memiliki massa atomik sekitar 267 u. Konfigurasi elektron Rutherfordium adalah [Rn] 5f14 6d2 7s2. Rutherfordium termasuk dalam golongan 4 dan berada pada periode 7. Saat ini, rutherfordium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih rutherfordium diperkirakan berada pada kisaran suhu 2100 °C hingga 5500 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 12 isotop yang diketahui untuk rutherfordium, dengan Rf-267 sebagai isotop paling stabil. Rutherfordium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm5',
     category: 'atm5',
     title: 'Scandium (Sc)',
@@ -132,7 +132,7 @@ Isotop Paling Stabil: Sc-45
     description: '''
 Scandium adalah unsur logam transisi yang memiliki beragam aplikasi dalam industri dan teknologi. Unsur ini sering digunakan dalam pembuatan logam paduan, seperti paduan aluminium-skandium yang memiliki kekuatan dan ketahanan yang tinggi. Skandium juga digunakan dalam lampu sorot stadium dan pesawat terbang, serta dalam penelitian ilmiah.''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm6',
     category: 'atm6',
     title: 'Yttrium (Y)',
@@ -158,7 +158,7 @@ Isotop Paling Stabil: Y-89
 Yttrium adalah logam transisi perak keabu-abuan yang digunakan dalam berbagai aplikasi industri dan teknologi. Unsur ini dapat digunakan sebagai penguat dalam logam, sebagai katalis dalam reaksi kimia, dan dalam pembuatan bahan superkonduktor. Yttrium juga memiliki aplikasi dalam bidang kedokteran, termasuk dalam pemindaian MRI.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm7',
     category: 'atm7',
     title: 'Vanadium (V)',
@@ -184,7 +184,7 @@ Isotop Paling Stabil: Cr-52
 Vanadium adalah unsur logam transisi yang digunakan dalam berbagai aplikasi. Unsur ini memiliki kekuatan yang tinggi, tahan terhadap korosi, dan dapat membentuk berbagai paduan dengan sifat-sifat khusus. Vanadium digunakan dalam pembuatan baja, katalis, baterai, dan dalam industri kimia. Selain itu, vanadium juga memiliki peran dalam biologi dan dianggap sebagai mikronutrien esensial.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm8',
     category: 'atm8',
     title: 'Niobium (Nb)',
@@ -210,7 +210,7 @@ Isotop Paling Stabil: Nb-93
 Niobium adalah logam transisi abu-abu keperakan yang memiliki sifat-sifat mekanik dan kimia yang sangat baik. Unsur ini banyak digunakan dalam berbagai aplikasi, termasuk dalam pembuatan baja tahan karat, peralatan nuklir, dan peralatan kimia tahan korosi. Niobium juga digunakan dalam industri elektronik dan teknologi informasi sebagai bahan dalam produksi kapasitor dan komponen semikonduktor.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm9',
     category: 'atm9',
     title: 'Tantalum (Ta)',
@@ -236,7 +236,7 @@ Isotop Paling Stabil: Ta-181
 Tantalum adalah unsur logam transisi yang memiliki warna abu-abu kebiruan. Unsur ini tergolong dalam golongan logam transisi dan memiliki titik lebur dan titik didih yang sangat tinggi. Tantalum memiliki sifat-sifat yang membuatnya tahan terhadap korosi dan keausan, sehingga banyak digunakan dalam aplikasi yang membutuhkan bahan yang kuat dan tahan lama, seperti |industri elektronik, kedokteran, dan produksi turbin. Tantalum juga memiliki beberapa isotop yang stabil dan digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm10',
     category: 'atm10',
     title: 'Dubnium (Db)',
@@ -262,7 +262,7 @@ Isotop Paling Stabil: Db-268
 Dubnium adalah unsur kimia dalam tabel periodik dengan simbol Db dan nomor atom 105. Unsur ini memiliki massa atomik sekitar 270 u. Konfigurasi elektron dubnium adalah [Rn] 5f14 6d3 7s2. Dubnium termasuk dalam golongan 5 dan berada pada periode 7. Saat ini, dubnium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih dubnium diperkirakan berada pada kisaran suhu 2600 °C hingga 5500 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 13 isotop yang diketahui untuk dubnium, dengan Db-268 sebagai isotop paling stabil. Dubnium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm11',
     category: 'atm11',
     title: 'Kobalt (Co)',
@@ -288,7 +288,7 @@ Isotop Paling Stabil: Co-59
 Kobalt adalah unsur logam transisi yang digunakan dalam berbagai aplikasi industri. Unsur ini digunakan dalam pembuatan logam paduan, magnet, baterai, dan dalam industri kimia. Kobalt juga memiliki peran penting dalam industri katalis dan dalam produksi pigmen dan keramik.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm12',
     category: 'atm12',
     title: 'Rhodium (Rh)',
@@ -314,7 +314,7 @@ Isotop Paling Stabil: Rh-103
 Rhodium adalah unsur logam transisi yang berwarna perak. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Rhodium digunakan dalam industri perhiasan, katalis, dan peralatan laboratorium. Unsur ini juga memiliki aplikasi dalam elektronik, industri otomotif, dan teknologi pengolahan gas.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm13',
     category: 'atm13',
     title: 'Iridium (Ir)',
@@ -340,7 +340,7 @@ Isotop Paling Stabil: Ir-193
 Iridium adalah unsur logam transisi yang memiliki simbol kimia Ir dan nomor atom 77. Unsur ini memiliki massa atomik 192.217 u dan terletak dalam kelompok logam transisi. Iridium memiliki konfigurasi elektron [Xe] 4f14 5d7 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur iridium adalah 2410 °C dan titik didihnya adalah 4527 °C. Iridium memiliki kelektronegativitas sebesar 2.20 dan terdapat 40 isotop yang diketahui, dengan isotop paling stabil adalah Ir-193. Iridium memiliki sifat-sifat yang tahan terhadap korosi dan panas, serta memiliki kekerasan yang tinggi. Iridium digunakan dalam industri elektronik, manufaktur peralatan laboratorium, serta dalam aplikasi katalisis dan perhiasan mewah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm14',
     category: 'atm14',
     title: 'Kromium (Cr)',
@@ -366,7 +366,7 @@ Isotop Paling Stabil: Cr-52
 Kromium adalah unsur logam transisi yang memiliki beragam aplikasi dalam berbagai industri. Unsur ini digunakan dalam pembuatan baja tahan karat, logam paduan, magnet, cat, dan dalam industri kromasi. Kromium juga memiliki peran biologis dalam tubuh manusia dan diperlukan dalam jumlah kecil sebagai mikronutrien.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm15',
     category: 'atm15',
     title: 'Molibdenum (Mo)',
@@ -392,7 +392,7 @@ Isotop Paling Stabil: Mo-98
 Molibdenum adalah logam transisi abu-abu keperakan yang memiliki sifat-sifat yang unik dan beragam. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Molibdenum digunakan dalam berbagai aplikasi, termasuk dalam pembuatan baja tahan panas, katalis, dan elektronik. Selain itu, molibdenum juga ditemukan dalam beberapa enzim penting dalam tubuh manusia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm16',
     category: 'atm16',
     title: 'Tungsten (W)',
@@ -418,7 +418,7 @@ Isotop Paling Stabil: W-184
 Tungsten, juga dikenal sebagai wolfram, adalah unsur logam transisi dengan warna abu-abu kebiruan. Unsur ini tergolong dalam golongan logam transisi dan memiliki titik lebur dan titik didih yang sangat tinggi.Tungsten memiliki sifat-sifat yang membuatnya tahan terhadap panas dan korosi, sehingga banyak digunakan dalam berbagai aplikasi, termasuk dalam industri lampu pijar, kawat tahan panas, dan elektroda dalam industri pengelasan. Tungsten juga digunakan dalam industri elektronik dan dalam produksi senjata nuklir. Tungsten memiliki beberapa isotop yang stabil dan juga digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm17',
     category: 'atm17',
     title: 'Seaborgium (Sg)',
@@ -444,7 +444,7 @@ Isotop Paling Stabil: Sg-269
 Seaborgium adalah unsur kimia dalam tabel periodik dengan simbol Sg dan nomor atom 106. Unsur ini memiliki massa atomik sekitar 271 u. Konfigurasi elektron seaborgium adalah [Rn] 5f14 6d4 7s2. Seaborgium termasuk dalam golongan 6 dan berada pada periode 7. Saat ini, seaborgium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih seaborgium diperkirakan berada pada kisaran suhu 1490 °C hingga 4300 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 15 isotop yang diketahui untuk seaborgium, dengan Sg-269 sebagai isotop paling stabil. Seaborgium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm18',
     category: 'atm18',
     title: 'Nikel (Ni)',
@@ -470,7 +470,7 @@ Isotop Paling Stabil: Ni-58
 Nikel adalah unsur logam transisi yang digunakan dalam berbagai industri. Unsur ini digunakan dalam pembuatan baja, logam paduan, katalis, baterai, dan dalam industri kimia. Nikel juga penting dalam industri elektronik dan dalam produksi stainless steel.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm19',
     category: 'atm19',
     title: 'Palladium (Pd)',
@@ -496,7 +496,7 @@ Isotop Paling Stabil: Pd-106
 Palladium adalah unsur logam transisi berwarna perak-putih. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Palladium banyak digunakan dalam industri katalis, perhiasan, dan elektronik. Unsur ini juga digunakan dalam reaksi kimia, analisis kimia, serta dalam produksi kendaraan bertenaga bahan bakar sel.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm20',
     category: 'atm20',
     title: 'Platinum (Pt)',
@@ -522,7 +522,7 @@ Isotop Paling Stabil: Pt-195
 Platinum adalah unsur logam transisi yang memiliki simbol kimia Pt dan nomor atom 78. Unsur ini memiliki massa atomik 195.084 u dan terletak dalam kelompok logam transisi. Platinum memiliki konfigurasi elektron [Xe] 4f14 5d9 6s1 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur platinum adalah 1768.3 °C dan titik didihnya adalah 3825 °C. Platinum memiliki kelektronegativitas sebesar 2.28 dan terdapat 34 isotop yang diketahui, dengan isotop paling stabil adalah Pt-195. Platinum dikenal sebagai logam yang sangat langka dan tahan terhadap korosi. Ia memiliki sifat kimiawi yang unik dan digunakan dalam berbagai aplikasi, termasuk dalam industri perhiasan, katalisis, elektronik, dan dalam pembuatan suku cadang kendaraan bertenaga listrik.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm21',
     category: 'atm21',
     title: 'Mangan (Mn)',
@@ -548,7 +548,7 @@ Isotop Paling Stabil: Mn-55
 Mangan adalah unsur logam transisi yang memiliki beragam peran dalam berbagai aplikasi. Unsur ini digunakan dalam pembuatan baja tahan karat, baterai, pigmen, dan dalam industri kimia. Mangan juga penting dalam biologi dan merupakan bagian dari banyak enzim dan proses metabolik dalam tubuh manusia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm22',
     category: 'atm22',
     title: 'Technetium (Tc)',
@@ -574,7 +574,7 @@ Isotop Paling Stabil: Tc-98
 Technetium adalah unsur transisi logam yang radioaktif. Unsur ini memiliki sifat-sifat kimia yang unik dan terbatas dalam jumlah alamiah. Technetium digunakan dalam bidang medis untuk keperluan pencitraan dan diagnosa. Unsur ini juga digunakan dalam penelitian ilmiah dan dalam aplikasi industri tertentu.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm23',
     category: 'atm23',
     title: 'Renium (Re)',
@@ -600,7 +600,7 @@ Isotop Paling Stabil: Re-185
 Renium adalah unsur logam transisi yang memiliki simbol kimia Re dan nomor atom 75. Unsur ini memiliki massa atomik 186.21 u dan terletak dalam kelompok logam transisi. Renium memiliki konfigurasi elektron [Xe] 4f14 5d5 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur renium adalah 3186 °C dan titik didihnya adalah 5596 °C. Renium memiliki kelektronegativitas sebesar 1.9 dan terdapat 33 isotop yang diketahui, dengan isotop paling stabil adalah Re-185. Renium digunakan dalam berbagai aplikasi, termasuk dalam industri aero- ruang, elektronik, dan katalisis. Unsur ini juga memiliki sifat-sifat yang membuatnya tahan terhadap panas dan korosi, serta memiliki kekerasan tinggi. Kehadiran renium dalam jumlah kecil dalam logam campuran dapat meningkatkan kekuatan dan ketahanan terhadap suhu tinggi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm24',
     category: 'atm24',
     title: 'Bohrium (Bh)',
@@ -626,7 +626,7 @@ Isotop Paling Stabil: Bh-270
 Bohrium adalah unsur kimia dalam tabel periodik dengan simbol Bh dan nomor atom 107. Unsur ini memiliki massa atomik sekitar 270 u. Konfigurasi elektron bohrium adalah [Rn] 5f14 6d5 7s2. Bohrium termasuk dalam golongan 7 dan berada pada periode 7. Saat ini, bohrium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih bohrium diperkirakan berada pada kisaran suhu 2646 °C hingga 5000 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 16 isotop yang diketahui untuk bohrium, dengan Bh-270 sebagai isotop paling stabil. Bohrium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm25',
     category: 'atm25',
     title: 'Tembaga (Cu)',
@@ -652,7 +652,7 @@ Isotop Paling Stabil: Cu-63
 Tembaga adalah unsur logam transisi yang memiliki konduktivitas termal dan listrik yang sangat baik. Unsur ini digunakan dalam berbagai aplikasi, termasuk sebagai konduktor listrik, konduktor panas, dan dalam pembuatan kabel, kawat, pipa, dan peralatan listrik. Tembaga juga digunakan dalam industri pengolahan logam dan konstruksi.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm26',
     category: 'atm26',
     title: 'Silver (Ag)',
@@ -678,7 +678,7 @@ Isotop Paling Stabil: Ag-107
 Silver (perak) adalah unsur logam transisi yang memiliki warna perak. Unsur ini memiliki konduktivitas listrik dan termal yang tinggi. Silver digunakan dalam industri perhiasan, koin, dan peralatan elektronik. Selain itu, silver juga memiliki aplikasi dalam fotografi, pengobatan, dan produksi cermin.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm27',
     category: 'atm27',
     title: 'Gold (Au)',
@@ -718,7 +718,7 @@ dan bahan dekoratif. Unsur ini juga memiliki
 kegunaan dalam industri elektronik, katalisis,   
 dan dalam pengobatan.''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm28',
     category: 'atm28',
     title: 'Ruthenium (Ru)',
@@ -744,7 +744,7 @@ Isotop Paling Stabil: Ru-102
 Ruthenium adalah unsur logam transisi yang berwarna perak-abu. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Ruthenium digunakan dalam berbagai aplikasi, termasuk dalam pembuatan peralatan kimia, elektrokatalis, dan peralatan optik. Unsur ini juga ditemukan dalam beberapa senyawa kompleks yang memiliki aplikasi dalam industri dan penelitian.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm29',
     category: 'atm29',
     title: 'Osmium (Os)',
@@ -770,7 +770,7 @@ Isotop Paling Stabil: Os-192
 Osmium adalah unsur logam transisi yang memiliki simbol kimia Os dan nomor atom 76. Unsur ini memiliki massa atomik 190.23 u dan terletak dalam kelompok logam transisi. Osmium memiliki konfigurasi elektron [Xe] 4f14 5d6 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur osmium adalah 3033 °C dan titik didihnya adalah 5012 °C. Osmium memiliki kelektronegativitas sebesar 2.2 dan terdapat 35 isotop yang diketahui, dengan isotop paling stabil adalah Os-192. Osmium merupakan salah satu dari unsur yang paling padat dan keras di bumi, serta memiliki sifat-sifat yang tahan terhadap korosi dan memiliki titik leleh dan titik didih yang tinggi. Osmium juga digunakan dalam industri elektronik, industri kimia, dan sebagai katalis dalam reaksi kimia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm30',
     category: 'atm30',
     title: 'Hassium (Hs)',
@@ -796,7 +796,7 @@ Isotop Paling Stabil: Hs-277
 Hassium adalah unsur kimia dalam tabel periodik dengan simbol Hs dan nomor atom 108. Unsur ini memiliki massa atomik sekitar 277 u. Konfigurasi elektron hassium adalah [Rn] 5f14 6d6 7s2. Hassium termasuk dalam golongan 8 dan berada pada periode 7. Saat ini, hassium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih hassium diperkirakan berada pada kisaran suhu 126 °C hingga 478 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 19 isotop yang diketahui untuk hassium, dengan Hs-277 sebagai isotop paling stabil. Hassium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm31',
     category: 'atm31',
     title: 'Seng (Zn)',
@@ -822,7 +822,7 @@ Isotop Paling Stabil: Zn-64
 Seng adalah unsur logam transisi yang memiliki resistensi terhadap korosi dan digunakan dalam berbagai industri. Unsur ini digunakan dalam pembuatan logam paduan, baterai, cat galvanis, dan dalam industri kimia. Seng juga penting dalam industri konstruksi dan dalam nutrisi manusia.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm32',
     category: 'atm32',
     title: 'Kadmium (Cd)',
@@ -848,7 +848,7 @@ Isotop Paling Stabil: Cd-114
 Kadmium adalah unsur logam transisi berwarna abu-abu keperakan. Unsur ini memiliki titik lebur yang rendah dan tahan terhadap korosi. Kadmium digunakan dalam industri baterai, pigmen, dan pelapisan logam. Unsur ini juga dapat memiliki efek toksik pada manusia dan lingkungan jika terpapar dalam jumlah yang besar.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm33',
     category: 'atm33',
     title: 'Mercury (Hg)',
@@ -874,7 +874,7 @@ Isotop Paling Stabil: Hg-202
 Merkurius adalah unsur logam transisi yang memiliki simbol kimia Hg dan nomor atom 80. Unsur ini memiliki massa atomik 200.59 u dan terletak dalam kelompok logam transisi. Merkurius memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan cair pada suhu kamar dan memiliki warna perak yang khas. Titik lebur merkurius adalah -38.83 °C dan titik didihnya adalah 356.73 °C. Merkurius memiliki keelektronegatifan sebesar 2.00 dan terdapat 43 isotop yang diketahui, dengan isotop paling stabil adalah Hg-202. Merkurius telah lama digunakan dalam berbagai aplikasi, termasuk termometer, pengisi barometer, lampu neon, dan dalam produksi klor-alkali. Namun, merkurius juga dapat berbahaya karena sifatnya yang beracun, dan penggunaannya yang tidak hati-hati harus dihindari.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zatm34',
     category: 'atm34',
     title: 'Besi (Fe)',

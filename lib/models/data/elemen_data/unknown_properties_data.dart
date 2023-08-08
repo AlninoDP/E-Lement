@@ -1,9 +1,9 @@
-import 'package:kimiaapp/models/data/colors.dart';
-import 'package:kimiaapp/models/data/desc_menu_data.dart';
-import 'package:kimiaapp/models/data/elemen_item_grid.dart';
+import 'package:kimiaapp/models/colors.dart';
+import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/models/elemen_item_grid.dart';
 
 const unsurUnknownPropertiesDesc = [
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup1',
     category: 'aupOne',
     title: 'Meitnerium (Mt)',
@@ -29,7 +29,7 @@ Isotop Paling Stabil: Mt-278
 Meitnerium adalah unsur kimia dalam tabel periodik dengan simbol Mt dan nomor atom 109. Unsur ini memiliki massa atomik sekitar 278 u. Konfigurasi elektron meitnerium adalah [Rn] 5f14 6d7 7s2. Meitnerium termasuk dalam golongan 9 dan berada pada periode 7. Saat ini, meitnerium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih meitnerium diperkirakan berada pada kisaran suhu 110 °C hingga 150 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 8 isotop yang diketahui untuk meitnerium, dengan Mt-278 sebagai isotop paling stabil. Meitnerium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup2',
     category: 'aup2',
     title: 'Darmstadtium (Ds)',
@@ -55,7 +55,7 @@ Isotop Paling Stabil: Ds-281
 Darmstadtium adalah unsur kimia dalam tabel periodik dengan simbol Ds dan nomor atom 110. Unsur ini memiliki massa atomik sekitar 281 u. Konfigurasi elektron darmstadtium adalah [Rn] 5f14 6d9 7s1. Darmstadtium termasuk dalam golongan 10 dan berada pada periode 7. Saat ini, darmstadtium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih darmstadtium diperkirakan berada pada kisaran suhu 34 °C hingga 70 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 9 isotop yang diketahui untuk darmstadtium, dengan Ds-281 sebagai isotop paling stabil. Darmstadtium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup3',
     category: 'aup3',
     title: 'Roentgenium (Rg)',
@@ -81,7 +81,7 @@ Isotop Paling Stabil: Rg-281
 Roentgenium adalah unsur kimia dalam tabel periodik dengan simbol Rg dan nomor atom 111. Unsur ini memiliki massa atomik sekitar 281 u. Konfigurasi elektron roentgenium adalah [Rn] 5f14 6d10 7s1. Roentgenium termasuk dalam golongan 11 dan berada pada periode 7. Saat ini, roentgenium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih roentgenium diperkirakan berada pada kisaran suhu 28 °C hingga 35 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 7 isotop yang diketahui untuk roentgenium, dengan Rg-281 sebagai isotop paling stabil. Roentgenium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup4',
     category: 'aup4',
     title: 'Copernicium (Cn)',
@@ -107,7 +107,7 @@ Isotop Paling Stabil: Cn-285
 Copernicium adalah unsur kimia dalam tabel periodik dengan simbol Cn dan nomor atom 112. Unsur ini memiliki massa atomik sekitar 285 u. Konfigurasi elektron copernicium adalah [Rn] 5f14 6d10 7s2. Copernicium termasuk dalam golongan 12 dan berada pada periode 7. Saat ini, copernicium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih copernicium diperkirakan berada pada kisaran suhu 50 °C hingga 80 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 6 isotop yang diketahui untuk copernicium, dengan Cn-285 sebagai isotop paling stabil. Copernicium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup5',
     category: 'aup5',
     title: 'Nihonium (Nh)',
@@ -133,7 +133,7 @@ Isotop Paling Stabil: Nh-284
 Nihonium adalah unsur kimia dalam tabel periodik dengan simbol Nh dan nomor atom 113. Unsur ini memiliki massa atomik sekitar 284 u. Konfigurasi elektron nihonium adalah [Rn] 5f14 6d10 7s2 7p1. Nihonium termasuk dalam golongan 13 dan berada pada periode 7. Saat ini, nihonium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih nihonium diperkirakan berada pada kisaran suhu 45 °C hingga 113 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 7 isotop yang diketahui untuk nihonium, dengan Nh-284 sebagai isotop paling stabil. Nihonium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup6',
     category: 'aup6',
     title: 'Flerovium (Fl)',
@@ -159,7 +159,7 @@ Isotop Paling Stabil: Fl-289
 Flerovium adalah unsur kimia dalam tabel periodik dengan simbol Fl dan nomor atom 114. Unsur ini memiliki massa atomik sekitar 289 u. Konfigurasi elektron flerovium adalah [Rn] 5f14 6d10 7s2 7p2. Flerovium termasuk dalam golongan 14 dan berada pada periode 7. Saat ini, flerovium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih flerovium diperkirakan berada pada kisaran suhu 60 °C hingga 100 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 6 isotop yang diketahui untuk flerovium, dengan Fl-289 sebagai isotop paling stabil. Flerovium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup7',
     category: 'aup7',
     title: 'Moscovium (Mc)',
@@ -185,7 +185,7 @@ Isotop Paling Stabil: Mc-288
 Moscovium adalah unsur kimia dalam tabel periodik dengan simbol Mc dan nomor atom 115. Unsur ini memiliki massa atomik sekitar 288 u. Konfigurasi elektron moscovium adalah [Rn] 5f14 6d10 7s2 7p3. Moscovium termasuk dalam golongan 15 dan berada pada periode 7. Saat ini, moscovium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih moscovium diperkirakan berada pada kisaran suhu 400-700 °C dan 700-1400 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 8 isotop yang diketahui untuk moscovium, dengan Mc-288 sebagai isotop paling stabil. Moscovium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup8',
     category: 'aup8',
     title: 'Livermorium (Lv)',
@@ -211,7 +211,7 @@ Isotop Paling Stabil: Lv-293
 Livermorium adalah unsur kimia dalam tabel periodik dengan simbol Lv dan nomor atom 116. Unsur ini memiliki massa atomik sekitar 293 u. Konfigurasi elektron livermorium adalah [Rn] 5f14 6d10 7s2 7p4. Livermorium termasuk dalam golongan 16 dan berada pada periode 7. Saat ini, livermorium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih livermorium diperkirakan berada pada kisaran suhu 700-800 °C dan 1100-1200 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 9 isotop yang diketahui untuk livermorium, dengan Lv-293 sebagai isotop paling stabil. Livermorium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup9',
     category: 'aup9',
     title: 'Tennesine (Ts)',
@@ -237,7 +237,7 @@ Isotop Paling Stabil: Ts-294
 Tennesine adalah unsur kimia dalam tabel periodik dengan simbol Ts dan nomor atom 117. Unsur ini memiliki massa atomik sekitar 294 u. Konfigurasi elektron tennesine adalah [Rn] 5f14 6d10 7s2 7p5. Tennesine termasuk dalam golongan 17 dan berada pada periode 7. Saat ini, tennesine tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih tennesine diperkirakan berada pada kisaran suhu 350-550 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 7 isotop yang diketahui untuk tennesine, dengan Ts-294 sebagai isotop paling stabil. Tennesine adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  DescMenuData(
+  ElemenDesc(
     id: 'zaup10',
     category: 'aup10',
     title: 'Oganesson (Og)',
