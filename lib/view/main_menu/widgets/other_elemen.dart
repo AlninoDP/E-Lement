@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/aktinium_menu/aktinium_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/lantanum_menu/lantanum_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/unknown_properties_menu/unknown_properties_screen.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/view/elemen_menu/aktinium_menu/aktinium_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/lantanum_menu/lantanum_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/unknown_properties_menu/unknown_properties_screen.dart';
 
-import 'menu_button.dart';
+import 'grid_menu/menu_button.dart';
 
 class OtherElemen extends StatelessWidget {
   const OtherElemen({super.key});

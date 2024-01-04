@@ -6,7 +6,7 @@ import 'package:kimiaapp/controller/main_controller.dart';
 import 'package:kimiaapp/components/background.dart';
 import 'package:kimiaapp/components/bubble_box.dart';
 import 'package:kimiaapp/view/main_menu/widgets/chemistry_fact.dart';
-import 'package:kimiaapp/view/main_menu/widgets/grid_menu.dart';
+import 'package:kimiaapp/view/main_menu/widgets/grid_menu/grid_menu.dart';
 import 'package:kimiaapp/view/main_menu/widgets/header3_menu.dart';
 import 'package:kimiaapp/view/main_menu/widgets/header4_menu.dart';
 import 'package:kimiaapp/view/main_menu/widgets/scientist_quote.dart';
