@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/gas_mulia_menu/gas_mulia_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/logam_alkali_menu/logam_alkali_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/logam_alkali_tanah_menu/logam_alkali_tanah_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/logam_pasca_transisi_menu/logam_pasca_transisi_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/logam_transisi_menu/logam_transisi_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/metaloid_menu/metaloid_screen.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/non_logam_reaktif_menu/non_logam_reaktif_screen.dart';
-import 'package:kimiaapp/view/main_menu/widgets/menu_button.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/view/elemen_menu/gas_mulia_menu/gas_mulia_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/logam_alkali_menu/logam_alkali_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/logam_alkali_tanah_menu/logam_alkali_tanah_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/logam_pasca_transisi_menu/logam_pasca_transisi_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/logam_transisi_menu/logam_transisi_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/metaloid_menu/metaloid_screen.dart';
+import 'package:kimiaapp/view/elemen_menu/non_logam_reaktif_menu/non_logam_reaktif_screen.dart';
+import 'package:kimiaapp/view/main_menu/widgets/grid_menu/menu_button.dart';
 import 'package:kimiaapp/view/main_menu/widgets/other_elemen.dart';
 
 class GridMenu extends StatelessWidget {
