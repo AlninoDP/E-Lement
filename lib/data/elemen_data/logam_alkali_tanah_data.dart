@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurLogamAlkaliTanahDesc = [
-  ElemenDesc(
-    id: 'ze1',
-    category: 'ae1',
+  ElementInformation(
+    id: 'Dlat1',
+    elementId: 'LAT1',
     title: 'Beryllium (Be)',
-    ingredient: [
+    information: [
       '''
 Simbol: Be
 Nomor Atom: 4
@@ -29,11 +29,11 @@ Isotop Paling Stabil: Be-9
 Beryllium adalah logam alkali tanah yang ringan dan keras dengan warna perak kebiruan. Unsur ini memiliki sifat konduktivitas termal dan elektrik yang baik, serta tahan terhadap korosi. Beryllium digunakan dalam berbagai aplikasi, termasuk dalam industri aerospace, elektronik,nuklir, dan medis. Sifat-sifat khusus beryllium juga membuatnya berguna dalam pengeboran minyak dan industri perhiasan.
 ''',
   ),
-  ElemenDesc(
-    id: 'ze2',
-    category: 'ae2',
+  ElementInformation(
+    id: 'Dlat2',
+    elementId: 'LAT2',
     title: 'Magnesium (Mg)',
-    ingredient: [
+    information: [
       '''
 Simbol: Mg 
 Nomor Atom: 12 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: Mg-24
 Magnesium adalah logam alkali tanah yang ringan dan kuat. Unsur ini ditemukan dalam berbagai senyawa dan digunakan dalam berbagai aplikasi, termasuk dalam industri logam, industri kimia, dan dalam pembuatan logam paduan. Magnesium juga merupakan nutrisi penting bagi tanaman dan hewan, dan sering digunakan sebagai suplemen dalam bentuk magnesium
 ''',
   ),
-  ElemenDesc(
-    id: 'ze3',
-    category: 'ae3',
+  ElementInformation(
+    id: 'Dlat3',
+    elementId: 'LAT3',
     title: 'Calsium (Ca)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ca
 Nomor Atom: 20 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: Ca-40
 Calcium adalah unsur kimia dalam tabel periodik dengan simbol Ca dan nomor atom 20. Terdapat 6 sotop yang diketahui untuk unsur calcium, dengan Ca-40 sebagai isotop paling stabil. Calcium adalah logam yang penting dalam biologi, berperan dalam pembentukan tulang dan gigi, serta berfungsi dalam proses fisiologis seperti kontraksi otot dan pengaturan transmisi saraf. Calcium juga digunakan dalam industri untuk pembuatan logam paduan dan bahan bangunan.
 ''',
   ),
-  ElemenDesc(
-    id: 'ze4',
-    category: 'ae4',
+  ElementInformation(
+    id: 'Dlat4',
+    elementId: 'LAT4',
     title: 'Strontium (Sr)',
-    ingredient: [
+    information: [
       '''
 Simbol: Sr
 Nomor Atom: 38
@@ -107,11 +107,11 @@ Isotop Paling Stabil: 84Sr, 86Sr, 87Sr, 88Sr.
 Strontium adalah unsur kimia yang memiliki simbol Sr dan nomor atom 38 dalam tabel periodik. Strontium juga digunakan dalam pembuatan kaca untuk layar tabung televisi kuno, serta dalam produksi pigmen keramik dan cat. Strontium memiliki isotop radioaktif, strontium-90, yang dapat terbentuk sebagai produk samping dalam reaktor nuklir. Isotop ini dapat memiliki efek berbahaya pada kesehatan manusia jika terakumulasi dalam tubuh.
 ''',
   ),
-  ElemenDesc(
-    id: 'ze5',
-    category: 'ae5',
+  ElementInformation(
+    id: 'Dlat5',
+    elementId: 'LAT5',
     title: 'Barium (Ba)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ba
 Nomor Atom: 56
@@ -133,11 +133,11 @@ Isotop Paling Stabil: Ba-138
 Barium adalah unsur logam alkaline bumi yang memiliki warna abu-abu perak. Unsur ini berada dalam golongan alkaline earth metals dan memiliki sifat-sifat yang reaktif secara terbatas. Barium digunakan dalam berbagai aplikasi, termasuk dalam industri, kedokteran, dan teknologi nuklir. Barium juga memiliki beberapa isotop radioaktif yang digunakan dalam penelitian dan aplikasi medis
 ''',
   ),
-  ElemenDesc(
-    id: 'ze6',
-    category: 'ae6',
+  ElementInformation(
+    id: 'Dlat6',
+    elementId: 'LAT6',
     title: 'Radium (Ra)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ra
 Nomor Atom: 88
@@ -162,38 +162,38 @@ Radium adalah unsur radioaktif yang sangat jarang ditemukan di alam dan memiliki
 ];
 
 const unsurLogamAlkaliTanah = [
-  ElemenItemGrid(
-      id: 'ae1',
+  ElemenItemConfig(
+      elementId: 'LAT1',
       symbol: 'Be',
       title: 'Beryllium',
       containerColor: ChemistryColorApp.containerMenu2,
       textColor: ChemistryColorApp.logamAlkaliRedContainerText),
-  ElemenItemGrid(
-      id: 'ae2',
+  ElemenItemConfig(
+      elementId: 'LAT2',
       symbol: 'Mg',
       title: 'Magnesium',
       containerColor: ChemistryColorApp.containerMenu2,
       textColor: ChemistryColorApp.logamAlkaliRedContainerText),
-  ElemenItemGrid(
-      id: 'ae3',
+  ElemenItemConfig(
+      elementId: 'LAT3',
       symbol: 'Ca',
       title: 'Calcium',
       containerColor: ChemistryColorApp.containerMenu2,
       textColor: ChemistryColorApp.logamAlkaliRedContainerText),
-  ElemenItemGrid(
-      id: 'ae4',
+  ElemenItemConfig(
+      elementId: 'LAT4',
       symbol: 'Sr',
       title: 'Strontium',
       containerColor: ChemistryColorApp.containerMenu2,
       textColor: ChemistryColorApp.logamAlkaliRedContainerText),
-  ElemenItemGrid(
-      id: 'ae5',
+  ElemenItemConfig(
+      elementId: 'LAT5',
       symbol: 'Ba',
       title: 'Barium',
       containerColor: ChemistryColorApp.containerMenu2,
       textColor: ChemistryColorApp.logamAlkaliRedContainerText),
-  ElemenItemGrid(
-      id: 'ae6',
+  ElemenItemConfig(
+      elementId: 'LAT6',
       symbol: 'Ra',
       title: 'Radium',
       containerColor: ChemistryColorApp.containerMenu2,

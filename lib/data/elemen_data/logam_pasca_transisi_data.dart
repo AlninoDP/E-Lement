@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurLogamPascaTransisiDesc = [
-  ElemenDesc(
-    id: 'zep1',
-    category: 'ap1',
+  ElementInformation(
+    id: 'Dlpt1',
+    elementId: 'LPT01',
     title: 'Astatin (At)',
-    ingredient: [
+    information: [
       '''
 Simbol: At 
 Nomor Atom: 85 
@@ -29,11 +29,11 @@ Isotop Paling Stabil: At-210
 Astatin adalah unsur halogen yang memiliki simbol kimia At dan nomor  atom 85. Unsur ini memiliki massa atomik 210 u dan  terletak dalam golongan nonlogam golongan utama. statin memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p5 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar, namun warna dan sifat fisik lainnya tidak diketahui secara pasti. Astatin memiliki titik lebur sekitar 302 °C dan titik didih sekitar 337 °C. Kelektronegatifan astatin adalah sekitar 2.2.Terdapat 35 isotop yang diketahui untuk unsur ini, dengan isotop paling stabil adalah At-210. Astatin merupakan unsur radioaktif yang sangat jarang ditemukan di alam dan hanya diproduksi dalam jumlah yang sangat kecil. Karena sifat radioaktifnya, astatin digunakan dalam penelitian ilmiah dan tidak memiliki aplikasi praktis yang signifikan.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep2',
-    category: 'ap2',
+  ElementInformation(
+    id: 'Dlpt2',
+    elementId: 'LPT02',
     title: 'Polonium (Po)',
-    ingredient: [
+    information: [
       '''
 Simbol: Po 
 Nomor Atom: 84 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: Po-209
 Polonium adalah unsur logam golongan utama yang memiliki simbol kimia Po dan nomor atom 84. Unsur ini memiliki massa atomik 209 u dan terletak dalam golongan nonlogam golongan utama. Polonium memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p4 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna perak hitam yang khas. Titik lebur polonium adalah 254 °C dan titik didihnya adalah 962 °C. Polonium memiliki keelektronegatifan sebesar 2.0 dan terdapat 33 isotop yang diketahui, dengan isotop paling stabil adalah Po-209. Polonium merupakan unsur radioaktif yang sangat berbahaya bagi kesehatan manusia. Karena sifat radioaktifnya, polonium digunakan dalam berbagai aplikasi, termasuk dalam pengukuran radiasi dan sebagai sumber energi pada generator termoelektrik.atan manusia, sehingga penggunaannya harus diatur dan dikendalikan dengan baik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep3',
-    category: 'ap3',
+  ElementInformation(
+    id: 'Dlpt3',
+    elementId: 'LPT03',
     title: 'Alumunium (Al)',
-    ingredient: [
+    information: [
       '''
 Simbol: Al 
 Nomor Atom: 13 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: Al-27
 Aluminium adalah logam ringan yang kuat, tahan korosi, dan memiliki keuletan yang baik. Unsur ini digunakan dalam berbagai aplikasi, termasuk dalam industri otomotif, konstruksi, kemasan, dan elektronik. Aluminium juga terkenal karena kemampuannya untuk menghantarkan panas dan listrik dengan baik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep4',
-    category: 'ap4',
+  ElementInformation(
+    id: 'Dlpt4',
+    elementId: 'LPT04',
     title: 'Gallium (Ga)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ga 
 Nomor Atom: 31 
@@ -107,11 +107,11 @@ Isotop Paling Stabil: Ga-69
 Gallium adalah unsur logam semi yang memiliki titik lebur yang rendah dan konduktivitas listrik yang baik. Unsur ini memiliki berbagai aplikasi dalam industri dan teknologi. Gallium digunakan dalam pembuatan bahan semikonduktor, cairan pendingin dalam suhu rendah, dan dalam produksi panel surya. Gallium juga digunakan dalam industri elektronik dan sebagai katalis dalam berbagai reaksi kimia..
 ''',
   ),
-  ElemenDesc(
-    id: 'zep5',
-    category: 'ap5',
+  ElementInformation(
+    id: 'Dlpt5',
+    elementId: 'LPT05',
     title: 'Indium (In)',
-    ingredient: [
+    information: [
       '''
 Simbol: In 
 Nomor Atom: 49 
@@ -133,11 +133,11 @@ Isotop Paling Stabil: In-115
 Indium adalah unsur logam post-transisi dengan warna perak keputihan. Unsur ini memiliki titik lebur yang relatif rendah dan kelembutan yang baik. Indium digunakan dalam produksi panel LCD, bahan kaca khusus, solder, dan komponen semikonduktor. Unsur ini juga digunakan dalam produksi fotovoltaik dan baterai.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep6',
-    category: 'ap6',
+  ElementInformation(
+    id: 'Dlpt6',
+    elementId: 'LPT06',
     title: 'Thallium (Tl)',
-    ingredient: [
+    information: [
       '''
 Simbol: Tl 
 Nomor Atom: 81 
@@ -159,11 +159,11 @@ Isotop Paling Stabil: Tl-205
 Talium adalah unsur logam golongan utama yang memiliki simbol kimia Tl dan nomor atom 81. Unsur ini memiliki massa atomik 204.38 u dan terletak dalam golongan logam golongan utama. Talium memiliki konfigurasielektron [Xe] 4f14 5d10 6s2 6p1 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna abu-abu kebiruan yang khas. Titik lebur talium adalah 304 °C dan titik didihnya adalah 1473 °C. Talium memiliki keelektronegatifan sebesar 1.62 dan terdapat 31 isotop yang diketahui, dengan isotop paling stabil adalah Tl-205. Talium memiliki beberapa aplikasi dalam industri dan ilmu pengetahuan, seperti dalam pembuatan lensa optik, baterai, dan dalam penelitian kimia dan fisika. Talium juga diketahui memiliki sifat beracun, dan penggunaannya harus dilakukan dengan hati-hati.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep7',
-    category: 'ap7',
+  ElementInformation(
+    id: 'Dlpt7',
+    elementId: 'LPT07',
     title: 'Timah (Sn)',
-    ingredient: [
+    information: [
       '''
 Simbol: Sn 
 Nomor Atom: 50 
@@ -185,11 +185,11 @@ Isotop Paling Stabil: Sn-120
 Timah adalah unsur logam peralihan dengan warna perak keputihan. Unsur ini memiliki titik lebur yang relatif tinggi dan ketahanan terhadap korosi yang baik. Timah digunakan dalam pembuatan logam paduan seperti timah hitam, serta dalam produksi solder, peralatan elektronik, dan pelapisan logam. Timah juga digunakan dalam produksi kaca dan dalam industri kimia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep8',
-    category: 'ap8',
+  ElementInformation(
+    id: 'Dlpt8',
+    elementId: 'LPT08',
     title: 'Lead (Pb)',
-    ingredient: [
+    information: [
       '''
 Simbol: Pb 
 Nomor Atom: 82 
@@ -211,11 +211,11 @@ Isotop Paling Stabil: Pb-208
 Timbal adalah unsur logam golongan utama yang memiliki simbol kimia Pb dan nomor atom 82. Unsur ini memiliki massa atomik 207.2 u dan terletak dalam golongan logam golongan utama. Timbal memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 6p2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padat pada suhu kamar dan memiliki warna abu-abu biru yang khas. Titik lebur timbal adalah 327.5 °C dan titik didihnya adalah 1749 °C. Timbal memiliki keelektronegatifan sebesar 1.87 dan terdapat 29 isotop yang diketahui, dengan isotop paling stabil adalah Pb-208. Timbal telah digunakan sejak zaman kuno dan memiliki berbagai aplikasi, seperti dalam industri baterai, perlindungan radiasi, dan dalam konstruksi bangunan. Namun, paparan berlebihan terhadap timbal dapat berbahaya bagi kesehatan manusia, sehingga penggunaannya harus diatur dan dikendalikan dengan baik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zep9',
-    category: 'ap9',
+  ElementInformation(
+    id: 'Dlpt9',
+    elementId: 'LPT09',
     title: 'Bismuth (Bi)',
-    ingredient: [
+    information: [
       '''
 Simbol: Bi
 Nomor Atom: 83 
@@ -240,56 +240,56 @@ Bismut adalah unsur logam golongan utama yang memiliki simbol kimia Bi dan nomor
 ];
 
 const unsurLogamPascaTransisi = [
-  ElemenItemGrid(
-      id: 'ap1',
+  ElemenItemConfig(
+      elementId: 'LPT01',
       symbol: 'At',
       title: 'Astatine',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap2',
+  ElemenItemConfig(
+      elementId: 'LPT02',
       symbol: 'Po',
       title: 'Polonium',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap3',
+  ElemenItemConfig(
+      elementId: 'LPT03',
       symbol: 'Al',
       title: 'Alumunium',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap4',
+  ElemenItemConfig(
+      elementId: 'LPT04',
       symbol: 'Ga',
       title: 'Galium',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap5',
+  ElemenItemConfig(
+      elementId: 'LPT05',
       symbol: 'In',
       title: 'Indium',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap6',
+  ElemenItemConfig(
+      elementId: 'LPT06',
       symbol: 'Tl',
       title: 'Thalium',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap7',
+  ElemenItemConfig(
+      elementId: 'LPT07',
       symbol: 'Sn',
       title: 'Tin',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap8',
+  ElemenItemConfig(
+      elementId: 'LPT08',
       symbol: 'Pb',
       title: 'Lead',
       containerColor: ChemistryColorApp.containerMenu3,
       textColor: ChemistryColorApp.pascaMetalsGreenText),
-  ElemenItemGrid(
-      id: 'ap9',
+  ElemenItemConfig(
+      elementId: 'LPT09',
       symbol: 'Bi',
       title: 'Bismuth',
       containerColor: ChemistryColorApp.containerMenu3,

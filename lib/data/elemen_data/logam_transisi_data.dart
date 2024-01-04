@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurLogamTransisiDesc = [
-  ElemenDesc(
-    id: 'zatm1',
-    category: 'atmOne',
+  ElementInformation(
+    id: 'Dlt1',
+    elementId: 'LT01',
     title: 'Titanium (Ti)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ti 
 Nomor Atom: 22 
@@ -29,11 +29,11 @@ Isotop Paling Stabil: Ti-48
 Titanium adalah unsur logam transisi yang memiliki kekuatan dan ketahanan yang tinggi serta ringan. Unsur ini digunakan dalam berbagai aplikasi, seperti pembuatan pesawat terbang, kapal selam, mobil, peralatan medis, dan perlengkapan olahraga. Titanium juga digunakan dalam industri energi, industri kimia, dan dalam produksi logam paduan.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm2',
-    category: 'atmTwo',
+  ElementInformation(
+    id: 'Dlt2',
+    elementId: 'LT02',
     title: 'Zirkonium (Zr)',
-    ingredient: [
+    information: [
       '''
 Simbol: Zr 
 Nomor Atom: 40 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: Zr-90
 Zirkonium adalah logam transisi abu-abu keperakan yang memiliki kekuatan dan ketahanan yang tinggi. Unsur ini banyak digunakan dalam industri, termasuk dalam pembuatan reaktor nuklir, pipa kimia, dan peralatan kimia tahan korosi. Zirkonium juga memiliki aplikasi dalam bidang kedokteran, terutama dalam implan gigi dan dalam produksi artikulasi pada prostesis sendi.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm3',
-    category: 'atmThree',
+  ElementInformation(
+    id: 'Dlt3',
+    elementId: 'LT03',
     title: 'Hafnium (Hf)',
-    ingredient: [
+    information: [
       '''
 Simbol: Hf 
 Nomor Atom: 72 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: Hf-180
 Hafnium adalah unsur logam transisi yang memiliki warna abu-abu terang. Unsur ini tergolong dalam golongan logam transisi dan memiliki sifat-sifat yang mirip dengan zirkonium. Hafnium memiliki titik lebur dan titik didih yang sangat tinggi, membuatnya cocok untuk aplikasi dalam industri nuklir dan teknologi pesawat terbang. Hafnium juga memiliki beberapa isotop yang stabil dan digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm4',
-    category: 'atm4',
+  ElementInformation(
+    id: 'Dlt4',
+    elementId: 'LT04',
     title: 'Rutherfordium (Rf)',
-    ingredient: [
+    information: [
       '''
 Simbol: Rf 
 Nomor Atom: 104
@@ -107,11 +107,11 @@ Isotop Paling Stabil: Rf-267
 Rutherfordium adalah unsur kimia dalam tabel periodik dengan simbol Rf dan nomor atom 104. Unsur ini memiliki massa atomik sekitar 267 u. Konfigurasi elektron Rutherfordium adalah [Rn] 5f14 6d2 7s2. Rutherfordium termasuk dalam golongan 4 dan berada pada periode 7. Saat ini, rutherfordium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih rutherfordium diperkirakan berada pada kisaran suhu 2100 °C hingga 5500 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 12 isotop yang diketahui untuk rutherfordium, dengan Rf-267 sebagai isotop paling stabil. Rutherfordium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm5',
-    category: 'atm5',
+  ElementInformation(
+    id: 'Dlt5',
+    elementId: 'LT05',
     title: 'Scandium (Sc)',
-    ingredient: [
+    information: [
       '''
 Simbol: Sc 
 Nomor Atom: 21 
@@ -132,11 +132,11 @@ Isotop Paling Stabil: Sc-45
     description: '''
 Scandium adalah unsur logam transisi yang memiliki beragam aplikasi dalam industri dan teknologi. Unsur ini sering digunakan dalam pembuatan logam paduan, seperti paduan aluminium-skandium yang memiliki kekuatan dan ketahanan yang tinggi. Skandium juga digunakan dalam lampu sorot stadium dan pesawat terbang, serta dalam penelitian ilmiah.''',
   ),
-  ElemenDesc(
-    id: 'zatm6',
-    category: 'atm6',
+  ElementInformation(
+    id: 'Dlt6',
+    elementId: 'LT06',
     title: 'Yttrium (Y)',
-    ingredient: [
+    information: [
       '''
 Simbol: Y 
 Nomor Atom: 39 
@@ -158,11 +158,11 @@ Isotop Paling Stabil: Y-89
 Yttrium adalah logam transisi perak keabu-abuan yang digunakan dalam berbagai aplikasi industri dan teknologi. Unsur ini dapat digunakan sebagai penguat dalam logam, sebagai katalis dalam reaksi kimia, dan dalam pembuatan bahan superkonduktor. Yttrium juga memiliki aplikasi dalam bidang kedokteran, termasuk dalam pemindaian MRI.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm7',
-    category: 'atm7',
+  ElementInformation(
+    id: 'Dlt7',
+    elementId: 'LT07',
     title: 'Vanadium (V)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cr 
 Nomor Atom: 24 
@@ -184,11 +184,11 @@ Isotop Paling Stabil: Cr-52
 Vanadium adalah unsur logam transisi yang digunakan dalam berbagai aplikasi. Unsur ini memiliki kekuatan yang tinggi, tahan terhadap korosi, dan dapat membentuk berbagai paduan dengan sifat-sifat khusus. Vanadium digunakan dalam pembuatan baja, katalis, baterai, dan dalam industri kimia. Selain itu, vanadium juga memiliki peran dalam biologi dan dianggap sebagai mikronutrien esensial.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm8',
-    category: 'atm8',
+  ElementInformation(
+    id: 'Dlt8',
+    elementId: 'LT08',
     title: 'Niobium (Nb)',
-    ingredient: [
+    information: [
       '''
 Simbol: Nb 
 Nomor Atom: 41 
@@ -210,11 +210,11 @@ Isotop Paling Stabil: Nb-93
 Niobium adalah logam transisi abu-abu keperakan yang memiliki sifat-sifat mekanik dan kimia yang sangat baik. Unsur ini banyak digunakan dalam berbagai aplikasi, termasuk dalam pembuatan baja tahan karat, peralatan nuklir, dan peralatan kimia tahan korosi. Niobium juga digunakan dalam industri elektronik dan teknologi informasi sebagai bahan dalam produksi kapasitor dan komponen semikonduktor.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm9',
-    category: 'atm9',
+  ElementInformation(
+    id: 'Dlt9',
+    elementId: 'LT09',
     title: 'Tantalum (Ta)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ta 
 Nomor Atom: 73 
@@ -236,11 +236,11 @@ Isotop Paling Stabil: Ta-181
 Tantalum adalah unsur logam transisi yang memiliki warna abu-abu kebiruan. Unsur ini tergolong dalam golongan logam transisi dan memiliki titik lebur dan titik didih yang sangat tinggi. Tantalum memiliki sifat-sifat yang membuatnya tahan terhadap korosi dan keausan, sehingga banyak digunakan dalam aplikasi yang membutuhkan bahan yang kuat dan tahan lama, seperti |industri elektronik, kedokteran, dan produksi turbin. Tantalum juga memiliki beberapa isotop yang stabil dan digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm10',
-    category: 'atm10',
+  ElementInformation(
+    id: 'Dlt10',
+    elementId: 'LT10',
     title: 'Dubnium (Db)',
-    ingredient: [
+    information: [
       '''
 Simbol: Db 
 Nomor Atom: 105 
@@ -262,11 +262,11 @@ Isotop Paling Stabil: Db-268
 Dubnium adalah unsur kimia dalam tabel periodik dengan simbol Db dan nomor atom 105. Unsur ini memiliki massa atomik sekitar 270 u. Konfigurasi elektron dubnium adalah [Rn] 5f14 6d3 7s2. Dubnium termasuk dalam golongan 5 dan berada pada periode 7. Saat ini, dubnium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih dubnium diperkirakan berada pada kisaran suhu 2600 °C hingga 5500 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 13 isotop yang diketahui untuk dubnium, dengan Db-268 sebagai isotop paling stabil. Dubnium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm11',
-    category: 'atm11',
+  ElementInformation(
+    id: 'Dlt11',
+    elementId: 'LT11',
     title: 'Kobalt (Co)',
-    ingredient: [
+    information: [
       '''
 Simbol: Co 
 Nomor Atom: 27 
@@ -288,11 +288,11 @@ Isotop Paling Stabil: Co-59
 Kobalt adalah unsur logam transisi yang digunakan dalam berbagai aplikasi industri. Unsur ini digunakan dalam pembuatan logam paduan, magnet, baterai, dan dalam industri kimia. Kobalt juga memiliki peran penting dalam industri katalis dan dalam produksi pigmen dan keramik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm12',
-    category: 'atm12',
+  ElementInformation(
+    id: 'Dlt12',
+    elementId: 'LT12',
     title: 'Rhodium (Rh)',
-    ingredient: [
+    information: [
       '''
 Simbol: Rh 
 Nomor Atom: 45 
@@ -314,11 +314,11 @@ Isotop Paling Stabil: Rh-103
 Rhodium adalah unsur logam transisi yang berwarna perak. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Rhodium digunakan dalam industri perhiasan, katalis, dan peralatan laboratorium. Unsur ini juga memiliki aplikasi dalam elektronik, industri otomotif, dan teknologi pengolahan gas.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm13',
-    category: 'atm13',
+  ElementInformation(
+    id: 'Dlt13',
+    elementId: 'LT13',
     title: 'Iridium (Ir)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ir 
 Nomor Atom: 77 
@@ -340,11 +340,11 @@ Isotop Paling Stabil: Ir-193
 Iridium adalah unsur logam transisi yang memiliki simbol kimia Ir dan nomor atom 77. Unsur ini memiliki massa atomik 192.217 u dan terletak dalam kelompok logam transisi. Iridium memiliki konfigurasi elektron [Xe] 4f14 5d7 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur iridium adalah 2410 °C dan titik didihnya adalah 4527 °C. Iridium memiliki kelektronegativitas sebesar 2.20 dan terdapat 40 isotop yang diketahui, dengan isotop paling stabil adalah Ir-193. Iridium memiliki sifat-sifat yang tahan terhadap korosi dan panas, serta memiliki kekerasan yang tinggi. Iridium digunakan dalam industri elektronik, manufaktur peralatan laboratorium, serta dalam aplikasi katalisis dan perhiasan mewah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm14',
-    category: 'atm14',
+  ElementInformation(
+    id: 'Dlt14',
+    elementId: 'LT14',
     title: 'Kromium (Cr)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cr 
 Nomor Atom: 24 
@@ -366,11 +366,11 @@ Isotop Paling Stabil: Cr-52
 Kromium adalah unsur logam transisi yang memiliki beragam aplikasi dalam berbagai industri. Unsur ini digunakan dalam pembuatan baja tahan karat, logam paduan, magnet, cat, dan dalam industri kromasi. Kromium juga memiliki peran biologis dalam tubuh manusia dan diperlukan dalam jumlah kecil sebagai mikronutrien.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm15',
-    category: 'atm15',
+  ElementInformation(
+    id: 'Dlt15',
+    elementId: 'LT15',
     title: 'Molibdenum (Mo)',
-    ingredient: [
+    information: [
       '''
 Simbol: Mo 
 Nomor Atom: 42 
@@ -392,11 +392,11 @@ Isotop Paling Stabil: Mo-98
 Molibdenum adalah logam transisi abu-abu keperakan yang memiliki sifat-sifat yang unik dan beragam. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Molibdenum digunakan dalam berbagai aplikasi, termasuk dalam pembuatan baja tahan panas, katalis, dan elektronik. Selain itu, molibdenum juga ditemukan dalam beberapa enzim penting dalam tubuh manusia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm16',
-    category: 'atm16',
+  ElementInformation(
+    id: 'Dlt16',
+    elementId: 'LT16',
     title: 'Tungsten (W)',
-    ingredient: [
+    information: [
       '''
 Simbol: W 
 Nomor Atom: 74 
@@ -418,11 +418,11 @@ Isotop Paling Stabil: W-184
 Tungsten, juga dikenal sebagai wolfram, adalah unsur logam transisi dengan warna abu-abu kebiruan. Unsur ini tergolong dalam golongan logam transisi dan memiliki titik lebur dan titik didih yang sangat tinggi.Tungsten memiliki sifat-sifat yang membuatnya tahan terhadap panas dan korosi, sehingga banyak digunakan dalam berbagai aplikasi, termasuk dalam industri lampu pijar, kawat tahan panas, dan elektroda dalam industri pengelasan. Tungsten juga digunakan dalam industri elektronik dan dalam produksi senjata nuklir. Tungsten memiliki beberapa isotop yang stabil dan juga digunakan dalam penelitian dan aplikasi lainnya.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm17',
-    category: 'atm17',
+  ElementInformation(
+    id: 'Dlt17',
+    elementId: 'LT17',
     title: 'Seaborgium (Sg)',
-    ingredient: [
+    information: [
       '''
 Simbol: Sg 
 Nomor Atom: 106 
@@ -444,11 +444,11 @@ Isotop Paling Stabil: Sg-269
 Seaborgium adalah unsur kimia dalam tabel periodik dengan simbol Sg dan nomor atom 106. Unsur ini memiliki massa atomik sekitar 271 u. Konfigurasi elektron seaborgium adalah [Rn] 5f14 6d4 7s2. Seaborgium termasuk dalam golongan 6 dan berada pada periode 7. Saat ini, seaborgium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih seaborgium diperkirakan berada pada kisaran suhu 1490 °C hingga 4300 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 15 isotop yang diketahui untuk seaborgium, dengan Sg-269 sebagai isotop paling stabil. Seaborgium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm18',
-    category: 'atm18',
+  ElementInformation(
+    id: 'Dlt18',
+    elementId: 'LT18',
     title: 'Nikel (Ni)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ni 
 Nomor Atom: 28 
@@ -470,11 +470,11 @@ Isotop Paling Stabil: Ni-58
 Nikel adalah unsur logam transisi yang digunakan dalam berbagai industri. Unsur ini digunakan dalam pembuatan baja, logam paduan, katalis, baterai, dan dalam industri kimia. Nikel juga penting dalam industri elektronik dan dalam produksi stainless steel.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm19',
-    category: 'atm19',
+  ElementInformation(
+    id: 'Dlt19',
+    elementId: 'LT19',
     title: 'Palladium (Pd)',
-    ingredient: [
+    information: [
       '''
 Simbol: Pd 
 Nomor Atom: 46 
@@ -496,11 +496,11 @@ Isotop Paling Stabil: Pd-106
 Palladium adalah unsur logam transisi berwarna perak-putih. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Palladium banyak digunakan dalam industri katalis, perhiasan, dan elektronik. Unsur ini juga digunakan dalam reaksi kimia, analisis kimia, serta dalam produksi kendaraan bertenaga bahan bakar sel.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm20',
-    category: 'atm20',
+  ElementInformation(
+    id: 'Dlt20',
+    elementId: 'LT20',
     title: 'Platinum (Pt)',
-    ingredient: [
+    information: [
       '''
 Simbol: Pt 
 Nomor Atom: 78 
@@ -522,11 +522,11 @@ Isotop Paling Stabil: Pt-195
 Platinum adalah unsur logam transisi yang memiliki simbol kimia Pt dan nomor atom 78. Unsur ini memiliki massa atomik 195.084 u dan terletak dalam kelompok logam transisi. Platinum memiliki konfigurasi elektron [Xe] 4f14 5d9 6s1 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur platinum adalah 1768.3 °C dan titik didihnya adalah 3825 °C. Platinum memiliki kelektronegativitas sebesar 2.28 dan terdapat 34 isotop yang diketahui, dengan isotop paling stabil adalah Pt-195. Platinum dikenal sebagai logam yang sangat langka dan tahan terhadap korosi. Ia memiliki sifat kimiawi yang unik dan digunakan dalam berbagai aplikasi, termasuk dalam industri perhiasan, katalisis, elektronik, dan dalam pembuatan suku cadang kendaraan bertenaga listrik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm21',
-    category: 'atm21',
+  ElementInformation(
+    id: 'Dlt21',
+    elementId: 'LT21',
     title: 'Mangan (Mn)',
-    ingredient: [
+    information: [
       '''
 Simbol: Mn 
 Nomor Atom: 25 
@@ -548,11 +548,11 @@ Isotop Paling Stabil: Mn-55
 Mangan adalah unsur logam transisi yang memiliki beragam peran dalam berbagai aplikasi. Unsur ini digunakan dalam pembuatan baja tahan karat, baterai, pigmen, dan dalam industri kimia. Mangan juga penting dalam biologi dan merupakan bagian dari banyak enzim dan proses metabolik dalam tubuh manusia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm22',
-    category: 'atm22',
+  ElementInformation(
+    id: 'Dlt22',
+    elementId: 'LT22',
     title: 'Technetium (Tc)',
-    ingredient: [
+    information: [
       '''
 Simbol: Tc 
 Nomor Atom: 43 
@@ -574,11 +574,11 @@ Isotop Paling Stabil: Tc-98
 Technetium adalah unsur transisi logam yang radioaktif. Unsur ini memiliki sifat-sifat kimia yang unik dan terbatas dalam jumlah alamiah. Technetium digunakan dalam bidang medis untuk keperluan pencitraan dan diagnosa. Unsur ini juga digunakan dalam penelitian ilmiah dan dalam aplikasi industri tertentu.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm23',
-    category: 'atm23',
+  ElementInformation(
+    id: 'Dlt23',
+    elementId: 'LT23',
     title: 'Renium (Re)',
-    ingredient: [
+    information: [
       '''
 Simbol: Re 
 Nomor Atom: 75 
@@ -600,11 +600,11 @@ Isotop Paling Stabil: Re-185
 Renium adalah unsur logam transisi yang memiliki simbol kimia Re dan nomor atom 75. Unsur ini memiliki massa atomik 186.21 u dan terletak dalam kelompok logam transisi. Renium memiliki konfigurasi elektron [Xe] 4f14 5d5 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur renium adalah 3186 °C dan titik didihnya adalah 5596 °C. Renium memiliki kelektronegativitas sebesar 1.9 dan terdapat 33 isotop yang diketahui, dengan isotop paling stabil adalah Re-185. Renium digunakan dalam berbagai aplikasi, termasuk dalam industri aero- ruang, elektronik, dan katalisis. Unsur ini juga memiliki sifat-sifat yang membuatnya tahan terhadap panas dan korosi, serta memiliki kekerasan tinggi. Kehadiran renium dalam jumlah kecil dalam logam campuran dapat meningkatkan kekuatan dan ketahanan terhadap suhu tinggi.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm24',
-    category: 'atm24',
+  ElementInformation(
+    id: 'Dlt24',
+    elementId: 'LT24',
     title: 'Bohrium (Bh)',
-    ingredient: [
+    information: [
       '''
 Simbol: Bh 
 Nomor Atom: 107 
@@ -626,11 +626,11 @@ Isotop Paling Stabil: Bh-270
 Bohrium adalah unsur kimia dalam tabel periodik dengan simbol Bh dan nomor atom 107. Unsur ini memiliki massa atomik sekitar 270 u. Konfigurasi elektron bohrium adalah [Rn] 5f14 6d5 7s2. Bohrium termasuk dalam golongan 7 dan berada pada periode 7. Saat ini, bohrium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih bohrium diperkirakan berada pada kisaran suhu 2646 °C hingga 5000 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 16 isotop yang diketahui untuk bohrium, dengan Bh-270 sebagai isotop paling stabil. Bohrium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm25',
-    category: 'atm25',
+  ElementInformation(
+    id: 'Dlt25',
+    elementId: 'LT25',
     title: 'Tembaga (Cu)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cu 
 Nomor Atom: 29 
@@ -652,11 +652,11 @@ Isotop Paling Stabil: Cu-63
 Tembaga adalah unsur logam transisi yang memiliki konduktivitas termal dan listrik yang sangat baik. Unsur ini digunakan dalam berbagai aplikasi, termasuk sebagai konduktor listrik, konduktor panas, dan dalam pembuatan kabel, kawat, pipa, dan peralatan listrik. Tembaga juga digunakan dalam industri pengolahan logam dan konstruksi.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm26',
-    category: 'atm26',
+  ElementInformation(
+    id: 'Dlt26',
+    elementId: 'LT26',
     title: 'Silver (Ag)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ag 
 Nomor Atom: 47 
@@ -678,11 +678,11 @@ Isotop Paling Stabil: Ag-107
 Silver (perak) adalah unsur logam transisi yang memiliki warna perak. Unsur ini memiliki konduktivitas listrik dan termal yang tinggi. Silver digunakan dalam industri perhiasan, koin, dan peralatan elektronik. Selain itu, silver juga memiliki aplikasi dalam fotografi, pengobatan, dan produksi cermin.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm27',
-    category: 'atm27',
+  ElementInformation(
+    id: 'Dlt27',
+    elementId: 'LT27',
     title: 'Gold (Au)',
-    ingredient: [
+    information: [
       '''
 Simbol: Au                                                             
 Nomor Atom: 79                                                       
@@ -718,11 +718,11 @@ dan bahan dekoratif. Unsur ini juga memiliki
 kegunaan dalam industri elektronik, katalisis,   
 dan dalam pengobatan.''',
   ),
-  ElemenDesc(
-    id: 'zatm28',
-    category: 'atm28',
+  ElementInformation(
+    id: 'Dlt28',
+    elementId: 'LT28',
     title: 'Ruthenium (Ru)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ru 
 Nomor Atom: 44 
@@ -744,11 +744,11 @@ Isotop Paling Stabil: Ru-102
 Ruthenium adalah unsur logam transisi yang berwarna perak-abu. Unsur ini memiliki titik lebur yang tinggi dan tahan terhadap korosi. Ruthenium digunakan dalam berbagai aplikasi, termasuk dalam pembuatan peralatan kimia, elektrokatalis, dan peralatan optik. Unsur ini juga ditemukan dalam beberapa senyawa kompleks yang memiliki aplikasi dalam industri dan penelitian.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm29',
-    category: 'atm29',
+  ElementInformation(
+    id: 'Dlt29',
+    elementId: 'LT29',
     title: 'Osmium (Os)',
-    ingredient: [
+    information: [
       '''
 Simbol: Os 
 Nomor Atom: 76 
@@ -770,11 +770,11 @@ Isotop Paling Stabil: Os-192
 Osmium adalah unsur logam transisi yang memiliki simbol kimia Os dan nomor atom 76. Unsur ini memiliki massa atomik 190.23 u dan terletak dalam kelompok logam transisi. Osmium memiliki konfigurasi elektron [Xe] 4f14 5d6 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan padatan dan memiliki warna abu-abu keperakan. Titik lebur osmium adalah 3033 °C dan titik didihnya adalah 5012 °C. Osmium memiliki kelektronegativitas sebesar 2.2 dan terdapat 35 isotop yang diketahui, dengan isotop paling stabil adalah Os-192. Osmium merupakan salah satu dari unsur yang paling padat dan keras di bumi, serta memiliki sifat-sifat yang tahan terhadap korosi dan memiliki titik leleh dan titik didih yang tinggi. Osmium juga digunakan dalam industri elektronik, industri kimia, dan sebagai katalis dalam reaksi kimia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm30',
-    category: 'atm30',
+  ElementInformation(
+    id: 'Dlt30',
+    elementId: 'LT30',
     title: 'Hassium (Hs)',
-    ingredient: [
+    information: [
       '''
 Simbol: Hs 
 Nomor Atom: 108 
@@ -796,11 +796,11 @@ Isotop Paling Stabil: Hs-277
 Hassium adalah unsur kimia dalam tabel periodik dengan simbol Hs dan nomor atom 108. Unsur ini memiliki massa atomik sekitar 277 u. Konfigurasi elektron hassium adalah [Rn] 5f14 6d6 7s2. Hassium termasuk dalam golongan 8 dan berada pada periode 7. Saat ini, hassium tidak memiliki keadaan agregat yang diketahui secara pasti, dan warna serta sifat-sifat fisiknya belum ditentukan dengan akurat. Titik lebur dan titik didih hassium diperkirakan berada pada kisaran suhu 126 °C hingga 478 °C. Kelektronegatifan unsur ini belum ditetapkan secara eksperimental. Terdapat 19 isotop yang diketahui untuk hassium, dengan Hs-277 sebagai isotop paling stabil. Hassium adalah unsur sintetis yang diproduksi melalui reaksi nuklir dalam laboratorium dan hanya memiliki kepentingan penelitian ilmiah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm31',
-    category: 'atm31',
+  ElementInformation(
+    id: 'Dlt31',
+    elementId: 'LT31',
     title: 'Seng (Zn)',
-    ingredient: [
+    information: [
       '''
 Simbol: Zn 
 Nomor Atom: 30 
@@ -822,11 +822,11 @@ Isotop Paling Stabil: Zn-64
 Seng adalah unsur logam transisi yang memiliki resistensi terhadap korosi dan digunakan dalam berbagai industri. Unsur ini digunakan dalam pembuatan logam paduan, baterai, cat galvanis, dan dalam industri kimia. Seng juga penting dalam industri konstruksi dan dalam nutrisi manusia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm32',
-    category: 'atm32',
+  ElementInformation(
+    id: 'Dlt32',
+    elementId: 'LT32',
     title: 'Kadmium (Cd)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cd 
 Nomor Atom: 48 
@@ -848,11 +848,11 @@ Isotop Paling Stabil: Cd-114
 Kadmium adalah unsur logam transisi berwarna abu-abu keperakan. Unsur ini memiliki titik lebur yang rendah dan tahan terhadap korosi. Kadmium digunakan dalam industri baterai, pigmen, dan pelapisan logam. Unsur ini juga dapat memiliki efek toksik pada manusia dan lingkungan jika terpapar dalam jumlah yang besar.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm33',
-    category: 'atm33',
+  ElementInformation(
+    id: 'Dlt33',
+    elementId: 'LT33',
     title: 'Mercury (Hg)',
-    ingredient: [
+    information: [
       '''
 Simbol: Hg 
 Nomor Atom: 80 
@@ -874,11 +874,11 @@ Isotop Paling Stabil: Hg-202
 Merkurius adalah unsur logam transisi yang memiliki simbol kimia Hg dan nomor atom 80. Unsur ini memiliki massa atomik 200.59 u dan terletak dalam kelompok logam transisi. Merkurius memiliki konfigurasi elektron [Xe] 4f14 5d10 6s2 dan berada pada periode 6 dalam tabel periodik. Unsur ini berada dalam keadaan cair pada suhu kamar dan memiliki warna perak yang khas. Titik lebur merkurius adalah -38.83 °C dan titik didihnya adalah 356.73 °C. Merkurius memiliki keelektronegatifan sebesar 2.00 dan terdapat 43 isotop yang diketahui, dengan isotop paling stabil adalah Hg-202. Merkurius telah lama digunakan dalam berbagai aplikasi, termasuk termometer, pengisi barometer, lampu neon, dan dalam produksi klor-alkali. Namun, merkurius juga dapat berbahaya karena sifatnya yang beracun, dan penggunaannya yang tidak hati-hati harus dihindari.
 ''',
   ),
-  ElemenDesc(
-    id: 'zatm34',
-    category: 'atm34',
+  ElementInformation(
+    id: 'Dlt34',
+    elementId: 'LT34',
     title: 'Besi (Fe)',
-    ingredient: [
+    information: [
       '''Simbol: Fe 
 Nomor Atom: 26 
 Massa Atomik: 55.845 u 
@@ -902,206 +902,206 @@ Besi adalah unsur logam transisi yang memiliki peran penting dalam berbagai apli
 ];
 
 const unsurLogamTransisi = [
-  ElemenItemGrid(
-      id: 'atmOne',
+  ElemenItemConfig(
+      elementId: 'LT01',
       symbol: 'Ti',
       title: 'Titanium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atmTwo',
+  ElemenItemConfig(
+      elementId: 'LT02',
       symbol: 'Zr',
       title: 'Zirconium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atmThree',
+  ElemenItemConfig(
+      elementId: 'LT03',
       symbol: 'Hf',
       title: 'Hafnium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm4',
+  ElemenItemConfig(
+      elementId: 'LT04',
       symbol: 'Rf',
       title: 'Ruther fordium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm5',
+  ElemenItemConfig(
+      elementId: 'LT05',
       symbol: 'Sc',
       title: 'Scandium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm6',
+  ElemenItemConfig(
+      elementId: 'LT06',
       symbol: 'Y',
       title: 'Yttrium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm7',
+  ElemenItemConfig(
+      elementId: 'LT07',
       symbol: 'V',
       title: 'Vanadium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm8',
+  ElemenItemConfig(
+      elementId: 'LT08',
       symbol: 'Nb',
       title: 'Niobium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm9',
+  ElemenItemConfig(
+      elementId: 'LT09',
       symbol: 'Ta',
       title: 'Tantalum',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm10',
+  ElemenItemConfig(
+      elementId: 'LT10',
       symbol: 'Db',
       title: 'Dubnium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm11',
+  ElemenItemConfig(
+      elementId: 'LT11',
       symbol: 'Co',
       title: 'Cobalt',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm12',
+  ElemenItemConfig(
+      elementId: 'LT12',
       symbol: 'Rh',
       title: 'Rhodium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm13',
+  ElemenItemConfig(
+      elementId: 'LT13',
       symbol: 'Ir',
       title: 'Iridium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm14',
+  ElemenItemConfig(
+      elementId: 'LT14',
       symbol: 'Cr',
       title: 'Chromium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm15',
+  ElemenItemConfig(
+      elementId: 'LT15',
       symbol: 'Mo',
       title: 'Moly bdenum',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm16',
+  ElemenItemConfig(
+      elementId: 'LT16',
       symbol: 'W',
       title: 'Tungsten',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm17',
+  ElemenItemConfig(
+      elementId: 'LT17',
       symbol: 'Sg',
       title: 'Seaborgium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm18',
+  ElemenItemConfig(
+      elementId: 'LT18',
       symbol: 'Ni',
       title: 'Nickel',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm19',
+  ElemenItemConfig(
+      elementId: 'LT19',
       symbol: 'Pd',
       title: 'Palladium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm20',
+  ElemenItemConfig(
+      elementId: 'LT20',
       symbol: 'Pt',
       title: 'Platinum',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm21',
+  ElemenItemConfig(
+      elementId: 'LT21',
       symbol: 'Mn',
       title: 'Manganese',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm22',
+  ElemenItemConfig(
+      elementId: 'LT22',
       symbol: 'Tc',
       title: 'Technetium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm23',
+  ElemenItemConfig(
+      elementId: 'LT23',
       symbol: 'Re',
       title: 'Rhenium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm24',
+  ElemenItemConfig(
+      elementId: 'LT24',
       symbol: 'Bh',
       title: 'Bohrium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm25',
+  ElemenItemConfig(
+      elementId: 'LT25',
       symbol: 'Cu',
       title: 'Copper',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm26',
+  ElemenItemConfig(
+      elementId: 'LT26',
       symbol: 'Ag',
       title: 'Silver',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm27',
+  ElemenItemConfig(
+      elementId: 'LT27',
       symbol: 'Au',
       title: 'Gold',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm28',
+  ElemenItemConfig(
+      elementId: 'LT28',
       symbol: 'Ru',
       title: 'Ruthenium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm29',
+  ElemenItemConfig(
+      elementId: 'LT29',
       symbol: 'Os',
       title: 'Osmium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm30',
+  ElemenItemConfig(
+      elementId: 'LT30',
       symbol: 'Hs',
       title: 'Hassium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm31',
+  ElemenItemConfig(
+      elementId: 'LT31',
       symbol: 'Zn',
       title: 'Zinc',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm32',
+  ElemenItemConfig(
+      elementId: 'LT32',
       symbol: 'Cd',
       title: 'Cadmium',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm33',
+  ElemenItemConfig(
+      elementId: 'LT33',
       symbol: 'Hg',
       title: 'Mercury',
       containerColor: ChemistryColorApp.containerMenu4,
       textColor: ChemistryColorApp.transitionMetalText),
-  ElemenItemGrid(
-      id: 'atm34',
+  ElemenItemConfig(
+      elementId: 'LT34',
       symbol: 'Fe',
       title: 'Iron',
       containerColor: ChemistryColorApp.containerMenu4,

@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurGasMuliaDesc = [
-  ElemenDesc(
-    id: 'zang1',
-    category: 'ang1',
+  ElementInformation(
+    id: 'Dgm1',
+    elementId: 'GM1',
     title: 'Helium (He)',
-    ingredient: [
+    information: [
       '''
 Simbol: He 
 Nomor Atom: 2 
@@ -29,11 +29,11 @@ Isotop Paling Stabil: He-4
 Helium adalah unsur kimia yang ringan dan tidak beracun. Dalam kondisi standar, helium adalah gas tak berwarna, tak berbau, dan tak berasa. Helium memiliki kepadatan yang sangat rendah dan titik didih yang sangat rendah, sehingga sering digunakan dalam industri dan laboratorium sebagai pendingin. Karena sifatnya yang inert, helium digunakan dalam pengisian balon, penyelidikan medis, dan dalam industri kriogenik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zang2',
-    category: 'ang2',
+  ElementInformation(
+    id: 'Dgm2',
+    elementId: 'GM2',
     title: 'Neon (Ne)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ne 
 Nomor Atom: 10 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: Ne-20
 Neon adalah unsur gas mulia yang tidak berwarna dan tidak berbau. Unsur ini sangat inert dan stabil, dan tidak bereaksi secara mudah dengan unsur-unsur lainnya. Neon sering digunakan dalam lampu neon, lampu pijar, dan indikator gas. Karakteristik uniknya yang menghasilkan cahaya terang dan warna-warni membuatnya populer dalam aplikasi penerangan dan display.
 ''',
   ),
-  ElemenDesc(
-    id: 'zang3',
-    category: 'ang3',
+  ElementInformation(
+    id: 'Dgm3',
+    elementId: 'GM3',
     title: 'Argon (Ar)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ar 
 Nomor Atom: 18 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: Ar-40
 Argon adalah unsur gas nobile yang tidak berwarna, tidak berbau, dan tidak beracun. Argon memiliki kestabilan yang tinggi dan cenderung tidak bereaksi dengan unsur atau senyawa lain. Hal ini membuat argon sangat berguna dalam berbagai aplikasi, termasuk dalam pengisian lampu neon, industri pengelasan, penelitian ilmiah, dan penggunaan sebagai atmosfer dalam proses yang memerlukan lingkungan yang inert.
 ''',
   ),
-  ElemenDesc(
-    id: 'zang4',
-    category: 'ang4',
+  ElementInformation(
+    id: 'Dgm4',
+    elementId: 'GM4',
     title: 'Kripton (Kr)',
-    ingredient: [
+    information: [
       '''
 Simbol: Kr 
 Nomor Atom: 36 
@@ -107,11 +107,11 @@ Isotop Paling Stabil: Kr-84
 Kripton adalah unsur gas mulia yang tidak berbau, tidak berwarna, dan tidak beracun. Unsur ini digunakan dalam lampu neon dan dalam penelitian ilmiah. Kripton juga digunakan dalam industri untuk isolasi termal dan dalam pemrosesan semikonduktor. Karena sifatnya yang tidak reaktif, kripton digunakan dalam lingkungan yang inert.
 ''',
   ),
-  ElemenDesc(
-    id: 'zang5',
-    category: 'ang5',
+  ElementInformation(
+    id: 'Dgm5',
+    elementId: 'GM5',
     title: 'Xenon (Xe)',
-    ingredient: [
+    information: [
       '''
 Simbol: Xe 
 Nomor Atom: 54 
@@ -133,11 +133,11 @@ Isotop Paling Stabil: Xe-131
 Xenon adalah unsur gas mulia yang tidak berwarna. Unsur ini berada dalam golongan gas mulia dan memiliki sifat-sifatnya yang sangat tidak reaktif. Xenon digunakan dalam berbagai aplikasi, termasuk pencahayaan, elektronik, dan anestesi. Xenon juga memiliki beberapa isotop radioaktif yang digunakan dalam penelitian dan aplikasi medis.
 ''',
   ),
-  ElemenDesc(
-    id: 'zang6',
-    category: 'ang6',
+  ElementInformation(
+    id: 'Dgm6',
+    elementId: 'GM6',
     title: 'Radon (Rn)',
-    ingredient: [
+    information: [
       '''
 Simbol: Rn 
 Nomor Atom: 86 
@@ -162,38 +162,38 @@ Radon adalah unsur gas mulia yang memiliki simbol kimia Rn dan nomor atom 86. Un
 ];
 
 const unsurGasMulia = [
-  ElemenItemGrid(
-      id: 'ang1',
+  ElemenItemConfig(
+      elementId: 'GM1',
       symbol: 'He',
       title: 'Helium',
       containerColor: ChemistryColorApp.containerMenu5,
       textColor: ChemistryColorApp.nobleGasesText),
-  ElemenItemGrid(
-      id: 'ang2',
+  ElemenItemConfig(
+      elementId: 'GM2',
       symbol: 'Ne',
       title: 'Neon',
       containerColor: ChemistryColorApp.containerMenu5,
       textColor: ChemistryColorApp.nobleGasesText),
-  ElemenItemGrid(
-      id: 'ang3',
+  ElemenItemConfig(
+      elementId: 'GM3',
       symbol: 'Ar',
       title: 'Argon',
       containerColor: ChemistryColorApp.containerMenu5,
       textColor: ChemistryColorApp.nobleGasesText),
-  ElemenItemGrid(
-      id: 'ang4',
+  ElemenItemConfig(
+      elementId: 'GM4',
       symbol: 'Kr',
       title: 'Krypton',
       containerColor: ChemistryColorApp.containerMenu5,
       textColor: ChemistryColorApp.nobleGasesText),
-  ElemenItemGrid(
-      id: 'ang5',
+  ElemenItemConfig(
+      elementId: 'GM5',
       symbol: 'Xe',
       title: 'Xenon',
       containerColor: ChemistryColorApp.containerMenu5,
       textColor: ChemistryColorApp.nobleGasesText),
-  ElemenItemGrid(
-      id: 'ang6',
+  ElemenItemConfig(
+      elementId: 'GM6',
       symbol: 'Rn',
       title: 'Radon',
       containerColor: ChemistryColorApp.containerMenu5,

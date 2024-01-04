@@ -1,40 +1,40 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurLogamAlkali = [
-  ElemenItemGrid(
-      id: 'a1',
+  ElemenItemConfig(
+      elementId: 'LA1',
       symbol: 'Li',
       title: 'Lithium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
       textColor: ChemistryColorApp.logamAlkaliText),
-  ElemenItemGrid(
-      id: 'a2',
+  ElemenItemConfig(
+      elementId: 'LA2',
       symbol: 'Na',
       title: 'Sodium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
       textColor: ChemistryColorApp.logamAlkaliText),
-  ElemenItemGrid(
-      id: 'a3',
+  ElemenItemConfig(
+      elementId: 'LA3',
       symbol: 'K',
       title: 'Potassium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
       textColor: ChemistryColorApp.logamAlkaliText),
-  ElemenItemGrid(
-      id: 'a4',
+  ElemenItemConfig(
+      elementId: 'LA4',
       symbol: 'Rb',
       title: 'Rubidium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
       textColor: ChemistryColorApp.logamAlkaliText),
-  ElemenItemGrid(
-      id: 'a5',
+  ElemenItemConfig(
+      elementId: 'LA5',
       symbol: 'Cs',
       title: 'Caesium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
       textColor: ChemistryColorApp.logamAlkaliText),
-  ElemenItemGrid(
-      id: 'a6',
+  ElemenItemConfig(
+      elementId: 'LA^',
       symbol: 'Fr',
       title: 'Francium',
       containerColor: ChemistryColorApp.logamAlkaliContainer,
@@ -42,11 +42,11 @@ const unsurLogamAlkali = [
 ];
 
 const unsurLogamAlkaliDesc = [
-  ElemenDesc(
-    id: 'z1',
-    category: 'a1',
+  ElementInformation(
+    id: 'Dla1',
+    elementId: 'LA1',
     title: 'Lithium (Li)',
-    ingredient: [
+    information: [
       '''
 Simbol: Li
 Nomor Atom: 3
@@ -67,11 +67,11 @@ Isotop Paling Stabil: Li-7
     description:
         'Litium adalah logam alkali ringan yang lunak, berwarna perak kebiruan. Unsur ini memiliki konduktivitaslistrik dan panas yang baik, serta reaktivitas kimia yang tinggi.Litium digunakan dalam berbagai aplikasi, termasuk dalam baterai ion litium yang digunakan dalam perangkat elektronik,dalam paduan logam untuk pengecoran dan pembuatan logam,serta dalam obat-obatan psikiatri untuk pengobatan gangguan mental.',
   ),
-  ElemenDesc(
-    id: 'z2',
-    category: 'a2',
+  ElementInformation(
+    id: 'Dla2',
+    elementId: 'LA2',
     title: 'Sodium (Na)',
-    ingredient: [
+    information: [
       '''
 Simbol: Na 
 Nomor Atom: 11 
@@ -92,11 +92,11 @@ Isotop Paling Stabil: Na-23
     description:
         'Natrium adalah logam alkali yang lunak, berwarna perak, dan sangat reaktif. Unsur ini ditemukan dalam berbagai senyawa seperti garam dapur (natrium klorida) dan digunakan dalam berbagai aplikasi, termasuk dalam industri kimia, industri logam, dan dalam proses pemurnian logam. Natrium juga memiliki peran penting dalam menjaga keseimbangan air dan elektrolit dalam tubuh manusia.',
   ),
-  ElemenDesc(
-    id: 'z3',
-    category: 'a3',
+  ElementInformation(
+    id: 'Dla3',
+    elementId: 'LA3',
     title: 'Potassium (K)',
-    ingredient: [
+    information: [
       '''
 Simbol: K
 Nomor Atom: 19
@@ -118,11 +118,11 @@ Isotop Paling Stabil: K-39
 Kalium adalah unsur logam alkali yang sangat reaktif. Unsur ini memiliki sifat kimia yang mirip dengan unsur lain dalam kelompok logam alkali. Kalium  biasanya ditemukan dalam bentuk senyawa seperti  garam kalium yang diperlukan oleh organisme hidup  untuk fungsi biologis tertentu. Kalium juga  digunakan dalam berbagai aplikasi industri  dan pertanian.
 ''',
   ),
-  ElemenDesc(
-    id: 'z4',
-    category: 'a4',
+  ElementInformation(
+    id: 'Dla4',
+    elementId: 'LA4',
     title: 'Rubidium (Rb)',
-    ingredient: [
+    information: [
       '''
 Simbol: Rb 
 Nomor Atom: 37 
@@ -144,11 +144,11 @@ Isotop Paling Stabil: Rb-85
 Rubidium adalah logam alkali berwarna perak keabu-abuan yang lunak dan sangat reaktif. Unsur ini memiliki berbagai aplikasi  dalam penelitian ilmiah, pengolahan logam, dan produksi baterai. Rubidium juga digunakan dalam spektroskopi atom dan  sebagai sumber cahaya dalam jam atom.
 ''',
   ),
-  ElemenDesc(
-    id: 'z5',
-    category: 'a5',
+  ElementInformation(
+    id: 'Dla5',
+    elementId: 'LA5',
     title: 'Caesium (Cs)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cs 
 Nomor Atom: 55 
@@ -170,11 +170,11 @@ Isotop Paling Stabil: Cs-133
 Caesium adalah unsur logam alkali yang memiliki warna perak-keemasan. Unsur ini berada dalam golongan alkali  dan memiliki sifat-sifat reaktif yang kuat.  Caesium digunakan dalam berbagai aplikasi, termasuk dalam penelitian ilmiah, industri,  dan dalam sistem jam atomik. Caesium juga  memiliki isotop radioaktif yang digunakan dalam penelitian dan  aplikasi medis.
 ''',
   ),
-  ElemenDesc(
+  ElementInformation(
     id: 'z6',
-    category: 'a6',
+    elementId: 'LA^',
     title: 'Francium (Fr)',
-    ingredient: [
+    information: [
       '''
 Simbol: Fr 
 Nomor Atom: 87 

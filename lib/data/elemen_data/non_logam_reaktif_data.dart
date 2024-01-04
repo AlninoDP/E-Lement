@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurNonLogamReaktifDesc = [
-  ElemenDesc(
-    id: 'zrnxc1',
-    category: 'arnxc1',
+  ElementInformation(
+    id: 'Dlnr1',
+    elementId: 'LNR01',
     title: 'Hidrogen (H)',
-    ingredient: [
+    information: [
       '''
 Simbol: H 
 Nomor Atom: 1 
@@ -29,11 +29,11 @@ Isotop Paling Stabil: H-1
 Hidrogen adalah unsur kimia yang paling sederhana dan merupakan unsur pertama dalam tabel periodik. Sebagai unsur nonlogam, hidrogen umumnya berbentuk gas di kondisi standar dan tidak berwarna. Hidrogen adalah unsur yang sangat melimpah di alam, terutama dalam bentuk senyawa seperti air (H2O) dan hidrokarbon. Hidrogen juga merupakan komponen penting dalam proses kimia dan industri seperti produksi amonia dan bahan bakar sel hidrogen.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn2',
-    category: 'arn2',
+  ElementInformation(
+    id: 'Dlnr2',
+    elementId: 'LNR02',
     title: 'Carbon (C)',
-    ingredient: [
+    information: [
       '''
 Simbol: C 
 Nomor Atom: 6 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: C-12
 Karbon adalah unsur kimia penting yang membentuk dasar bagi kehidupan di Bumi. Unsur ini memiliki sifat unik, termasuk kemampuan untuk membentuk ikatan kovalen yang kompleks dan membentuk struktur berbagai macam senyawa. Karbon ditemukan dalam berbagai bentuk, seperti intan, grafit, dan karbon amorf. Unsur ini memiliki aplikasi luas dalam industri, termasuk dalam pembuatan bahan bakar fosil, bahan kimia, logam paduan, dan banyak lagi.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn3',
-    category: 'arn3',
+  ElementInformation(
+    id: 'Dlnr3',
+    elementId: 'LNR03',
     title: 'Nitrogen (N)',
-    ingredient: [
+    information: [
       '''
 Simbol: N 
 Nomor Atom: 7 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: N-14
 Nitrogen adalah gas tak berwarna yang merupakan salah satu komponen utama atmosfer Bumi. Unsur ini memiliki sifat inert dan tidak bereaksi secara spontan dengan banyak unsur lain. Nitrogen penting dalam kehidupan karena merupakan komponen kunci dalam protein dan asam nukleat. Unsur ini juga digunakan dalam berbagai aplikasi, termasuk dalam industri pupuk, industri kimia, dan sebagai gas inert dalam proses perlindungan dan pemadam kebakaran.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn4',
-    category: 'arn4',
+  ElementInformation(
+    id: 'Dlnr4',
+    elementId: 'LNR04',
     title: 'Oksigen(O)',
-    ingredient: [
+    information: [
       '''
 Simbol: O 
 Nomor Atom: 8 
@@ -107,11 +107,11 @@ Isotop Paling Stabil: O-16
 Oksigen adalah unsur nonlogam yang sangat penting dalam kehidupan dan dalam proses pembakaran. Unsur ini merupakan komponen utama air dan juga merupakan komponen utama dalam berbagai senyawa organik dan anorganik. Oksigen digunakan dalam berbagai aplikasi, termasuk dalam industri medis, industri metalurgi, dan sebagai oksidator dalam proses kimia. Oksigen juga berperan penting dalam fotosintesis, proses yang menghasilkan oksigen atmosferik oleh tumbuhan
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn5',
-    category: 'arn5',
+  ElementInformation(
+    id: 'Dlnr5',
+    elementId: 'LNR05',
     title: 'Flourin (F)',
-    ingredient: [
+    information: [
       '''
 Simbol: F 
 Nomor Atom: 9 
@@ -133,11 +133,11 @@ Isotop Paling Stabil: F-19
 Fluorin adalah unsur nonlogam yang sangat reaktif dan merupakan salah satu anggota dari golongan halogen. Unsur ini ditemukan dalam berbagai senyawa dan digunakan dalam berbagai industri, termasuk industri kimia, metalurgi, dan pengolahan minyak. Fluorin juga digunakan dalam produksi bahan kimia seperti bahan pengelap gigi dan bahan pendingin dalam kulkas.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn6',
-    category: 'arn6',
+  ElementInformation(
+    id: 'Dlnr6',
+    elementId: 'LNR06',
     title: 'Fosfor (P)',
-    ingredient: [
+    information: [
       '''
 Simbol: P 
 Nomor Atom: 15 
@@ -159,11 +159,11 @@ Isotop Paling Stabil: P-31
 Fosfor adalah unsur nonlogam yang terdapat dalam berbagai senyawa dan berperan penting dalam biokimia dan ekologi. Unsur ini dapat ditemukan dalam bentuk fosfat dalam mineral dan juga merupakan komponen penting dalam asam nukleat, fosfolipid, dan adenosin trifosfat (ATP) dalam tubuh makhluk hidup. Fosfor juga memiliki berbagai kegunaan dalam industri, termasuk dalam pembuatan pupuk dan deterjen.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn7',
-    category: 'arn7',
+  ElementInformation(
+    id: 'Dlnr7',
+    elementId: 'LNR07',
     title: 'Sulfur (S)',
-    ingredient: [
+    information: [
       '''
 Simbol: S 
 Nomor Atom: 16 
@@ -185,11 +185,11 @@ Isotop Paling Stabil: S-32
 Sulfur adalah unsur nonlogam yang memiliki berbagai sifat khas. Unsur ini sering ditemukan dalam bentuk mineral seperti batu belerang dan pirit. Sulfur juga merupakan komponen penting dalam berbagai senyawa kimia, termasuk dalam pembuatan asam sulfat, garam sulfat, dan bahan peledak. Selain itu, sulfur juga memiliki peran biologis penting dalam bentuk asam amino seperti metionin dan cysteine.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn8',
-    category: 'arn8',
+  ElementInformation(
+    id: 'Dlnr8',
+    elementId: 'LNR08',
     title: 'Klorin (Cl)',
-    ingredient: [
+    information: [
       '''
 Simbol: Cl 
 Nomor Atom: 17 
@@ -211,11 +211,11 @@ Isotop Paling Stabil: Cl-35
 Klorin adalah unsur halogen yang biasanya ditemukan dalam bentuk gas di alam. Unsur ini memiliki sifat yang sangat reaktif dan beracun. Klorin digunakan dalam berbagai aplikasi, termasuk dalam pembuatan bahan kimia seperti PVC (polyvinyl chloride), bahan pemutih, dan disinfectant. Klorin juga merupakan komponen penting dalam proses desinfeksi air untuk menghilangkan kuman dan patogen.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn9',
-    category: 'arn9',
+  ElementInformation(
+    id: 'Dlnr9',
+    elementId: 'LNR09',
     title: 'Selenium (Se)',
-    ingredient: [
+    information: [
       '''
 Simbol: Se 
 Nomor Atom: 34 
@@ -237,11 +237,11 @@ Isotop Paling Stabil: Se-82
 Selenium adalah unsur nonlogam yang memiliki berbagai peran biologis dan aplikasi teknis. Unsur ini penting dalam nutrisi manusia dan digunakan dalam produksi kaca, baterai, dan fotovoltaik. Selenium juga digunakan dalam industri fotografi dan sebagai katalis dalam berbagai reaksi kimia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn10',
-    category: 'arn10',
+  ElementInformation(
+    id: 'Dlnr10',
+    elementId: 'LNR10',
     title: 'Bromin (Br)',
-    ingredient: [
+    information: [
       '''
 Simbol: Br 
 Nomor Atom: 35 
@@ -263,11 +263,11 @@ Isotop Paling Stabil: Br-79
 Bromin adalah unsur halogen cair yang memiliki sifat beracun dan berbau tajam. Unsur ini digunakan dalam berbagai aplikasi industri, termasuk sebagai bahan pemutih, bahan kimia organik, dan dalam produksi obat-obatan. Bromin juga digunakan dalam produksi bahan kimia seperti pestisida dan sebagai desinfektan dalam air minum.
 ''',
   ),
-  ElemenDesc(
-    id: 'zrn11',
-    category: 'arn11',
+  ElementInformation(
+    id: 'Dlnr11',
+    elementId: 'LNR11',
     title: 'Iodin (I)',
-    ingredient: [
+    information: [
       '''
 Simbol: I 
 Nomor Atom: 53 
@@ -292,68 +292,68 @@ Iodin adalah unsur nonlogam yang memiliki warna biru-kehitaman. Unsur ini berada
 ];
 
 const unsurNonLogamReaktif = [
-  ElemenItemGrid(
-      id: 'arnxc1',
+  ElemenItemConfig(
+      elementId: 'LNR01',
       symbol: 'H',
       title: 'Hydrogen',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn2',
+  ElemenItemConfig(
+      elementId: 'LNR02',
       symbol: 'C',
       title: 'Carbon',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn3',
+  ElemenItemConfig(
+      elementId: 'LNR03',
       symbol: 'N',
       title: 'Nitrogen',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn4',
+  ElemenItemConfig(
+      elementId: 'LNR04',
       symbol: 'O',
       title: 'Oxygen',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn5',
+  ElemenItemConfig(
+      elementId: 'LNR05',
       symbol: 'F',
       title: 'Fluroine',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn6',
+  ElemenItemConfig(
+      elementId: 'LNR06',
       symbol: 'P',
       title: 'Phosphorus',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn7',
+  ElemenItemConfig(
+      elementId: 'LNR07',
       symbol: 'S',
       title: 'Sulfur',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn8',
+  ElemenItemConfig(
+      elementId: 'LNR08',
       symbol: 'Cl',
       title: 'Chlorine',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn9',
+  ElemenItemConfig(
+      elementId: 'LNR09',
       symbol: 'Se',
       title: 'Selenium',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn10',
+  ElemenItemConfig(
+      elementId: 'LNR10',
       symbol: 'Br',
       title: 'Bromine',
       containerColor: ChemistryColorApp.containerMenu7,
       textColor: ChemistryColorApp.reActiveNonMetalsText),
-  ElemenItemGrid(
-      id: 'arn11',
+  ElemenItemConfig(
+      elementId: 'LNR11',
       symbol: 'I',
       title: 'Iodine',
       containerColor: ChemistryColorApp.containerMenu7,

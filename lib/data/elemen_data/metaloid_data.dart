@@ -1,13 +1,13 @@
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 
 const unsurMetaloidDesc = [
-  ElemenDesc(
-    id: 'zml1',
-    category: 'aml1',
+  ElementInformation(
+    id: 'Dmt1',
+    elementId: 'MT1',
     title: 'Boron (B)',
-    ingredient: [
+    information: [
       '''
 Simbol: B 
 Nomor Atom: 5 
@@ -29,11 +29,11 @@ Isotop Paling Stabil: B-11
 Boron adalah metaloid padat yang memiliki sifat-sifat termal dan listrik yang unik. Unsur ini digunakan dalam berbagai aplikasi, termasuk dalam industri pengolahan logam, bahan pendingin reaktor nuklir, dan manufaktur kaca dan serat optik. Boron juga digunakan dalam industri pertanian sebagai nutrisi tanaman dan sebagai aditif dalam bahan kimia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zml2',
-    category: 'aml2',
+  ElementInformation(
+    id: 'Dmt2',
+    elementId: 'MT2',
     title: 'Arsenik (As)',
-    ingredient: [
+    information: [
       '''
 Simbol: As 
 Nomor Atom: 33 
@@ -55,11 +55,11 @@ Isotop Paling Stabil: As-75
 Arsenik adalah unsur semimetal yang memiliki berbagai kegunaan dalam industri dan obat-obatan. Unsur ini ditemukan dalam bentuk padat dan merupakan racun yang sangat berbahaya bagi manusia. Arsenik digunakan dalam pembuatan pestisida, baterai, obat-obatan, dan dalam industri kaca. Selain itu, arsenik juga digunakan dalam produksi bahan peledak dan sebagai katalis dalam berbagai reaksi kimia.
 ''',
   ),
-  ElemenDesc(
-    id: 'zml3',
-    category: 'aml3',
+  ElementInformation(
+    id: 'Dmt3',
+    elementId: 'MT3',
     title: 'Silicon (Si)',
-    ingredient: [
+    information: [
       '''
 Simbol: Si 
 Nomor Atom: 14 
@@ -81,11 +81,11 @@ Isotop Paling Stabil: Si-28
 Silikon adalah unsur semikonduktor yang memiliki berbagai aplikasi penting dalam industri elektronik. Silikon juga ditemukan dalam berbagai senyawa seperti silikon dioksida (pasir) dan silikon karbida (karborundum). Unsur ini juga memiliki sifat tahan terhadap panas dan oksidasi, serta merupakan salah satu komponen utama dalam pembuatan panel surya dan mikrochip.
 ''',
   ),
-  ElemenDesc(
-    id: 'zml4',
-    category: 'aml4',
+  ElementInformation(
+    id: 'Dmt4',
+    elementId: 'MT4',
     title: 'Germanium (Ge)',
-    ingredient: [
+    information: [
       '''
 Simbol: Ge
 Nomor Atom: 32 
@@ -107,11 +107,11 @@ Isotop Paling Stabil: Ge-74
 Germanium adalah unsur semikonduktor yang digunakan dalam industri elektronik dan optik. Unsur ini memiliki kemampuan untuk menghantarkan listrik dengan baik pada suhu rendah dan dapat digunakan dalam pembuatan transistor dan sensor. Germanium juga digunakan dalam peralatan optik seperti lensa dan detektor inframerah.
 ''',
   ),
-  ElemenDesc(
-    id: 'zml5',
-    category: 'aml5',
+  ElementInformation(
+    id: 'Dmt5',
+    elementId: 'MT5',
     title: 'Antimon (Sb)',
-    ingredient: [
+    information: [
       '''
 Simbol: Sb 
 Nomor Atom: 51 
@@ -133,11 +133,11 @@ Isotop Paling Stabil: Sb-121
 Antimon adalah unsur semimetal yang memiliki warna abu-abu keperakan. Unsur ini memiliki titik lebur yang relatif tinggi dan digunakan dalam berbagai aplikasi, termasuk pembuatan baterai, kaca tahan panas, dan logam paduan. Antimon |juga digunakan dalam produksi pelapisan, bahan kimia, dan dalam bidang elektronik.
 ''',
   ),
-  ElemenDesc(
-    id: 'zml6',
-    category: 'aml6',
+  ElementInformation(
+    id: 'Dmt6',
+    elementId: 'MT6',
     title: 'Tellurium (Te)',
-    ingredient: [
+    information: [
       '''
 Simbol: Te 
 Nomor Atom: 52 
@@ -162,38 +162,38 @@ Tellurium adalah unsur semimetal yang memiliki warna abu-abu keperakan. Unsur in
 ];
 
 const unsurMetaloid = [
-  ElemenItemGrid(
-      id: 'aml1',
+  ElemenItemConfig(
+      elementId: 'MT1',
       symbol: 'B',
       title: 'Boron',
       containerColor: ChemistryColorApp.containerMenu6,
       textColor: ChemistryColorApp.metalLoidsText),
-  ElemenItemGrid(
-      id: 'aml2',
+  ElemenItemConfig(
+      elementId: 'MT2',
       symbol: 'As',
       title: 'Arsenic',
       containerColor: ChemistryColorApp.containerMenu6,
       textColor: ChemistryColorApp.metalLoidsText),
-  ElemenItemGrid(
-      id: 'aml3',
+  ElemenItemConfig(
+      elementId: 'MT3',
       symbol: 'Si',
       title: 'Silicon',
       containerColor: ChemistryColorApp.containerMenu6,
       textColor: ChemistryColorApp.metalLoidsText),
-  ElemenItemGrid(
-      id: 'aml4',
+  ElemenItemConfig(
+      elementId: 'MT4',
       symbol: 'Ge',
       title: 'Germanium',
       containerColor: ChemistryColorApp.containerMenu6,
       textColor: ChemistryColorApp.metalLoidsText),
-  ElemenItemGrid(
-      id: 'aml5',
+  ElemenItemConfig(
+      elementId: 'MT5',
       symbol: 'Sb',
       title: 'Antimony',
       containerColor: ChemistryColorApp.containerMenu6,
       textColor: ChemistryColorApp.metalLoidsText),
-  ElemenItemGrid(
-      id: 'aml6',
+  ElemenItemConfig(
+      elementId: 'MT6',
       symbol: 'Te',
       title: 'Tellurium',
       containerColor: ChemistryColorApp.containerMenu6,
