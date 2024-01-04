@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../models/colors.dart';
+import '../core/colors.dart';
 
 class BubbleButton extends StatelessWidget {
   final String text;

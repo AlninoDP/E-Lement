@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
 
 class MainController extends GetxController {
   final screenHeight = Get.height;
@@ -9,10 +9,13 @@ class MainController extends GetxController {
   TextEditingController txtFieldUsernamecontroller = TextEditingController();
   final RxString guestName = 'Guest'.obs;
 
-  void onGridElemenTap(BuildContext context, List<ElemenDesc> listObj,
-      ElemenItemGrid elemenItemGrid, void Function(List<ElemenDesc>) navigate) {
-    final List<ElemenDesc> filteredList = listObj
-        .where((value) => value.category.contains(elemenItemGrid.id))
+  void onGridElemenTap(
+      BuildContext context,
+      List<ElementInformation> listObj,
+      ElemenItemConfig elemenItemConfig,
+      void Function(List<ElementInformation>) navigate) {
+    final List<ElementInformation> filteredList = listObj
+        .where((value) => value.elementId.contains(elemenItemConfig.elementId))
         .toList();
     navigate(filteredList);
   }

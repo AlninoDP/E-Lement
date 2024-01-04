@@ -3,7 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../models/colors.dart';
+import '../../../core/colors.dart';
 
 class ScientistQuote extends StatefulWidget {
   const ScientistQuote({super.key});

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import '../../../models/colors.dart';
+import '../../../core/colors.dart';
 
 class TextFieldUsername extends StatelessWidget {
   final TextEditingController controller;
