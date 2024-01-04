@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/colors.dart';
-import 'package:kimiaapp/models/elemen_desc.dart';
+import 'package:kimiaapp/core/colors.dart';
+import 'package:kimiaapp/core/elemen_information.dart';
 import 'package:kimiaapp/components/background.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content1.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_content2.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/desc_title.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/desc_menu_widgets/box_header.dart';
+import 'package:kimiaapp/view/elemen_information_menu/widgets/desc_content1.dart';
+import 'package:kimiaapp/view/elemen_information_menu/widgets/desc_content2.dart';
+import 'package:kimiaapp/view/elemen_information_menu/widgets/desc_title.dart';
+import 'package:kimiaapp/view/elemen_information_menu/widgets/box_header.dart';
 
-class DescUnknownPropertiesScreen extends StatelessWidget {
-  const DescUnknownPropertiesScreen({super.key, required this.listElemenData});
-  final List<ElemenDesc> listElemenData;
+class LantanumInformationScreen extends StatelessWidget {
+  const LantanumInformationScreen({super.key, required this.listElemenData});
+  final List<ElementInformation> listElemenData;
 
   @override
   Widget build(BuildContext context) {
@@ -36,11 +36,11 @@ class DescUnknownPropertiesScreen extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     DescTitle(
-                                      containerColor:
-                                          ChemistryColorApp.containerMenu9,
+                                      containerColor: ChemistryColorApp
+                                          .lanthanidesContainer,
                                       title: listElemenData[index].title,
                                       textColor:
-                                          ChemistryColorApp.containerMenu9text,
+                                          ChemistryColorApp.lanthanidesText,
                                     ),
                                     SizedBox(
                                       height: 10.h,
@@ -52,7 +52,8 @@ class DescUnknownPropertiesScreen extends StatelessWidget {
                                         borderRadius: BorderRadius.all(
                                           const Radius.circular(10).w,
                                         ),
-                                        color: ChemistryColorApp.containerMenu9,
+                                        color: ChemistryColorApp
+                                            .lanthanidesContainer,
                                       ),
                                       child: Column(
                                         mainAxisAlignment:
@@ -62,7 +63,7 @@ class DescUnknownPropertiesScreen extends StatelessWidget {
                                               style: const TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   color: ChemistryColorApp
-                                                      .containerMenu9text))
+                                                      .lanthanidesText))
                                         ],
                                       ),
                                     ),
@@ -76,7 +77,7 @@ class DescUnknownPropertiesScreen extends StatelessWidget {
                                     ),
                                     DescContent1(
                                         text: listElemenData[index]
-                                            .ingredient[index]),
+                                            .information[index]),
                                     SizedBox(
                                       height: 20.h,
                                     ),
