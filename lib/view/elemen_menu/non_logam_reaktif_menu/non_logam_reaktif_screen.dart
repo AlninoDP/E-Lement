@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/components/bubble_box.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/data/elemen_data/aktinium_data.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/aktinium_menu/desc_aktinium/desc_aktinium_screen.dart';
+import 'package:kimiaapp/data/elemen_data/non_logam_reaktif_data.dart';
+import 'package:kimiaapp/view/elemen_information_menu/non_logam_reaktif_information/non_logam_reaktif_information_screen.dart';
 import 'package:kimiaapp/components/background.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
+import 'package:kimiaapp/view/elemen_menu/widgets/elemen_menu.dart';
+import '../../../components/bubble_box.dart';
 import 'package:get/get.dart';
 
-class AktiniumScreen extends StatelessWidget {
-  const AktiniumScreen({super.key});
+class NonLogamReaktifScreen extends StatelessWidget {
+  const NonLogamReaktifScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class AktiniumScreen extends StatelessWidget {
                 children: [
                   const BubbleBox(
                       text:
-                          'This is Actinides, lets try to by click and learn more about them...'),
+                          'This is Reactive Non Metals, lets try to by click and learn more about them...'),
                   SizedBox(
                     height: 20.h,
                   ),
@@ -37,14 +37,14 @@ class AktiniumScreen extends StatelessWidget {
                       crossAxisSpacing: 30.0,
                     ),
                     children: [
-                      for (final elemen in unsurAktinium)
-                        UnsurElemenGridItem(
-                          categoryItemGrid: elemen,
+                      for (final elemen in unsurNonLogamReaktif)
+                        ElemenMenu(
+                          elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurAktiniumDesc, elemen,
+                                context, unsurNonLogamReaktifDesc, elemen,
                                 (filteredList) {
-                              Get.to(() => DescAktiniumScreen(
+                              Get.to(() => NonLogamReaktifInformationScreen(
                                   listElemenData: filteredList));
                             });
                           },

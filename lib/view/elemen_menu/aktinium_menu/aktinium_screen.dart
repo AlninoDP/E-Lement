@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:kimiaapp/components/bubble_box.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/data/elemen_data/metaloid_data.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/metaloid_menu/desc_metaloid/desc_metaloid_screen.dart';
+import 'package:kimiaapp/data/elemen_data/aktinium_data.dart';
+import 'package:kimiaapp/view/elemen_information_menu/aktinium_information/aktinium_information_screen.dart';
 import 'package:kimiaapp/components/background.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
-import '../../../components/bubble_box.dart';
+import 'package:kimiaapp/view/elemen_menu/widgets/elemen_menu.dart';
 import 'package:get/get.dart';
 
-class MetaloidScreen extends StatelessWidget {
-  const MetaloidScreen({super.key});
+class AktiniumScreen extends StatelessWidget {
+  const AktiniumScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class MetaloidScreen extends StatelessWidget {
                 children: [
                   const BubbleBox(
                       text:
-                          'This is Metalloids, lets try to by click and learn more about them...'),
+                          'This is Actinides, lets try to by click and learn more about them...'),
                   SizedBox(
                     height: 20.h,
                   ),
@@ -37,14 +37,14 @@ class MetaloidScreen extends StatelessWidget {
                       crossAxisSpacing: 30.0,
                     ),
                     children: [
-                      for (final elemen in unsurMetaloid)
-                        UnsurElemenGridItem(
-                          categoryItemGrid: elemen,
+                      for (final elemen in unsurAktinium)
+                        ElemenMenu(
+                          elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurMetaloidDesc, elemen,
+                                context, unsurAktiniumDesc, elemen,
                                 (filteredList) {
-                              Get.to(() => DescMetaloidScreen(
+                              Get.to(() => AktiniumInformationScreen(
                                   listElemenData: filteredList));
                             });
                           },

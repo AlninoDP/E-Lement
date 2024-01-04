@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/models/elemen_item_grid.dart';
+import 'package:kimiaapp/core/elemen_item_config.dart';
 
-class UnsurElemenGridItem extends StatelessWidget {
-  final ElemenItemGrid categoryItemGrid;
+class ElemenMenu extends StatelessWidget {
+  final ElemenItemConfig elemenItemConfig;
   final void Function() onTap;
-  const UnsurElemenGridItem(
-      {super.key, required this.categoryItemGrid, required this.onTap});
+  const ElemenMenu(
+      {super.key, required this.elemenItemConfig, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class UnsurElemenGridItem extends StatelessWidget {
         onTap: onTap,
         child: Ink(
           decoration: BoxDecoration(
-            color: categoryItemGrid.containerColor,
+            color: elemenItemConfig.containerColor,
             borderRadius: BorderRadius.all(
               const Radius.circular(20).w,
             ),
@@ -31,16 +31,16 @@ class UnsurElemenGridItem extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(categoryItemGrid.symbol,
+                Text(elemenItemConfig.symbol,
                     style: TextStyle(
-                        color: categoryItemGrid.textColor,
+                        color: elemenItemConfig.textColor,
                         fontSize: 26.sp,
                         fontWeight: FontWeight.bold)),
                 Text(
                   textAlign: TextAlign.center,
-                  categoryItemGrid.title,
+                  elemenItemConfig.title,
                   style: TextStyle(
-                    color: categoryItemGrid.textColor,
+                    color: elemenItemConfig.textColor,
                     fontSize: 26.sp,
                   ),
                 ),

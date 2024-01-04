@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/data/elemen_data/unknown_properties_data.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/unknown_properties_menu/desc_unknown_properties/desc_unknown_properties_screen.dart';
+import 'package:kimiaapp/data/elemen_data/lantanum_data.dart';
+import 'package:kimiaapp/view/elemen_information_menu/lantanum_information/lantanum_information_screen.dart';
 import 'package:kimiaapp/components/background.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
+import 'package:kimiaapp/view/elemen_menu/widgets/elemen_menu.dart';
 import '../../../components/bubble_box.dart';
 import 'package:get/get.dart';
 
-class UnknownPropertiesScreen extends StatelessWidget {
-  const UnknownPropertiesScreen({super.key});
+class LantanumScreen extends StatelessWidget {
+  const LantanumScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class UnknownPropertiesScreen extends StatelessWidget {
                 children: [
                   const BubbleBox(
                       text:
-                          'This is Unknown Properties Element, lets try to by click and learn more about them...'),
+                          'This is Lanthanides, lets try to by click and learn more about them...'),
                   SizedBox(
                     height: 20.h,
                   ),
@@ -37,14 +37,14 @@ class UnknownPropertiesScreen extends StatelessWidget {
                       crossAxisSpacing: 30.0,
                     ),
                     children: [
-                      for (final elemen in unsurUnknownProperties)
-                        UnsurElemenGridItem(
-                          categoryItemGrid: elemen,
+                      for (final elemen in unsurLantanum)
+                        ElemenMenu(
+                          elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurUnknownPropertiesDesc, elemen,
+                                context, unsurLantanumDesc, elemen,
                                 (filteredList) {
-                              Get.to(() => DescUnknownPropertiesScreen(
+                              Get.to(() => LantanumInformationScreen(
                                   listElemenData: filteredList));
                             });
                           },

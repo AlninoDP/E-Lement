@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kimiaapp/controller/main_controller.dart';
-import 'package:kimiaapp/models/data/elemen_data/gas_mulia_data.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/gas_mulia_menu/desc_gas_mulia/desc_gas_mulia_screen.dart';
+import 'package:kimiaapp/data/elemen_data/gas_mulia_data.dart';
+import 'package:kimiaapp/view/elemen_information_menu/gas_mulia_information/gas_mulia_information_screen.dart';
 import 'package:kimiaapp/components/background.dart';
-import 'package:kimiaapp/view/grid_elemen_menu/widgets/unsur_elemen_grid_item.dart';
+import 'package:kimiaapp/view/elemen_menu/widgets/elemen_menu.dart';
 import '../../../components/bubble_box.dart';
 import 'package:get/get.dart';
 
@@ -38,13 +38,13 @@ class GasMuliaScreen extends StatelessWidget {
                     ),
                     children: [
                       for (final elemen in unsurGasMulia)
-                        UnsurElemenGridItem(
-                          categoryItemGrid: elemen,
+                        ElemenMenu(
+                          elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
                                 context, unsurGasMuliaDesc, elemen,
                                 (filteredList) {
-                              Get.to(() => DescGasMuliaScreen(
+                              Get.to(() => GasMuliaInformationScreen(
                                   listElemenData: filteredList));
                             });
                           },
