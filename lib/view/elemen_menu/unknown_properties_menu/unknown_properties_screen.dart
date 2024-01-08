@@ -42,7 +42,7 @@ class UnknownPropertiesScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurUnknownPropertiesDesc, elemen,
+                                unkonwnPropertiesInformation, elemen,
                                 (filteredList) {
                               Get.to(() => UnknownPropertiesInformationScreen(
                                   listElemenData: filteredList));

@@ -10,7 +10,6 @@ class MainController extends GetxController {
   final RxString guestName = 'Guest'.obs;
 
   void onGridElemenTap(
-      BuildContext context,
       List<ElementInformation> listObj,
       ElemenItemConfig elemenItemConfig,
       void Function(List<ElementInformation>) navigate) {
@@ -18,5 +17,15 @@ class MainController extends GetxController {
         .where((value) => value.elementId.contains(elemenItemConfig.elementId))
         .toList();
     navigate(filteredList);
+  }
+
+  List<ElementInformation> tesTap(ElemenItemConfig elemenItemConfig,
+      List<ElementInformation> listElemenInformation) {
+    final List<ElementInformation> filteredList;
+    filteredList = listElemenInformation
+        .where((elementInformation) =>
+            elementInformation.elementId.contains(elemenItemConfig.elementId))
+        .toList();
+    return filteredList;
   }
 }
