@@ -42,7 +42,7 @@ class LogamAlkaliTanahScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurLogamAlkaliTanahDesc, elemen,
+                                logamAlkaliTanahInformation, elemen,
                                 (filteredList) {
                               Get.to(() => LogamAlkaliTanahInformationScreen(
                                   listElemenData: filteredList));

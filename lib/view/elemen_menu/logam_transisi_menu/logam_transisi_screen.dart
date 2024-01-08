@@ -42,7 +42,7 @@ class LogamTransisiScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurLogamTransisiDesc, elemen,
+                                logamTransisiInformation, elemen,
                                 (filteredList) {
                               Get.to(() => LogamTransisiInformationScreen(
                                   listElemenData: filteredList));

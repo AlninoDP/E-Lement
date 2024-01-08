@@ -42,7 +42,7 @@ class NonLogamReaktifScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurNonLogamReaktifDesc, elemen,
+                                nonLogamReaktifInformation, elemen,
                                 (filteredList) {
                               Get.to(() => NonLogamReaktifInformationScreen(
                                   listElemenData: filteredList));

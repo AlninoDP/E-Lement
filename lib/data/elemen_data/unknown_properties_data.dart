@@ -2,7 +2,7 @@ import 'package:kimiaapp/core/colors.dart';
 import 'package:kimiaapp/core/elemen_information.dart';
 import 'package:kimiaapp/core/elemen_item_config.dart';
 
-const unsurUnknownPropertiesDesc = [
+const unkonwnPropertiesInformation = [
   ElementInformation(
     id: 'Dup1',
     elementId: 'UPone',

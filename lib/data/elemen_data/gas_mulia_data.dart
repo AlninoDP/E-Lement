@@ -2,7 +2,7 @@ import 'package:kimiaapp/core/colors.dart';
 import 'package:kimiaapp/core/elemen_item_config.dart';
 import 'package:kimiaapp/core/elemen_information.dart';
 
-const unsurGasMuliaDesc = [
+const gasMuliaInformation = [
   ElementInformation(
     id: 'Dgm1',
     elementId: 'GM1',

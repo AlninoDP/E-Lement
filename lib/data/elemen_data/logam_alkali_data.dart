@@ -41,7 +41,7 @@ const unsurLogamAlkali = [
       textColor: ChemistryColorApp.logamAlkaliText),
 ];
 
-const unsurLogamAlkaliDesc = [
+const logamAlkaliInformation = [
   ElementInformation(
     id: 'Dla1',
     elementId: 'LA1',

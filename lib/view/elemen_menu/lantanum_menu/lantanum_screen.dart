@@ -42,8 +42,7 @@ class LantanumScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurLantanumDesc, elemen,
-                                (filteredList) {
+                                lantanumInformaton, elemen, (filteredList) {
                               Get.to(() => LantanumInformationScreen(
                                   listElemenData: filteredList));
                             });

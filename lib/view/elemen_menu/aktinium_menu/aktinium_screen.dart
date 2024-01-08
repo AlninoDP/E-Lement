@@ -41,12 +41,15 @@ class AktiniumScreen extends StatelessWidget {
                         ElemenMenu(
                           elemenItemConfig: elemen,
                           onTap: () {
-                            controller.onGridElemenTap(
-                                context, unsurAktiniumDesc, elemen,
-                                (filteredList) {
-                              Get.to(() => AktiniumInformationScreen(
-                                  listElemenData: filteredList));
-                            });
+                            final filteredList =
+                                controller.tesTap(elemen, aktiniumInformation);
+                            Get.to(AktiniumInformationScreen(
+                                listElemenData: filteredList));
+                            // controller.onGridElemenTap(
+                            //     unsurAktiniumDesc, elemen, (filteredList) {
+                            //   Get.to(() => AktiniumInformationScreen(
+                            //       listElemenData: filteredList));
+                            // });
                           },
                         )
                     ],

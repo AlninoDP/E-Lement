@@ -42,7 +42,7 @@ class LogamPascaTransisiScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurLogamPascaTransisiDesc, elemen,
+                                logamPascaTransisiInformation, elemen,
                                 (filteredList) {
                               Get.to(() => LogamPascaTransisiInformationScreen(
                                   listElemenData: filteredList));

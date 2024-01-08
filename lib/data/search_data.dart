@@ -12,14 +12,14 @@ import 'package:kimiaapp/core/elemen_information.dart';
 
 //* list berisi semua data
 List<ElementInformation> listDataUnsur = <ElementInformation>[
-  ...unsurAktiniumDesc,
-  ...unsurGasMuliaDesc,
-  ...unsurLantanumDesc,
-  ...unsurLogamAlkaliDesc,
-  ...unsurLogamAlkaliTanahDesc,
-  ...unsurLogamPascaTransisiDesc,
-  ...unsurLogamTransisiDesc,
-  ...unsurMetaloidDesc,
-  ...unsurNonLogamReaktifDesc,
-  ...unsurUnknownPropertiesDesc
+  ...aktiniumInformation,
+  ...gasMuliaInformation,
+  ...lantanumInformaton,
+  ...logamAlkaliInformation,
+  ...logamAlkaliTanahInformation,
+  ...logamPascaTransisiInformation,
+  ...logamTransisiInformation,
+  ...metaloidInformation,
+  ...nonLogamReaktifInformation,
+  ...unkonwnPropertiesInformation
 ];

@@ -2,7 +2,7 @@ import 'package:kimiaapp/core/colors.dart';
 import 'package:kimiaapp/core/elemen_item_config.dart';
 import 'package:kimiaapp/core/elemen_information.dart';
 
-const unsurMetaloidDesc = [
+const metaloidInformation = [
   ElementInformation(
     id: 'Dmt1',
     elementId: 'MT1',

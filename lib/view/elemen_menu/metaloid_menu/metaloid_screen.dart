@@ -42,8 +42,7 @@ class MetaloidScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurMetaloidDesc, elemen,
-                                (filteredList) {
+                                metaloidInformation, elemen, (filteredList) {
                               Get.to(() => MetaloidInformationScreen(
                                   listElemenData: filteredList));
                             });

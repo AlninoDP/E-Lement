@@ -42,8 +42,7 @@ class GasMuliaScreen extends StatelessWidget {
                           elemenItemConfig: elemen,
                           onTap: () {
                             controller.onGridElemenTap(
-                                context, unsurGasMuliaDesc, elemen,
-                                (filteredList) {
+                                gasMuliaInformation, elemen, (filteredList) {
                               Get.to(() => GasMuliaInformationScreen(
                                   listElemenData: filteredList));
                             });

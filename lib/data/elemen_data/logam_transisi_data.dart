@@ -2,7 +2,7 @@ import 'package:kimiaapp/core/colors.dart';
 import 'package:kimiaapp/core/elemen_item_config.dart';
 import 'package:kimiaapp/core/elemen_information.dart';
 
-const unsurLogamTransisiDesc = [
+const logamTransisiInformation = [
   ElementInformation(
     id: 'Dlt1',
     elementId: 'LT01',
