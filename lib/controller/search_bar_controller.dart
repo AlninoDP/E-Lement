@@ -11,15 +11,16 @@ class SearchBarController extends MainController {
   final RxList<ElementInformation> selectedResult = <ElementInformation>[].obs;
   final RxBool isSearchVisible = false.obs;
 
-//* function cari
+//* search function
   void searchElements(String query) {
     query = query.toLowerCase();
 
-    //*isi List "_searchResult" jika ditemukan query sama didalam list unsur
+    //* fill List "_searchResult" if query is found in listDataUnsur
     searchResult.value = listDataUnsur
         .where((value) => value.title.toLowerCase().contains(query))
         .toList();
 
+    //* will show the list of element depending on query is empty or not
     if (query.isNotEmpty) {
       isSearchVisible.value = true;
     } else {
@@ -28,13 +29,13 @@ class SearchBarController extends MainController {
     update();
   }
 
-//* fungsi utk ontap di listBuilder
+//* onTap function on list builder
   void addToSelectedResult(ElementInformation obj) {
     selectedResult.add(obj);
     // print(_selectedResult.map((element) => element.title));
   }
 
-//* fungsi untuk mengosongkan List
+//* clearing list
   void clearSelectedResult() {
     selectedResult.clear();
   }
