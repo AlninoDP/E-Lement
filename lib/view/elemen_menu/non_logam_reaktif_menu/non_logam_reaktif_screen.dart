@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:kimiaapp/controller/main_controller.dart';
+import 'package:kimiaapp/controller/elemen_menu_controller.dart';
 import 'package:kimiaapp/data/elemen_data/non_logam_reaktif_data.dart';
 import 'package:kimiaapp/view/elemen_information_menu/non_logam_reaktif_information/non_logam_reaktif_information_screen.dart';
 import 'package:kimiaapp/components/background.dart';
@@ -13,7 +13,7 @@ class NonLogamReaktifScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final MainController controller = Get.find();
+    final ElemenMenuController controller = Get.find();
     return SafeArea(
         top: true,
         child: Scaffold(
@@ -29,27 +29,26 @@ class NonLogamReaktifScreen extends StatelessWidget {
                     height: 20.h,
                   ),
                   Expanded(
-                      child: GridView(
+                      child: GridView.builder(
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       mainAxisSpacing: 30.0,
                       crossAxisSpacing: 30.0,
                     ),
-                    children: [
-                      for (final elemen in unsurNonLogamReaktif)
-                        ElemenMenu(
-                          elemenItemConfig: elemen,
-                          onTap: () {
-                            controller.onGridElemenTap(
-                                nonLogamReaktifInformation, elemen,
-                                (filteredList) {
-                              Get.to(() => NonLogamReaktifInformationScreen(
-                                  listElemenData: filteredList));
-                            });
-                          },
-                        )
-                    ],
+                    itemCount: unsurNonLogamReaktif.length,
+                    itemBuilder: (context, index) {
+                      final elemen = unsurNonLogamReaktif[index];
+                      return ElemenMenu(
+                        elemenItemConfig: elemen,
+                        onTap: () {
+                          final filteredList = controller.getFilteredList(
+                              elemen, nonLogamReaktifInformation);
+                          Get.to(NonLogamReaktifInformationScreen(
+                              listElemenData: filteredList));
+                        },
+                      );
+                    },
                   )),
                 ],
               ),
