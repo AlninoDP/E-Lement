@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:kimiaapp/controller/elemen_menu_controller.dart';
+import 'package:kimiaapp/controller/main_controller.dart';
+import 'package:kimiaapp/controller/search_bar_controller.dart';
 import 'package:kimiaapp/view/splash_screen.dart';
 
 void main() {
+  Get.put(MainController());
+  Get.put(SearchBarController());
+  Get.put(ElemenMenuController());
   runApp(const MyApp());
 }
 
