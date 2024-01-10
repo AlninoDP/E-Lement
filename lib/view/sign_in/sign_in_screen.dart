@@ -16,7 +16,7 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInScreenState extends State<SignInScreen> {
-  final MainController mainController = Get.put(MainController());
+  final MainController controller = Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -34,15 +34,15 @@ class _SignInScreenState extends State<SignInScreen> {
               const Spacer(),
               Center(
                 child: TextFieldUsername(
-                    controller: mainController.txtFieldUsernamecontroller,
-                    onTextChanged: mainController.guestName),
+                    controller: controller.txtFieldUsernamecontroller,
+                    onTextChanged: controller.guestName),
               ),
               Center(
                 child: BubbleButton(
                     text: "Confirm",
                     onPressed: () => Get.offAll(
                         () => MainMenuScreen(
-                            guestName: mainController.guestName.value),
+                            guestName: controller.guestName.value),
                         transition: Transition.fadeIn)),
               )
             ],

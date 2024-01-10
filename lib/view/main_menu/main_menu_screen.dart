@@ -14,10 +14,7 @@ import 'package:kimiaapp/view/main_menu/widgets/search_result.dart';
 
 class MainMenuScreen extends StatelessWidget {
   final String guestName;
-  MainMenuScreen({super.key, required this.guestName});
-
-  final SearchBarController searchBarController =
-      Get.put(SearchBarController());
+  const MainMenuScreen({super.key, required this.guestName});
 
   @override
   Widget build(BuildContext context) {
